@@ -1,2 +1,3 @@
-# TOPSTSCHOOL-OSDMP
-TOPS T SCHOOL OSDMP Project. A developemt of the Open Science and Data Management Plan
+# SCHOOL
+
+Please note that the site is currently under construction, and some features may be in development.
