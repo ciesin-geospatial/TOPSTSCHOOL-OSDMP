@@ -9,4 +9,5 @@ Tags overview
     :caption: Tags
     :maxdepth: 1
 
+    contributors (1) <contributors.rst>
     glossary (1) <glossary.rst>
