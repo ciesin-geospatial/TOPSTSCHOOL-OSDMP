@@ -25,12 +25,12 @@ TOPST Science Core Heuristics for Open Science Outcomes in Learning
 **Science Core Heuristics for Open Science Outcomes in Learning** (`SCHOOL`_),
 is an integral part of |website-tops| Training initiative. Our mission is to
 cultivate a vibrant, inclusive culture of open science that welcomes everyone
-|---| students, researchers, and curious minds alike |---| to
+|html-dash| students, researchers, and curious minds alike |html-dash| to
 engage, learn, and contribute to the world of scientific discovery.
 
 The :term:`SCHOOL` curriculum is a thoughtfully designed program that offers
 five immersive, 2.5-hour learning modules. These sessions are more than just
-lessons |---| they are interactive, interdisciplinary journeys through
+lessons |html-dash| they are interactive, interdisciplinary journeys through
 some of the most critical themes of our time. Whether it's exploring the
 intricacies of **water systems**, **health** and **air quality**,
 **environmental justice**, **natural disasters**, **climate change**,
@@ -50,7 +50,7 @@ In each module, you'll find a rich blend of lessons that are not only
 informative but also transformative. We dive deep into Earth Science
 Applications, offering real-world use cases that show you how to access and
 analyze vast data sources. These lessons are rooted in the principles of
-:term:`FAIR` data management |---| ensuring that the scientific data you
+:term:`FAIR` data management |html-dash| ensuring that the scientific data you
 work with is **Findable**, **Accessible**, **Interoperable**, and
 **Reusable**. By learning to navigate these open data science lifecycle
 workflows, you're not just gaining knowledge; you're acquiring the tools to
@@ -76,7 +76,7 @@ believe that diversity enriches the learning experience, and our curriculum
 reflects this belief. By incorporating a variety of examples that transcend
 gender, cultural, and socioeconomic barriers, we ensure that every student
 feels represented and valued. Our content is delivered in multiple modes
-|---| visual, textual, and interactive |---| so that everyone,
+|html-dash| visual, textual, and interactive |html-dash| so that everyone,
 regardless of their background or prior experience, can engage fully and
 comfortably.
 
@@ -84,7 +84,7 @@ comfortably.
 to go beyond passive listening. Whether you're reading, discussing, executing
 code, or writing, we want you to think critically about what you're doing. In
 our asynchronous learning environments, you won't just be watching a video;
-you'll be asked to engage |---| look at an image, interact with your
+you'll be asked to engage |html-dash| look at an image, interact with your
 surroundings, or draw on your past experiences. This hands-on, minds-on
 approach ensures that learning is both dynamic and deeply personal.
 
@@ -132,6 +132,15 @@ This page will guide you through the essentials of Open Science, offering
 resources and insights to enhance transparency and collaboration in research.
 Prepare to join a global movement dedicated to advancing accessible and
 impactful scientific research.
+
+:doc:`Let's get started <_documentation/getting-started>` |chevron-right|
+
+.. toctree::
+    :hidden:
+    :maxdepth: 1
+
+    _documentation/getting-started
+    _documentation/open-science-essentials
 
 .. toctree::
     :hidden:
