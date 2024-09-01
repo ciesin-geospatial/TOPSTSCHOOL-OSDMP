@@ -1,6 +1,9 @@
 .. role:: raw-html(raw)
    :format: html
 
+.. |---| unicode:: U+02014 .. em dash
+   :trim:
+
 .. |html-br| replace:: :raw-html:`<br/>`
 .. |html-dash| replace:: :raw-html:`&mdash;`
 .. |html-tab| replace:: :raw-html:`&emsp;`
