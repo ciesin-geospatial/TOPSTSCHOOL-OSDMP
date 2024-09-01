@@ -38,7 +38,11 @@ extensions: list[str] = [
     "sphinx.ext.extlinks",
     "sphinx.ext.viewcode",
 ]
-exclude_patterns: list[str] = []
+exclude_patterns: list[str] = [
+    ".DS_Store",
+    "Thumbs.db",
+    "_build",
+]
 templates_path: list[str] = ["_templates"]
 
 # -- Miscellaneous ------------------------------------------------------------
