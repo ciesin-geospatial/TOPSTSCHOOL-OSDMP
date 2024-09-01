@@ -135,7 +135,8 @@ impactful scientific research.
 
 .. toctree::
     :hidden:
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Supporting Articles
 
     glossary
+    school-team
