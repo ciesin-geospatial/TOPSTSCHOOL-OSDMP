@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest  # Runs the job on the latest available Ubuntu runner.
     steps:
       # Step 1: Check out the code from the repository to the runner.
-      - name: Checkout TOPST SCHOOL Code (Dev)
+      - name: Checkout TOPST SCHOOL Code (Feature)
         uses: actions/checkout@v4  # Checks out the repository code into the runner for the workflow to use.
         with:
           fetch-depth: 1  # Fetch only the latest commit for faster checkouts.
