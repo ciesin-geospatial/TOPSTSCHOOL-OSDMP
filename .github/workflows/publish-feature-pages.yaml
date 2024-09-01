@@ -1,26 +1,25 @@
-# TOPST SCHOOL's GitHub Pages Publishing Workflow
-# ===============================================
+# TOPST SCHOOL's GitHub Pages Feature Branch Workflow
+# ===================================================
 #
 # Author: Akshay Mestry <xa@mes3.dev>
-# Created on: Friday, August 30 2024
+# Created on: Sunday, September 01 2024
 # Last updated on: Sunday, September 01 2024
 
 # Workflow name displayed in TOPST SCHOOL's "Actions" tab.
-name: Build and Deploy TOPST SCHOOL Documentation
+name: FEAT | Build and Deploy Documents
 
-# A workflow with the following "on" value will run when a "push" and
-# "pull_request" is made to the "main" branch in the workflow's repository.
-# For example, the "push" event has a branches filter that causes this
-# workflow to run only when a push to a branch that matches the branches
-# filter occurs, in this case, the "main" branch.
+# A workflow with the following "on" value will run when a "push" is made
+# to the "feature" branch or pull request is made to "dev" in the
+# workflow's repository. For example, the "push" event has a branches filter
+# that causes this workflow to run only when a push to a branch that
+# matches the branches filter occurs, in this case, the "dev" branch.
 on:
   push:
     branches:
-      - main
+      - "feature/**"
   pull_request:
     branches:
-      - main
-  workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub UI.
+      - dev
 
 # We're using permissions to modify the default permissions granted to
 # the ``GITHUB_TOKEN``, adding or removing access as required, so that we
@@ -48,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest  # Runs the job on the latest available Ubuntu runner.
     steps:
       # Step 1: Check out the code from the repository to the runner.
-      - name: Checkout TOPST SCHOOL Code
+      - name: Checkout TOPST SCHOOL Code (Dev)
         uses: actions/checkout@v4  # Checks out the repository code into the runner for the workflow to use.
         with:
           fetch-depth: 1  # Fetch only the latest commit for faster checkouts.
@@ -76,25 +75,3 @@ jobs:
         run: |
           echo "Building Sphinx documentation..."
           sphinx-build -EWaq -b html ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}
-
-      # Step 5: Deploy the built HTML files to the specified branch (GitHub Pages).
-      - name: Deploy TOPST SCHOOL Documentation to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Deploys to the gh-pages branch.
-          publish_branch: ${{ env.PUBLISH_BRANCH }}  # Uses the GitHub token for authentication.
-          publish_dir: ${{ env.OUTPUT_DIR }}  # Directory to publish (the output of the Sphinx build).
-          force_orphan: false  # Do not force an orphan commit, preserving commit history.
-          enable_jekyll: false  # Disables Jekyll processing on GitHub Pages, which is unnecessary for Sphinx-generated HTML.
-          user_email: "github-actions[bot]@users.noreply.github.com"  # Email to associate with the commit.
-          user_name: "github-actions[bot]"  # Name to associate with the commit.
-          full_commit_message: ${{ github.event.head_commit.message }}  # Use the commit message from the push event.
-
-      # Step 6: Provide response after deployment.
-      - name: Notify Success
-        if: success()
-        run: echo "✅ Documentation successfully built and deployed to GitHub Pages."
-      - name: Notify Failure
-        if: failure()
-        run: echo "❌ Failed to build or deploy the documentation. Please check the logs."
