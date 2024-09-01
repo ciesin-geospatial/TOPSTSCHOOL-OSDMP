@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, August 16, 2024
-.. Last updated on: Friday, August 30 2024
+.. Last updated on: Saturday, September 01 2024
 
 :orphan:
 
@@ -135,8 +135,7 @@ impactful scientific research.
 
 .. toctree::
     :hidden:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Supporting Articles
 
     glossary
-    test-doc
