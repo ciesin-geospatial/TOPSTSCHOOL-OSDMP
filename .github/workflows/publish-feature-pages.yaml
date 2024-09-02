@@ -75,3 +75,25 @@ jobs:
         run: |
           echo "Building Sphinx documentation..."
           sphinx-build -EWaq -b html ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}
+
+      # Step 5: Deploy the built HTML files to the specified branch (GitHub Pages).
+      - name: FEAT | Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/feature/') }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Deploys to the gh-pages branch.
+          publish_branch: ${{ env.PUBLISH_BRANCH }}  # Uses the GitHub token for authentication.
+          publish_dir: ${{ env.OUTPUT_DIR }}  # Directory to publish (the output of the Sphinx build).
+          force_orphan: false  # Do not force an orphan commit, preserving commit history.
+          enable_jekyll: false  # Disables Jekyll processing on GitHub Pages, which is unnecessary for Sphinx-generated HTML.
+          user_email: "github-actions[bot]@users.noreply.github.com"  # Email to associate with the commit.
+          user_name: "github-actions[bot]"  # Name to associate with the commit.
+          full_commit_message: ${{ github.event.head_commit.message }}  # Use the commit message from the push event.
+
+      # Step 6: Provide response after deployment.
+      - name: Notify Success
+        if: success()
+        run: echo "✅ Documentation successfully built and deployed to GitHub Pages (Dev)."
+      - name: Notify Failure
+        if: failure()
+        run: echo "❌ Failed to build or deploy the documentation from the dev branch. Please check the logs."
