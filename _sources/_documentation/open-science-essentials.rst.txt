@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, September 01 2024
-.. Last updated on: Saturday, September 01 2024
+.. Last updated on: Tuesday, September 03 2024
 
 ===============================================================================
 Open Science Essentials
@@ -28,7 +28,7 @@ Open Science Essentials
     - https://github.com/america-m/
 
 -------------------------------------------------------------------------------
-Overview
+Prelude
 -------------------------------------------------------------------------------
 
 :term:`NASA` is at the forefront of a transformative movement in the scientific
