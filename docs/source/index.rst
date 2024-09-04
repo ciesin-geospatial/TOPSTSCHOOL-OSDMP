@@ -140,6 +140,11 @@ impactful scientific research.
     :maxdepth: 1
 
     _documentation/getting-started
+
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+
     _documentation/open-science-essentials
 
 .. toctree::
