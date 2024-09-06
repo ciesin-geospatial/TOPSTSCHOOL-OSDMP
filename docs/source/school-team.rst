@@ -1,15 +1,13 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, August 30 2024
-.. Last updated on: Saturday, September 01 2024
+.. Last updated on: Friday, September 06 2024
 
 ===============================================================================
-SCHOOL Team |badge-beta|
+SCHOOL Team
 ===============================================================================
 
 .. title-hero::
-    :article: Article
     :icon: fa-solid fa-users
-    :gradient: linear-gradient(135deg, #f5e9fe, #fcf8ff)
     :summary:
         Our Alumni, Open Science, Consultation, and Development Team
         collaborate to democratize access to scientific knowledge, ensuring

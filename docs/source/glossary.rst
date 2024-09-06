@@ -1,15 +1,13 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, August 30 2024
-.. Last updated on: Saturday, August 31 2024
+.. Last updated on: Friday, September 06 2024
 
 ===============================================================================
-Glossary |badge-beta|
+Glossary
 ===============================================================================
 
 .. title-hero::
-    :article: Reference
     :icon: fa-solid fa-spell-check
-    :gradient: linear-gradient(90deg, #fff1df, #fffbf5)
     :summary:
         A quick reference to all the terms, phrases, and links you'll encounter
         on this site, your one-stop guide to navigating with ease.
@@ -27,7 +25,7 @@ Glossary |badge-beta|
     - https://github.com/dhru-repository
 
 -------------------------------------------------------------------------------
-Key Terms and Definitions
+Key Terms and Definitions |badge-beta|
 -------------------------------------------------------------------------------
 
 .. glossary::

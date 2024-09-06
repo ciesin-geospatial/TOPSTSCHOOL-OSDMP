@@ -1,21 +1,18 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, September 01 2024
-.. Last updated on: Saturday, September 01 2024
+.. Last updated on: Friday, September 06 2024
 
 ===============================================================================
 Open Science Essentials
 ===============================================================================
 
 .. title-hero::
-    :article: Guide
     :icon: fa-solid fa-screwdriver-wrench fa-flip-horizontal
-    :gradient: linear-gradient(135deg, #ffe6d9, #fff8f3)
     :summary:
-        SCHOOL program is a key initiative by NASA aimed at advancing Open
-        Science principles, which emphasize transparency, collaboration, and
-        inclusivity in research.
+        NASA's Open Science initiative is transforming the scientific process
+        by promoting transparency, collaboration, and inclusivity.
 
-.. tags:: getting-started
+.. tags:: getting-started, what-you-need
 
 .. contributors::
 
@@ -27,8 +24,27 @@ Open Science Essentials
     - amunoz8@my.nl.edu
     - https://github.com/america-m/
 
+    - Akshay Mestry
+    - xa@mes3.dev
+    - https://github.com/xames3/
+
+.. dropdown:: On this page
+
+    **NASA's Open Science Initiative.** NASA is committed to fostering an
+    inclusive Open Science community, promoting transparency, collaboration,
+    and early sharing of data and research. This initiative, known as Open
+    Source Science, aims to make all aspects of scientific research open and
+    accessible from the start, encouraging a cultural shift in science.
+
+    **Transform to Open Science Initiative.** NASA's TOPS initiative provides
+    education and tools to help researchers and the public adopt Open Science
+    practices. The free online course "Open Science 101" offers practical
+    insights into these principles.
+
+----
+
 -------------------------------------------------------------------------------
-Overview
+Prelude
 -------------------------------------------------------------------------------
 
 :term:`NASA` is at the forefront of a transformative movement in the scientific
@@ -57,7 +73,7 @@ increasing the reliability and impact of scientific findings.
 
 .. figure:: https://science.nasa.gov/wp-content/uploads/2021/10/
     ksc-20210114-ilw02-0030large.jpg?w=2048&format=webp
-    :class: height-450 object-fit-center
+    :class: height-450 object-fit-center fade-image
 
     Researcher carefully preparing samples in a laboratory setting, embodying
     the spirit of Open Science. By sharing data transparently and including
@@ -86,7 +102,7 @@ key areas where Open Science makes a significant impact:
 
 .. figure:: https://science.nasa.gov/wp-content/uploads/2021/10/pia23275large.
     jpg?w=2048&format=webp
-    :class: height-450 object-fit-top
+    :class: height-450 object-fit-top fade-image
 
     Researchers collaborate in fieldwork, studying geological formations in a
     remote landscape. This scene reflects NASA's commitment to Open Science,
