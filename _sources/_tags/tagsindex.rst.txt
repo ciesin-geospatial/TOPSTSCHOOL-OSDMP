@@ -12,3 +12,4 @@ Tags overview
     contributors (1) <contributors.rst>
     getting-started (2) <getting-started.rst>
     glossary (1) <glossary.rst>
+    what-you-need (1) <what-you-need.rst>

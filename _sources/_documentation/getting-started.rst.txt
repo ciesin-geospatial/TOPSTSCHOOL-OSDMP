@@ -1,15 +1,13 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, September 01 2024
-.. Last updated on: Saturday, September 01 2024
+.. Last updated on: Friday, September 06 2024
 
 ===============================================================================
 Getting Started
 ===============================================================================
 
 .. title-hero::
-    :article: Guide
     :icon: fa-solid fa-compass
-    :gradient: linear-gradient(-90deg, #f9dfef, #fdf5fa)
     :summary:
         SCHOOL program is a key initiative by NASA aimed at advancing Open
         Science principles, which emphasize transparency, collaboration, and
@@ -26,6 +24,38 @@ Getting Started
     - America Munoz
     - amunoz8@my.nl.edu
     - https://github.com/america-m/
+
+    - Akshay Mestry
+    - xa@mes3.dev
+    - https://github.com/xames3/
+
+.. dropdown:: On this page
+
+    **Objective of TOPST SCHOOL Program.** It aims to teach Open Science
+    principles through structured learning modules, covering topics like
+    environmental justice, climate change, and FAIR data principles. The
+    program is designed to be interactive, interdisciplinary, and accessible
+    to learners of all backgrounds.
+
+    **Importance of Open Science.** Open Science is crucial for making research
+    more accessible and collaborative, which is essential for addressing
+    complex global challenges such as climate change and pandemics. It
+    involves sharing all aspects of the research process to enhance
+    visibility, reproducibility, and impact.
+
+    **Curriculum Overview** The program includes various modules on topics like
+    Water Systems, Health and Air Quality, Environmental Justice, Natural
+    Disasters, Climate Change, Agriculture, and Wildfires. These modules are
+    designed to be transformative and interactive, with case studies and
+    real-world data analysis.
+
+    **Community Engagement.** The program encourages collaboration and
+    engagement with peers to enrich the learning experience and foster a
+    supportive community. Start with an introductory module or a topic of
+    interest, and participate actively in the learning community to
+    contribute to Open Science.
+
+----
 
 We're delighted to welcome you to the **Science Core Heuristics for Open
 Science Outcomes in Learning** (:term:`SCHOOL`) program, a pivotal part of
