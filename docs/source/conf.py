@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Saturday, August 17 2024
-Last updated on: Friday, August 30 2024
+Last updated on: Thursday, September 05 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -28,6 +28,7 @@ Usage::
 
 from __future__ import annotations
 
+import subprocess
 import typing as t
 from datetime import datetime as dt
 
@@ -52,16 +53,28 @@ baseurl: t.Final[str] = "https://ciesin-geospatial.github.io"
 intersphinx_mapping: dict[str, tuple[str, t.Any]] = {
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
+
 rst_epilog = ""
 with open("_static/urls.txt") as f:
     rst_epilog += f.read()
+
+try:
+    last_updated_cmd = (
+        "git",
+        "log",
+        "--pretty=format:%cd",
+        "--date=format:%B %d, %Y",
+        "-n1",
+    )
+    last_updated = subprocess.check_output(last_updated_cmd).decode()
+except Exception:
+    last_updated = None
 
 # -- Project information -----------------------------------------------------
 html_coeus_author: t.Final[str] = "TOPSTSCHOOL Development Team"
 html_coeus_copyright: t.Final[str] = f"{dt.now().year}, {html_coeus_author}."
 html_coeus_email: t.Final[str] = "TOPSTSCHOOL@gmail.com"
 html_coeus_github: str = source + "/docs"
-html_coeus_include_last_updated_date: bool = True
 html_coeus_license: str = f"{source}/blob/main/LICENSE"
 html_coeus_repository: str = source
 html_coeus_title: t.Final[str] = "TOPSTSCHOOL"
@@ -73,6 +86,7 @@ html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL/"
 html_coeus_documentation: str = html_coeus_homepage
 html_coeus_theme_options: dict[str, t.Any] = {
     "show_previous_next_pages": True,
+    "last_updated": last_updated,
 }
 
 # -- Options for HTML output --------------------------------------------------
