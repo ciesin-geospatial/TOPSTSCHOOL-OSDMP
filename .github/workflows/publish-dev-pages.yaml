@@ -71,7 +71,7 @@ jobs:
         # -q: Run in quiet mode, with minimal output.
         run: |
           echo "Building Sphinx documentation..."
-          sphinx-build -EWaq -b html ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}
+          sphinx-build -Eaq --builder html --define language=en ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}/en && sphinx-build -Eaq --builder html --define language=es ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}/es
 
       # Step 5: Deploy the built HTML files to the specified branch (GitHub Pages).
       - name: DEV | Deploy to GitHub Pages

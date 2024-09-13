@@ -137,5 +137,6 @@ venv/
 .vscode/*
 
 # Our mess
+_tags/
 archive/*
 *.bak
