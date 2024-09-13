@@ -75,7 +75,7 @@ except Exception:
 html_coeus_author: t.Final[str] = "TOPSTSCHOOL Development Team"
 html_coeus_copyright: t.Final[str] = f"{dt.now().year}, {html_coeus_author}."
 html_coeus_email: t.Final[str] = "TOPSTSCHOOL@gmail.com"
-html_coeus_github: str = source + "/docs"
+html_coeus_github: str = source
 html_coeus_license: str = f"{source}/blob/main/LICENSE"
 html_coeus_repository: str = source
 html_coeus_title: t.Final[str] = "TOPSTSCHOOL"
@@ -83,7 +83,7 @@ html_coeus_version: t.Final[str] = "2024.08.30"
 html_coeus_favicon: t.Final[str] = "_static/img/favicon.png"
 html_coeus_logo: t.Final[str] = "_static/img/logo.png"
 html_coeus_hide_index_toctree: bool = True
-html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL/"
+html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL-OSDMP/"
 html_coeus_documentation: str = html_coeus_homepage
 html_coeus_theme_options: dict[str, t.Any] = {
     "last_updated": last_updated,
@@ -97,3 +97,11 @@ gettext_compact: bool = False
 html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
 html_css_files: list[str] = ["css/override.css"]
+html_context: dict[str, str] = {
+    "feedback_link": source + (
+        "/issues/new"
+        "?labels=community,discussion needed,documentation,enhancement"
+        "miscellaneous,open science,question"
+        "&title=Feedback about documentation"
+    )
+}

@@ -108,7 +108,6 @@ to collaborate on :term:`NASA`'s open science initiatives.
 
 .. figure:: https://octodex.github.com/images/welcometocat.png
     :width: 500
-    :align: center
     :alt: GitHub Octocat
 
 But before you move on, take a moment to congratulate yourself! You've just

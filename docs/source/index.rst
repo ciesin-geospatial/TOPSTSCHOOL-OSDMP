@@ -39,7 +39,7 @@ welcomes everyone |html-dash| students, researchers, and curious minds alike
 |html-dash| to engage, learn, and contribute to the world of scientific
 discovery.
 
-.. image:: _documentation/_assets/brands/repository-open-graph.png
+.. image:: _documentation/_assets/brands/repository-open-graph.webp
     :alt: SCHOOL Main Logo
     :class: rounded-image-15
 
