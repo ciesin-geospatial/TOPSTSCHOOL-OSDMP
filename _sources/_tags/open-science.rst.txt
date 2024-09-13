@@ -1,0 +1,16 @@
+.. _sphx_tag_open-science:
+
+===============================================================================
+Tagged Pages
+===============================================================================
+
+.. title-hero::
+    :icon: fa-solid fa-tags
+    :summary: All pages with selected tags.
+
+.. toctree::
+    :maxdepth: 1
+    :caption: OPEN-SCIENCE
+
+    ../_documentation/_more-resources/glossary.rst
+    ../_documentation/_tutorials-guides/_002-contributing/code-review-workflow.rst

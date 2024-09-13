@@ -1,0 +1,17 @@
+.. _sphx_tag_water-module:
+
+===============================================================================
+Tagged Pages
+===============================================================================
+
+.. title-hero::
+    :icon: fa-solid fa-tags
+    :summary: All pages with selected tags.
+
+.. toctree::
+    :maxdepth: 1
+    :caption: WATER-MODULE
+
+    ../_documentation/_modules/_001-water-module/water-module.rst
+    ../_documentation/_modules/_001-water-module/water-research.rst
+    ../_documentation/_modules/modules-overview.rst
