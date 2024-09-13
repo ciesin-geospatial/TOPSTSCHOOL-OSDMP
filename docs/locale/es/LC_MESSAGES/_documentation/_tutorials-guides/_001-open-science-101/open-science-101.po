@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Project name not
+# set package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Project name not set \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-13 07:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:7
+msgid "Open Science Basics"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:26
+msgid ""
+":term:`Open Science` is a global movement that aims to make scientific "
+"research more accessible, transparent, and collaborative. At "
+":term:`NASA`, we're embracing this transformation through our "
+":term:`TOPS` [#]_ initiative, which seeks to democratize scientific "
+"knowledge and empower individuals from all walks of life to engage with "
+"and contribute to the research process."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:32
+msgid ""
+"The :term:`SCHOOL` program which stands for **Science Core Heuristics for"
+" Open Science Outcomes in Learning** |html-dash| is an essential part of "
+"NASA's TOPS initiative. It provides a structured, immersive curriculum "
+"designed to introduce students, researchers, and science enthusiasts to "
+"the core principles of Open Science. Whether you're just starting out or "
+"already well-versed in scientific research, our mission is to help you "
+"harness the power of Open Science to drive meaningful change."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:40
+msgid ""
+"You are about to embark on a journey into the heart of Open Science "
+"|html-dash| a movement that's transforming how we explore, share, and "
+"contribute to scientific knowledge. At NASA's :term:`TOPS` SCHOOL "
+"program, we believe that science should be accessible to everyone, and "
+"we're excited to have you join this global mission. Whether you're a "
+"student, a seasoned researcher, or just curious about science, you have "
+"something valuable to contribute."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:47
+msgid ""
+"At SCHOOL, your voice matters. Your work, your insights, your curiosity "
+"|html-dash| they all play a crucial role in shaping the future of "
+"scientific discovery. :term:`Open Science` is not just about opening "
+"doors; it's about inviting you to walk through them, to take part in "
+"groundbreaking work that has the power to change the world."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:55
+msgid "A World of Discovery"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:58
+msgid "What Is Open Science?"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:60
+msgid ""
+"At its core, Open Science seeks to remove the barriers traditionally "
+"associated with scientific research. In contrast to conventional research"
+" models |html-dash| where data, methodologies, and findings are often "
+"limited to a select few |html-dash| Open Science promotes the idea that "
+"all aspects of the research process should be openly shared and "
+"accessible to everyone."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:77
+msgid ""
+":term:`Open Science` promotes transparency, encourages collaboration, and"
+" accelerates scientific discovery by allowing others to replicate "
+"studies, validate results, and build upon previous work. By adopting Open"
+" Science principles, the research community can collectively tackle the "
+"world's most pressing challenges |html-dash| from climate change and "
+"environmental degradation to public health crises and social "
+"inequalities."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:84
+msgid ""
+"Open Science is about sharing knowledge and data for collective\n"
+"benefit, making research more accessible to everyone."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:89
+msgid ""
+"Collaborative Insights. Open Science fosters transparent dialogue and "
+"collective problem-solving, as experts work together to advance knowledge"
+" and tackle global challenges. [#image_from_freepik]_"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:94
+msgid "Why Open Science Matters?"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:96
+msgid ""
+"The importance of Open Science goes far beyond academia. In today's "
+"interconnected world, scientific challenges are increasingly global and "
+"complex. Problems like climate change, environmental justice, and natural"
+" disasters demand cross-disciplinary solutions that involve many "
+"collaborators. :term:`Open Science` breaks down silos, enabling diverse "
+"teams of researchers, policymakers, and citizens to work together in "
+"solving real-world problems."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:204
+msgid ""
+"At NASA's TOPST :term:`SCHOOL` program, we're not just exercising Open "
+"Science |html-dash| we're living it. We are committed to fostering an "
+"inclusive culture where everyone, regardless of background or expertise, "
+"has the opportunity to contribute to the world's most pressing scientific"
+" challenges."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:209
+msgid "You are now part of this mission, and your contributions are **vital**."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:212
+msgid "Power of Open Science"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:214
+msgid ""
+":term:`Open Science` isn't just about making research available |html-"
+"dash| it's about making a difference. By participating in Open Science, "
+"you are contributing to a global movement that seeks to democratize "
+"knowledge, break down silos, and create a more equitable world. When "
+"scientists, researchers, and learners like you come together to share "
+"knowledge openly, we amplify our ability to solve complex problems and "
+"create a future where science benefits everyone."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:222
+msgid ""
+"Imagine the ripple effect your contributions could have: a dataset you "
+"share could lead to a breakthrough in environmental protection, the "
+"method you develop could improve public health outcomes, or your insights"
+" into climate change could help shape policies that protect vulnerable "
+"communities. Open Science allows you to play a part in something far "
+"bigger than yourself."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:230
+msgid "TOPST SCHOOL Program"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:232
+msgid ""
+"The TOPST SCHOOL program is :term:`NASA`'s bold commitment to fostering a"
+" culture of Open Science. As part of the broader :term:`TOPS` initiative,"
+" SCHOOL is designed to equip learners with the tools, skills, and "
+"knowledge they need to actively participate in and contribute to the Open"
+" Science movement. The program is more than just a training initiative "
+"|html-dash| it's a community. A community built on the principles of "
+"transparency, collaboration, and equity. Our goal is to empower you with "
+"the tools, knowledge, and support you need to not only engage with "
+":term:`Open Science` but to lead the way in making science more open and "
+"accessible to everyone."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:242
+msgid ""
+"In this program, you'll dive into interactive, interdisciplinary modules "
+"that explore some of today's most critical issues: from water systems to "
+"climate change, environmental justice to health and air quality. Each "
+"module is designed to inspire you, challenge you, and equip you with "
+"practical skills you can apply in real-world contexts. As you progress, "
+"you'll learn not just how to access and use open data, but how to think "
+"critically about the impact of your work on society and the planet. The "
+"program consists of five immersive modules, each offering 2.5 hours of "
+"interdisciplinary, hands-on learning."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:251
+msgid ""
+"To visually express the global nature of the challenges we face and\n"
+"how Open Science enables collaborative, worldwide efforts to address\n"
+"these issues."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:257
+msgid ""
+"Engaged Learning. Students exploring interactive modules and "
+"collaborating on open science projects, embodying the spirit of inquiry "
+"and discovery that drives our curriculum. [#image_from_freepik]_"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:285
+msgid "Getting Involved"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:287
+msgid ""
+"Whether you're passionate about environmental justice, intrigued by "
+"climate change, or interested in public health, the :term:`SCHOOL` "
+"program offers a wealth of opportunities to engage with the world of Open"
+" Science. By participating in the program, you'll gain hands-on "
+"experience with open datasets, learn how to apply :term:`Open Science` "
+"principles, and contribute to solving some of the world's most pressing "
+"scientific challenges."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:294
+msgid ""
+"To visually communicate the sense of personal empowerment and the\n"
+"idea that each participant can contribute something meaningful to\n"
+"science and society."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:300
+msgid ""
+"Shared Perspectives. Just as scientific data is shared openly, "
+"collaboration and diverse viewpoints enhance our understanding and drive "
+"innovative solutions. [#image_from_freepik]_"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:304
+msgid ""
+"Before diving into the modules, it's important to understand the "
+"foundations of Open Science |html-dash| not just as a concept, but as a "
+"movement you are now helping to shape. Every step you take in this "
+"program is a step toward making science more inclusive, impactful, and "
+"accessible to all."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:309
+msgid ""
+"As you learn, we encourage you to think about how you can apply these "
+"principles in your work, in your community, and in your life. By the end "
+"of this program, you will not only have gained new skills but also a "
+"deeper sense of purpose in the scientific endeavor."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:-1
+msgid "References"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:317
+msgid ""
+"NASA launches new `Open Science Curriculum <https://nasa.github.io"
+"/Transform-to-Open-Science/>`_."
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:319
+msgid ""
+"NASA's blog post about `Why Do Open Science? <https://science.nasa.gov"
+"/open-science/why-do-open-science/>`_"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:-1
+msgid "Attributions"
+msgstr ""
+
+#: ../../source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst:325
+msgid "Images by `freepik <https://www.freepik.com/images/>`_."
+msgstr ""
+

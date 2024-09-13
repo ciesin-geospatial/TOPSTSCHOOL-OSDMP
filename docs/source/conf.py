@@ -97,4 +97,3 @@ gettext_compact: bool = False
 html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
 html_css_files: list[str] = ["css/override.css"]
-master_doc: str = "_documentation/_about-us/hello-hello"

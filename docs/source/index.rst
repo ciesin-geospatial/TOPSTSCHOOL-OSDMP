@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, August 16, 2024
-.. Last updated on: Thursday, September 12, 2024
+.. Last updated on: Friday, September 13, 2024
 
 :orphan:
 
@@ -39,7 +39,7 @@ welcomes everyone |html-dash| students, researchers, and curious minds alike
 |html-dash| to engage, learn, and contribute to the world of scientific
 discovery.
 
-.. image:: ../_assets/brands/repository-open-graph.png
+.. image:: _documentation/_assets/brands/repository-open-graph.png
     :alt: SCHOOL Main Logo
     :class: rounded-image-15
 
@@ -79,42 +79,42 @@ make meaningful contributions to the global scientific community.
     :hidden:
     :titlesonly:
 
-    vision-mission
-    how-to-get-involved
-    announcements
+    _documentation/_about-us/vision-mission
+    _documentation/_about-us/how-to-get-involved
+    _documentation/_about-us/announcements
 
 .. toctree::
     :caption: Modules
     :hidden:
     :titlesonly:
 
-    ../_modules/modules-overview
-    ../_modules/_001-water-module/water-module
+    _documentation/_modules/modules-overview
+    _documentation/_modules/_001-water-module/water-module
 
 .. toctree::
     :caption: Tutorials & Guides
     :hidden:
     :titlesonly:
 
-    ../_tutorials-guides/_001-open-science-101/open-science-101
-    ../_tutorials-guides/_002-contributing/contributing-topst
-    ../_tutorials-guides/_003-open-science-dm/data-management
-    ../_tutorials-guides/_004-advanced-configurations/advanced-cfg
+    _documentation/_tutorials-guides/_001-open-science-101/open-science-101
+    _documentation/_tutorials-guides/_002-contributing/contributing-topst
+    _documentation/_tutorials-guides/_003-open-science-dm/data-management
+    _documentation/_tutorials-guides/_004-advanced-configurations/advanced-cfg
 
 .. toctree::
     :caption: Community
     :hidden:
     :titlesonly:
 
-    ../_community/contributor-guidelines
-    ../_community/upcoming-events
-    ../_community/becoming-reviewer
-    ../_community/meet-the-team
+    _documentation/_community/contributor-guidelines
+    _documentation/_community/upcoming-events
+    _documentation/_community/becoming-reviewer
+    _documentation/_community/meet-the-team
 
 .. toctree::
     :caption: Open Science Resources
     :hidden:
     :titlesonly:
 
-    ../_more-resources/external-resources
-    ../_more-resources/glossary
+    _documentation/_more-resources/external-resources
+    _documentation/_more-resources/glossary
