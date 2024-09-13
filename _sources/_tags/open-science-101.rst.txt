@@ -1,0 +1,38 @@
+.. _sphx_tag_open-science-101:
+
+===============================================================================
+Tagged Pages
+===============================================================================
+
+.. title-hero::
+    :icon: fa-solid fa-tags
+    :summary: All pages with selected tags.
+
+.. toctree::
+    :maxdepth: 1
+    :caption: OPEN-SCIENCE-101
+
+    ../_documentation/_about-us/announcements.rst
+    ../_documentation/_about-us/how-to-get-involved.rst
+    ../_documentation/_about-us/vision-mission.rst
+    ../_documentation/_community/becoming-reviewer.rst
+    ../_documentation/_community/contributor-guidelines.rst
+    ../_documentation/_community/meet-the-team.rst
+    ../_documentation/_community/upcoming-events.rst
+    ../_documentation/_modules/_001-water-module/water-module.rst
+    ../_documentation/_modules/_001-water-module/water-research.rst
+    ../_documentation/_modules/modules-overview.rst
+    ../_documentation/_more-resources/external-resources.rst
+    ../_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst
+    ../_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.rst
+    ../_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.rst
+    ../_documentation/_tutorials-guides/_002-contributing/contributing-research.rst
+    ../_documentation/_tutorials-guides/_002-contributing/contributing-topst.rst
+    ../_documentation/_tutorials-guides/_002-contributing/forking-cloning.rst
+    ../_documentation/_tutorials-guides/_002-contributing/submitting-pr.rst
+    ../_documentation/_tutorials-guides/_003-open-science-dm/open-science-repos.rst
+    ../_documentation/_tutorials-guides/_003-open-science-dm/organizing-data.rst
+    ../_documentation/_tutorials-guides/_004-advanced-configurations/github-ssh.rst
+    ../_documentation/_tutorials-guides/_004-advanced-configurations/setting-venv.rst
+    ../_documentation/_tutorials-guides/_004-advanced-configurations/updating.rst
+    ../index.rst
