@@ -1,0 +1,29 @@
+:orphan:
+
+.. _tagoverview:
+
+===============================================================================
+Tags overview
+===============================================================================
+
+.. title-hero::
+    :icon: fa-solid fa-tags
+    :summary: All pages with this tag.
+
+.. toctree::
+    :caption: Tags
+    :maxdepth: 1
+
+    announcements (2) <announcements.rst>
+    contributing (7) <contributing.rst>
+    contributors (1) <contributors.rst>
+    data-management (2) <data-management.rst>
+    documentation (3) <documentation.rst>
+    getting-started (22) <getting-started.rst>
+    github (10) <github.rst>
+    modules (3) <modules.rst>
+    open-science (2) <open-science.rst>
+    open-science-101 (24) <open-science-101.rst>
+    preparing-workspace (3) <preparing-workspace.rst>
+    research (5) <research.rst>
+    water-module (3) <water-module.rst>
