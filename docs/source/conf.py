@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Saturday, August 17 2024
-Last updated on: Thursday, September 05 2024
+Last updated on: Friday, September 13 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -38,6 +38,7 @@ extensions: list[str] = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.extlinks",
     "sphinx.ext.viewcode",
+    "sphinx_copybutton",
 ]
 exclude_patterns: list[str] = [
     ".DS_Store",
@@ -85,12 +86,15 @@ html_coeus_hide_index_toctree: bool = True
 html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL/"
 html_coeus_documentation: str = html_coeus_homepage
 html_coeus_theme_options: dict[str, t.Any] = {
-    "show_previous_next_pages": True,
     "last_updated": last_updated,
+    "show_previous_next_pages": True,
+    "supported_languages": {"en": "English", "es": "Español"},
 }
+locale_dirs: list[str] = ["../locale/"]
+gettext_compact: bool = False
 
 # -- Options for HTML output --------------------------------------------------
 html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
 html_css_files: list[str] = ["css/override.css"]
-tags_badge_colors: dict[str, str] = {"article": "success"}
+master_doc: str = "_documentation/_about-us/hello-hello"

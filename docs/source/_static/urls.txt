@@ -5,7 +5,8 @@
 .. |html-dash| replace:: :raw-html:`&mdash;`
 .. |html-tab| replace:: :raw-html:`&emsp;`
 
-.. |badge-beta| replace:: :raw-html:`<span class="beta-badge">Beta</span>`
+.. |badge-beta| replace:: :raw-html:`<span class="status-badge beta">Beta</span>`
+.. |badge-wip| replace:: :raw-html:`<span class="status-badge wip">WIP</span>`
 
 .. |chevron-right| replace:: :raw-html:`<i class="fa-solid fa-chevron-right fa-2xs link-auxillaries"></i>`
 .. |chevron-video| replace:: :raw-html:`<i class="fa-regular fa-circle-play fa-sm link-auxillaries" style="font-size: 1.25rem;"></i>`
@@ -17,6 +18,7 @@
 .. |website-tops| replace:: :raw-html:`<a href="https://nasa.github.io/Transform-to-Open-Science/" data-original-href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank">NASA's Transform to Open Science (TOPS)</a>`
 
 .. _github: https://github.com/
+.. _orcid: https://orcid.org/register
 
 .. _fair: https://www.nature.com/articles/sdata201618
 .. _open science: https://science.nasa.gov/open-science/
