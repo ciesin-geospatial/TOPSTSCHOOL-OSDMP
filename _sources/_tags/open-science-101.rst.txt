@@ -13,7 +13,6 @@ Tagged Pages
     :caption: OPEN-SCIENCE-101
 
     ../_documentation/_about-us/announcements.rst
-    ../_documentation/_about-us/hello-hello.rst
     ../_documentation/_about-us/how-to-get-involved.rst
     ../_documentation/_about-us/vision-mission.rst
     ../_documentation/_community/becoming-reviewer.rst
@@ -36,3 +35,4 @@ Tagged Pages
     ../_documentation/_tutorials-guides/_004-advanced-configurations/github-ssh.rst
     ../_documentation/_tutorials-guides/_004-advanced-configurations/setting-venv.rst
     ../_documentation/_tutorials-guides/_004-advanced-configurations/updating.rst
+    ../index.rst
