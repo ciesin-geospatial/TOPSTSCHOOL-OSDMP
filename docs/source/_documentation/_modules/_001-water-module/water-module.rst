@@ -1,13 +1,21 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
+<<<<<<< HEAD
 .. Last updated on: Thursday, September 19 2024
+=======
+.. Last updated on: Thursday, September 12 2024
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 ===============================================================================
 Water
 ===============================================================================
 
 .. title-hero::
+<<<<<<< HEAD
     :icon: fa-solid fa-water
+=======
+    :icon: fa-solid fa-droplet
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
     :summary:
         Explore the water module and delve into the critical topics related to
         water systems, climate impacts, and the role of open data in solving
@@ -21,6 +29,7 @@ Water
     - xa@mes3.dev
     - https://github.com/xames3/
 
+<<<<<<< HEAD
 This is the first module of the :term:`SCHOOL` Curriculum. Here, you will
 encounter several key datasets and use cases, each providing valuable lessons
 in understanding the water cycle. Through guided exploration, you'll gain the
@@ -90,8 +99,14 @@ skill for any researcher working with real-world data.
     - Gain confidence in adapting these skills to other :term:`Open Science`
       workflows.
 
+=======
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 .. toctree::
     :hidden:
     :titlesonly:
 
+<<<<<<< HEAD
     wsim-gldas
+=======
+    water-research
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
