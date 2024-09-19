@@ -66,7 +66,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/modules-overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/_001-water-module/water-module.html">Water</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_documentation/_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_documentation/_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>

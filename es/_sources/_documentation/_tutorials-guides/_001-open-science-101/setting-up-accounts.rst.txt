@@ -1,10 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
-<<<<<<< HEAD
 .. Last updated on: Sunday, September 15 2024
-=======
-.. Last updated on: Thursday, September 12 2024
->>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 ===============================================================================
 Account Setup
@@ -20,6 +16,7 @@ Account Setup
 .. tags:: getting-started, open-science-101, github, research
 
 .. contributors::
+    :timestamp: September 15, 2024
     :location: Chicago, IL
 
     - Akshay Mestry
@@ -72,11 +69,7 @@ from start to finish.
 
 .. important::
 
-<<<<<<< HEAD
     Your **username** will be your unique identity on GitHub, and it's how
-=======
-    Your **username** will be your unique identity on GitHub, and it's how 
->>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
     others will find and recognize you on the platform. Your **email address**
     is important because GitHub will use it to communicate with you. Make sure
     it's an email address you check regularly. Choose a **strong password** to
@@ -116,10 +109,6 @@ to collaborate on :term:`NASA`'s open science initiatives.
 
 .. figure:: https://octodex.github.com/images/welcometocat.png
     :width: 500
-<<<<<<< HEAD
-=======
-    :align: center
->>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
     :alt: GitHub Octocat
 
 But before you move on, take a moment to congratulate yourself! You've just
@@ -187,11 +176,7 @@ Creating ORCID Account
 #. You'll see a form asking for some basic information. No worries, this will
    only take a minute or two. Enter your information like your **first** and
    **last** name, **primary email address** (this is where all your
-<<<<<<< HEAD
    notifications will be sent), possibly a **secondary email address**
-=======
-   notifications will be sent), possibly a **secondary email address** 
->>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
    (optional but recommended, to ensure you don't lose access in case you
    forget your credentials).
 #. Next would be the password, make sure your password is something
@@ -242,7 +227,6 @@ And there you go! You've officially created your ORCID account!
             :data-bs-wrap: false
             :show_controls:
 
-<<<<<<< HEAD
             .. image:: ../../_assets/guides/orcid/orcid-001.webp
             .. image:: ../../_assets/guides/orcid/orcid-002.webp
             .. image:: ../../_assets/guides/orcid/orcid-003.webp
@@ -253,18 +237,6 @@ And there you go! You've officially created your ORCID account!
             .. image:: ../../_assets/guides/orcid/orcid-008.webp
             .. image:: ../../_assets/guides/orcid/orcid-009.webp
             .. image:: ../../_assets/guides/orcid/orcid-010.webp
-=======
-            .. figure:: ../../_assets/guides/orcid/orcid-001.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-002.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-003.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-004.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-005.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-006.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-007.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-008.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-009.webp
-            .. figure:: ../../_assets/guides/orcid/orcid-010.webp
->>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 .. dropdown:: Keeping Your ORCID Profile Up-to-Date
 

@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_documentation/_modules/modules-overview.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD .. Last updated on: Saturday, September 14 2024 ======= .. Last updated on: Thursday, September 12 2024 &gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548 getting-started modules water-m..." property="og:description"/>
-<meta content="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD .. Last updated on: Saturday, September 14 2024 ======= .. Last updated on: Thursday, September 12 2024 &gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548 getting-started modules water-m..." name="description"/>
+<meta content="getting-started modules water-module open-science-101 We’re thrilled to welcome you to the modules of NASA ’s SCHOOL program! This curriculum is part of NASA’s TOPS Training initiative, an effort d..." property="og:description"/>
+<meta content="getting-started modules water-module open-science-101 We’re thrilled to welcome you to the modules of NASA ’s SCHOOL program! This curriculum is part of NASA’s TOPS Training initiative, an effort d..." name="description"/>
 <title>Overview</title>
 <meta content="Overview" property="og:title"/>
 <meta content="Overview" name="twitter:title"/>
@@ -66,7 +66,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="_001-water-module/water-module.html">Water</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -125,11 +128,6 @@
 </a><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Overview</span>
 </nav>
 <div class="page-content" id="content" role="main">
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-.. Last updated on: Saturday, September 14 2024
-=======
-.. Last updated on: Thursday, September 12 2024
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548</p>
 <section id="overview">
 <h1>Overview<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#overview"></a></h1>
 
@@ -139,22 +137,37 @@ TOPST SCHOOL program, and see how each module contributes to open
 science.</p>
 </div>
 <p class="tags"><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/getting-started.html"><span class="doc">getting-started</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/modules.html"><span class="doc">modules</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/water-module.html"><span class="doc">water-module</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/open-science-101.html"><span class="doc">open-science-101</span></a></p>
-<dl class="simple">
-<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt><dd><dl class="field-list simple">
-<dt class="field-odd">location<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Chicago, IL</p>
-</dd>
-</dl>
-</dd>
-</dl>
-<blockquote>
-<div><ul class="simple">
-<li><p>Akshay Mestry</p></li>
-<li><p><a class="reference external" href="mailto:xa%40mes3.dev">xa<span>@</span>mes3<span>.</span>dev</a></p></li>
-<li><p><a class="reference external" href="https://github.com/xames3/">https://github.com/xames3/</a></p></li>
-</ul>
-</div></blockquote>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+
+<div class="container flex-1 px-0 my-8">
+<p class="contributors-timestamp">September 14, 2024</p>
+<div class="contributors-publisher">
+<span>Published by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Overview">Akshay Mestry</a></span>
+<div class="project-socials">
+<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP" target="_blank"></a>
+<a aria-label="Ask author via email" class="fa-solid fa-envelope" href="mailto:TOPSTSCHOOL@gmail.com?subject=[TOPSTSCHOOL] Overview" style="font-weight: 900;"></a>
+<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied to clipboard'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy article URL to clipboard'), 2000)" aria-label="Copy article URL to clipboard" class="fa-solid fa-link copylink" href="#" style="font-weight: 900;"></a>
+</div>
+</div>
+<div class="contributors-article-metadata">
+<p class="contributors-metadata-badge" id="readingTime"></p>
+<p class="contributors-metadata-badge">
+<i class="fa-solid fa-location-dot" style="padding-right: 0.3rem;"></i>Chicago, IL
+                </p>
+<div class="language-switcher">
+<p class="contributors-metadata-badge">
+<i class="fa-solid fa-language" style="padding-right: 0.3rem;"></i>
+<select class="no-chevron-select" id="language-selector" onchange="switchLanguage()">
+<option value="en">
+                                    English
+                                </option>
+<option value="es">
+                                    Español
+                                </option>
+</select>
+</p>
+</div>
+</div>
+</div>
 <p>We’re thrilled to welcome you to the modules of <a class="reference internal" href="../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s <a class="reference internal" href="../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a>
 program! This curriculum is part of NASA’s <a class="reference internal" href="../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> Training initiative,
 an effort designed to empower learners with practical skills in the <strong>data

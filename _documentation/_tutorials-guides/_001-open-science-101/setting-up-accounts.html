@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD .. Last updated on: Sunday, September 15 2024 ======= .. Last updated on: Thursday, September 12 2024 &gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548 getting-started open-science-101 ..." property="og:description"/>
-<meta content="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD .. Last updated on: Sunday, September 15 2024 ======= .. Last updated on: Thursday, September 12 2024 &gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548 getting-started open-science-101 ..." name="description"/>
+<meta content="getting-started open-science-101 github research GitHub: GitHub is one of the most powerful tools in the world of collaborative research, open science, and software development. It’s more than just..." property="og:description"/>
+<meta content="getting-started open-science-101 github research GitHub: GitHub is one of the most powerful tools in the world of collaborative research, open science, and software development. It’s more than just..." name="description"/>
 <title>Account Setup</title>
 <meta content="Account Setup" property="og:title"/>
 <meta content="Account Setup" name="twitter:title"/>
@@ -68,7 +68,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../_modules/modules-overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../_modules/_001-water-module/water-module.html">Water</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul class="current">
@@ -128,11 +131,6 @@
 <div class="mr-1">/</div><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Account Setup</span>
 </nav>
 <div class="page-content" id="content" role="main">
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-.. Last updated on: Sunday, September 15 2024
-=======
-.. Last updated on: Thursday, September 12 2024
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548</p>
 <section id="account-setup">
 <h1>Account Setup<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#account-setup"></a></h1>
 
@@ -144,7 +142,7 @@ required for working within SCHOOL program and beyond.</p>
 <p class="tags"><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/getting-started.html"><span class="doc">getting-started</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/open-science-101.html"><span class="doc">open-science-101</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/github.html"><span class="doc">github</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/research.html"><span class="doc">research</span></a></p>
 
 <div class="container flex-1 px-0 my-8">
-<p class="contributors-timestamp">Updated Today</p>
+<p class="contributors-timestamp">September 15, 2024</p>
 <div class="contributors-publisher">
 <span>Published by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Account Setup">Akshay Mestry</a></span>
 <div class="project-socials">
@@ -211,17 +209,15 @@ process, one step at a time.</p></li>
 <li><p>You will be asked for a <strong>username</strong>, <strong>email address</strong>, and to create a
 <strong>password</strong>.</p></li>
 </ol>
-<dl class="simple">
-<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt><dd><p>Your <strong>username</strong> will be your unique identity on GitHub, and it’s how</p>
-</dd>
-</dl>
-<blockquote>
-<div><p>others will find and recognize you on the platform. Your <strong>email address</strong>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Your <strong>username</strong> will be your unique identity on GitHub, and it’s how
+others will find and recognize you on the platform. Your <strong>email address</strong>
 is important because GitHub will use it to communicate with you. Make sure
 it’s an email address you check regularly. Choose a <strong>strong password</strong> to
 protect your account. GitHub recommends using a combination of upper and
 lower-case letters, numbers, and symbols for added security.</p>
-</div></blockquote>
+</div>
 <ol class="arabic simple" start="4">
 <li><p>Once you’ve entered your details, <a class="reference internal" href="../../_more-resources/glossary.html#term-GitHub"><span class="xref std std-term">GitHub</span></a> will send a verification
 email to the address you provided.</p></li>
@@ -254,27 +250,9 @@ guide.</p>
 we’ll dive deeper into using GitHub, setting up repositories, and learning how
 to collaborate on <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s open science initiatives.</p>
 <figure class="align-default">
-<a class="reference internal image-reference" href="https://octodex.github.com/images/welcometocat.png"><img alt="https://octodex.github.com/images/welcometocat.png" src="https://octodex.github.com/images/welcometocat.png" style="width: 500px;"/>
+<a class="reference internal image-reference" href="https://octodex.github.com/images/welcometocat.png"><img alt="GitHub Octocat" src="https://octodex.github.com/images/welcometocat.png" style="width: 500px;"/>
 </a>
 </figure>
-</section>
-<section id="head">
-<h3>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#head"></a></h3>
-<blockquote>
-<div><dl class="field-list simple">
-<dt class="field-odd">align<span class="colon">:</span></dt>
-<dd class="field-odd"><p>center</p>
-</dd>
-</dl>
-</div></blockquote>
-<dl class="simple">
-<dt>&gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548</dt><dd><dl class="field-list simple">
-<dt class="field-odd">alt<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GitHub Octocat</p>
-</dd>
-</dl>
-</dd>
-</dl>
 <p>But before you move on, take a moment to congratulate yourself! You’ve just
 taken a significant step toward being part of the open science community.</p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
@@ -342,17 +320,10 @@ research, linking your work to your name in a global, accessible database.</p>
 <li><p>Go to <a class="reference external" href="https://orcid.org/register">ORCID</a>.</p></li>
 <li><p>You’ll see a form asking for some basic information. No worries, this will
 only take a minute or two. Enter your information like your <strong>first</strong> and
-<strong>last</strong> name, <strong>primary email address</strong> (this is where all your</p></li>
-</ol>
-<dl class="simple">
-<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt><dd><p>notifications will be sent), possibly a <strong>secondary email address</strong></p>
-</dd>
-</dl>
-<blockquote>
-<div><p>(optional but recommended, to ensure you don’t lose access in case you
-forget your credentials).</p>
-</div></blockquote>
-<ol class="arabic simple">
+<strong>last</strong> name, <strong>primary email address</strong> (this is where all your
+notifications will be sent), possibly a <strong>secondary email address</strong>
+(optional but recommended, to ensure you don’t lose access in case you
+forget your credentials).</p></li>
 <li><p>Next would be the password, make sure your password is something
 memorable but secure. Instructions about the password requirements would be
 mentioned while entering the password.</p></li>
@@ -393,48 +364,50 @@ and institutions to find you and recognize your work.</p>
 LinkedIn. You can link your ORCID profile to your GitHub account to create
 a cohesive professional identity across platforms.</p>
 <div class="step-flow-carousel">
+<div class="scbs-carousel scbs-slide" data-bs-interval="false" data-bs-keyboard="false" data-bs-touch="false" data-bs-wrap="false" id="carousel-0">
+<div class="scbs-carousel-inner">
+<div class="scbs-carousel-item scbs-active">
+<img alt="../../../_images/orcid-001.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-001.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-002.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-002.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-003.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-003.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-004.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-004.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-005.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-005.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-006.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-006.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-007.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-007.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-008.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-008.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-009.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-009.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-010.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-010.webp"/>
+</div>
+</div>
+<button class="scbs-carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-0" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-prev-icon"></span>
+<span class="scbs-visually-hidden">Previous</span>
+</button>
+<button class="scbs-carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-0" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-next-icon"></span>
+<span class="scbs-visually-hidden">Next</span>
+</button>
+</div>
 </div></div>
-</details><dl>
-<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt><dd><img alt="../../../_images/orcid-001.webp" src="../../../_images/orcid-001.webp"/>
-<img alt="../../../_images/orcid-002.webp" src="../../../_images/orcid-002.webp"/>
-<img alt="../../../_images/orcid-003.webp" src="../../../_images/orcid-003.webp"/>
-<img alt="../../../_images/orcid-004.webp" src="../../../_images/orcid-004.webp"/>
-<img alt="../../../_images/orcid-005.webp" src="../../../_images/orcid-005.webp"/>
-<img alt="../../../_images/orcid-006.webp" src="../../../_images/orcid-006.webp"/>
-<img alt="../../../_images/orcid-007.webp" src="../../../_images/orcid-007.webp"/>
-<img alt="../../../_images/orcid-008.webp" src="../../../_images/orcid-008.webp"/>
-<img alt="../../../_images/orcid-009.webp" src="../../../_images/orcid-009.webp"/>
-<img alt="../../../_images/orcid-010.webp" src="../../../_images/orcid-010.webp"/>
-</dd>
-</dl>
-<blockquote>
-<div><figure class="align-default">
-<img alt="../../../_images/orcid-003.webp" src="../../../_images/orcid-003.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-004.webp" src="../../../_images/orcid-004.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-005.webp" src="../../../_images/orcid-005.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-006.webp" src="../../../_images/orcid-006.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-007.webp" src="../../../_images/orcid-007.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-008.webp" src="../../../_images/orcid-008.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-009.webp" src="../../../_images/orcid-009.webp"/>
-</figure>
-<figure class="align-default">
-<img alt="../../../_images/orcid-010.webp" src="../../../_images/orcid-010.webp"/>
-</figure>
-</div></blockquote>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548</p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Keeping Your ORCID Profile Up-to-Date</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Your ORCID profile is a living document. As your career progresses, be
@@ -492,7 +465,7 @@ complete the form submission.</p></li>
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Optional Choices For EarthData Account</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <div class="step-flow-carousel">
-<div class="scbs-carousel scbs-slide" data-bs-interval="false" data-bs-keyboard="false" data-bs-touch="false" data-bs-wrap="false" id="carousel-0">
+<div class="scbs-carousel scbs-slide" data-bs-interval="false" data-bs-keyboard="false" data-bs-touch="false" data-bs-wrap="false" id="carousel-1">
 <div class="scbs-carousel-inner">
 <div class="scbs-carousel-item scbs-active">
 <img alt="../../../_images/earth-data-000.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-000.webp"/>
@@ -510,11 +483,11 @@ complete the form submission.</p></li>
 <img alt="../../../_images/earth-data-004.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-004.webp"/>
 </div>
 </div>
-<button class="scbs-carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-0" type="button">
+<button class="scbs-carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-1" type="button">
 <span aria-hidden="true" class="scbs-carousel-control-prev-icon"></span>
 <span class="scbs-visually-hidden">Previous</span>
 </button>
-<button class="scbs-carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-0" type="button">
+<button class="scbs-carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-1" type="button">
 <span aria-hidden="true" class="scbs-carousel-control-next-icon"></span>
 <span class="scbs-visually-hidden">Next</span>
 </button>

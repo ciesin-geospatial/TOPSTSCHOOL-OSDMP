@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_documentation/_modules/_001-water-module/water-module.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD .. Last updated on: Thursday, September 19 2024 ======= .. Last updated on: Thursday, September 12 2024 &gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD,- icon, fa-solid fa..." property="og:description"/>
-<meta content="&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD .. Last updated on: Thursday, September 19 2024 ======= .. Last updated on: Thursday, September 12 2024 &gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD,- icon, fa-solid fa..." name="description"/>
+<meta content="getting-started modules water-module open-science-101 This is the first module of the SCHOOL Curriculum. Here, you will encounter several key datasets and use cases, each providing valuable lessons..." property="og:description"/>
+<meta content="getting-started modules water-module open-science-101 This is the first module of the SCHOOL Curriculum. Here, you will encounter several key datasets and use cases, each providing valuable lessons..." name="description"/>
 <title>Water</title>
 <meta content="Water" property="og:title"/>
 <meta content="Water" name="twitter:title"/>
@@ -66,7 +66,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../modules-overview.html">Overview</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Water</a></li>
+<li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="current reference internal expandable" href="#">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -111,6 +114,10 @@
 </div>
 </aside>
 <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr] border-r">
+<div class="title-hero-container" style="background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);">
+<span class="fa-solid fa-water title-hero-icon"></span>
+<div class="title-hero-content"></div>
+</div>
 <div class="w-full min-w-0 mx-auto">
 <nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
 <a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../../index.html">
@@ -121,38 +128,18 @@
 </a><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Water</span>
 </nav>
 <div class="page-content" id="content" role="main">
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-.. Last updated on: Thursday, September 19 2024
-=======
-.. Last updated on: Thursday, September 12 2024
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; afff13ce66fc335603ebcd8d36bc366ee3fb4548</p>
 <section id="water">
 <h1>Water<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#water"></a></h1>
 
 <div class="title-hero-summary">
-<p class="font-medium"></p>
-</div>
-<dl class="simple">
-<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt><dd><dl class="field-list simple">
-<dt class="field-odd">icon<span class="colon">:</span></dt>
-<dd class="field-odd"><p>fa-solid fa-water</p>
-</dd>
-</dl>
-</dd>
-</dl>
-<blockquote>
-<div><dl class="field-list simple">
-<dt class="field-odd">summary<span class="colon">:</span></dt>
-<dd class="field-odd"><p>Explore the water module and delve into the critical topics related to
+<p class="font-medium">Explore the water module and delve into the critical topics related to
 water systems, climate impacts, and the role of open data in solving
 global water challenges.</p>
-</dd>
-</dl>
-</div></blockquote>
+</div>
 <p class="tags"><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/getting-started.html"><span class="doc">getting-started</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/modules.html"><span class="doc">modules</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/water-module.html"><span class="doc">water-module</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/open-science-101.html"><span class="doc">open-science-101</span></a></p>
 
 <div class="container flex-1 px-0 my-8">
-<p class="contributors-timestamp">Updated Today</p>
+<p class="contributors-timestamp">September 19, 2024</p>
 <div class="contributors-publisher">
 <span>Published by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Water">Akshay Mestry</a></span>
 <div class="project-socials">
@@ -181,8 +168,7 @@ global water challenges.</p>
 </div>
 </div>
 </div>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-This is the first module of the <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> Curriculum. Here, you will
+<p>This is the first module of the <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> Curriculum. Here, you will
 encounter several key datasets and use cases, each providing valuable lessons
 in understanding the water cycle. Through guided exploration, you’ll gain the
 skills necessary to tackle water-related data, focusing on its significance
@@ -242,18 +228,7 @@ visualizations.</p></li>
 workflows.</p></li>
 </ul>
 </div>
-</details><blockquote>
-<div><dl class="field-list simple">
-<dt class="field-odd">hidden<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">titlesonly<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-</dl>
-</div></blockquote>
-<dl class="simple">
-<dt>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</dt><dd><p>wsim-gldas</p>
-</dd>
-</dl>
+</details>
 </section>
 </section>
 </div>
@@ -265,7 +240,7 @@ workflows.</p></li>
 </a>
 </div>
 <div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../../_tutorials-guides/_001-open-science-101/open-science-101.html">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="wsim-gldas.html">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
