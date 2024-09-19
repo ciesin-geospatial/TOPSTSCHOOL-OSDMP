@@ -53,6 +53,8 @@ source: t.Final[str] = "https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP"
 baseurl: t.Final[str] = "https://ciesin-geospatial.github.io"
 intersphinx_mapping: dict[str, tuple[str, t.Any]] = {
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
+    "xarray": ("https://docs.xarray.dev/en/stable/", None),
+    "ipython": ("https://ipython.readthedocs.io/en/stable/", None),
 }
 
 rst_epilog = ""
@@ -98,7 +100,8 @@ html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
 html_css_files: list[str] = ["css/override.css"]
 html_context: dict[str, str] = {
-    "feedback_link": source + (
+    "feedback_link": source
+    + (
         "/issues/new"
         "?labels=community,discussion needed,documentation,enhancement"
         "miscellaneous,open science,question"

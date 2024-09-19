@@ -256,3 +256,14 @@ Terms & Definitions |badge-beta|
         `npm <https://www.npmjs.com/>`_,
         `yarn <https://yarnpkg.com/>`_,
         `apt <https://wiki.debian.org/AptCLI>`_, etc.
+
+    Raster
+        A raster dataset is a type of geographic data in digital image format
+        with numerical information stored in each pixel. Rasters are often
+        called grids because of their regularly-shaped matrix data structure.
+        Rasters can store many types of information and can have dimensions
+        that include latitude, longitude, and time. NetCDF is one format for
+        raster data; others include Geotiff, ASCII, and many more. Several
+        raster formats like NetCDF can store multiple raster layers, or a
+        "raster stack," which can be useful for storing and analyzing a series
+        of rasters.

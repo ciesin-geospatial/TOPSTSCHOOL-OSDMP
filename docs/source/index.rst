@@ -54,7 +54,7 @@ weaves together these diverse topics with a common thread, the importance of
 `Open Science`_.
 
 -------------------------------------------------------------------------------
-Open Science, Open Minds
+Open Science, Open Minds |badge-beta|
 -------------------------------------------------------------------------------
 
 In each module, you'll find a rich blend of lessons that are not only
