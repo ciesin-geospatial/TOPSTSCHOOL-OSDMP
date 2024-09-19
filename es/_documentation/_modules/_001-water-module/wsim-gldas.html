@@ -66,12 +66,9 @@
 <li class="toctree-l1"><a class="reference internal" href="../../_about-us/announcements.html">Announcements</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../modules-overview.html">Overview</a></li>
-<li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul class="current" x-show="expanded">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">WSIM-GLDAS</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="water-module.html">Water</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -127,8 +124,7 @@
 <svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
 <path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
 </svg>
-</a><a class="hover:text-foreground overflow-hidden text-ellipsis whitespace-nowrap" href="water-module.html">Water</a>
-<div class="mr-1">/</div><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">WSIM-GLDAS</span>
+</a><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">WSIM-GLDAS</span>
 </nav>
 <div class="page-content" id="content" role="main">
 <section id="wsim-gldas">
@@ -353,7 +349,7 @@ temperature, runoff, soil moisture, precipitation, and evapotranspiration, as
 well as temporal aggregation periods (e.g., 1-month, 3-month, 6-month, and
 12-month intervals). This structure allows for comprehensive exploration of
 water-related anomalies across various timescales. The data files, stored in
-<strong>NetCDF (.nc)</strong> format, contain time-dimensioned <a class="reference internal" href="../../_more-resources/glossary.html#term-Raster"><span class="xref std std-term">raster</span></a> layers, each
+<strong>NetCDF (.nc)</strong> format, contain time-dimensioned <span class="xref std std-term">raster</span> layers, each
 representing one of the <strong>804 months</strong> in the dataset. Some variables even
 contain multiple attributes with their own time series. It is important to
 note that because the dataset is vast and consists of multiple layers,
@@ -436,7 +432,7 @@ elements of the file without fully loading it into memory. This
 technique helps manage large, multi-dimensional datasets by only
 loading the metadata initially, which prevents your system from being
 overwhelmed, especially if it has limited memory. Multidimensional
-<a class="reference internal" href="../../_more-resources/glossary.html#term-Raster"><span class="xref std std-term">raster</span></a> datasets, like this one, can be enormous, and reading
+<span class="xref std std-term">raster</span> datasets, like this one, can be enormous, and reading
 the entire file into memory at once could bring your computer to a
 halt.</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># read in the 12 month integration WSIM-GLDAS file with stars</span>
@@ -462,16 +458,15 @@ loading the necessary <strong>packages</strong>. This is an essential part of
 ensuring your system is ready to handle the data processing
 efficiently. This installation process makes it easier to manage
 dependencies.</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python3 -m pip install xarray \</span>
-<span class="go">                       rioxarray \</span>
-<span class="go">                       rasterio \</span>
-<span class="go">                       pandas \</span>
-<span class="go">                       geopandas</span>
-<span class="go">                       exactextractr \</span>
-<span class="go">                       numpy \</span>
-<span class="go">                       calendar \</span>
-<span class="go">                       requests \</span>
-<span class="go">                       plotnine</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python3 -m pip install \</span>
+<span class="go">    xarray \</span>
+<span class="go">    rasterio \</span>
+<span class="go">    rioxarray \</span>
+<span class="go">    pandas \</span>
+<span class="go">    geopandas \</span>
+<span class="go">    requests \</span>
+<span class="go">    plotnine \</span>
+<span class="go">    numpy</span>
 </pre></div>
 </div>
 <p>Once the packages are installed and you have the
@@ -1022,13 +1017,13 @@ which corresponds with decreases in freshwater reserves</p>
 </div>
 </div>
 <div class="items-center gap-4 previous-next">
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="water-module.html">
+<div class="ml-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-left" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../../_tutorials-guides/_001-open-science-101/open-science-101.html">
+<div class="mr-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>

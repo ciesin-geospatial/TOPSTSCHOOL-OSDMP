@@ -1,6 +1,10 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
+<<<<<<< HEAD
 .. Last updated on: Saturday, September 14 2024
+=======
+.. Last updated on: Thursday, September 12 2024
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 ===============================================================================
 Overview
@@ -16,11 +20,15 @@ Overview
 .. tags:: getting-started, modules, water-module, open-science-101
 
 .. contributors::
+<<<<<<< HEAD
     :location: Chicago, IL
+=======
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
     - Akshay Mestry
     - xa@mes3.dev
     - https://github.com/xames3/
+<<<<<<< HEAD
 
 We're thrilled to welcome you to the modules of :term:`NASA`'s :term:`SCHOOL`
 program! This curriculum is part of NASA's :term:`TOPS` Training initiative,
@@ -92,3 +100,5 @@ effective data-driven researcher.
 .. [#] NASA satellite `observations <https://svs.gsfc.nasa.gov/12950/
     #media_group_325745>`_ combined with maps of human activities show where
     freshwater levels are changing and why.
+=======
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
