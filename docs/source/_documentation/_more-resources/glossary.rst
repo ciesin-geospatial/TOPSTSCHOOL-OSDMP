@@ -256,7 +256,6 @@ Terms & Definitions |badge-beta|
         `npm <https://www.npmjs.com/>`_,
         `yarn <https://yarnpkg.com/>`_,
         `apt <https://wiki.debian.org/AptCLI>`_, etc.
-<<<<<<< HEAD
 
     Raster
         A raster dataset is a type of geographic data in digital image format
@@ -268,5 +267,3 @@ Terms & Definitions |badge-beta|
         raster formats like NetCDF can store multiple raster layers, or a
         "raster stack," which can be useful for storing and analyzing a series
         of rasters.
-=======
->>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
