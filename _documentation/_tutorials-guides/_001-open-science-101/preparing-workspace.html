@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html data-content_root="../../../" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Workspace Setup" property="og:title"/>
+<meta content="website" property="og:type"/>
+<meta content="_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.html" property="og:url"/>
+<meta content="Project name not set" property="og:site_name"/>
+<meta content="getting-started open-science-101 preparing-workspace In the world of Open Science, collaboration and innovation go hand-in-hand. Scientists, researchers, and contributors from across the globe come..." property="og:description"/>
+<meta content="getting-started open-science-101 preparing-workspace In the world of Open Science, collaboration and innovation go hand-in-hand. Scientists, researchers, and contributors from across the globe come..." name="description"/>
+<title>Workspace Setup</title>
+<meta content="Workspace Setup" property="og:title"/>
+<meta content="Workspace Setup" name="twitter:title"/>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/8bcdaaff4d.js"></script>
+<link href="../../../_static/pygments.css?v=8e8a900e" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.html" rel="canonical"/>
+<link href="../../../_static/favicon.png" rel="icon"/>
+<link href="../../../search.html" rel="search" title="Search"/>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="x-cloak" x-show="showSidebar">
+</div>
+<div class="relative flex flex-col min-h-screen" id="page">
+<header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../../index.html">
+<img alt="Logo" class="mr-2 dark:invert" height="24" src="../../../_static/logo.png" width="24"/><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">TOPSTSCHOOL</span>
+</a></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none">
+<form @keydown.k.window.meta="$refs.search.focus()" action="../../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-5rem text-sm text-muted-foreground md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search" type="search" x-ref="search"/>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] lg:grid-cols-[240px_minmax(0,1fr)]">
+<aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-1000 -translate-x-full md:translate-x-0 ml-0 px-4 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-l border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../../index.html">
+<img alt="Logo" class="mr-2 dark:invert" height="16" src="../../../_static/logo.png" width="16"/><span class="font-bold text-clip whitespace-nowrap">TOPSTSCHOOL</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto fixed h-full w-full relative">
+
+<nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">About Us</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/vision-mission.html">Vision &amp; Mission</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/how-to-get-involved.html">How to Get Involved</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/announcements.html">Announcements</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Modules</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_modules/modules-overview.html">Overview</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
+<ul class="current">
+<li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul class="current" x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="setting-up-accounts.html">Account Setup</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Workspace Setup</a></li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_002-contributing/contributing-topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/contributing-research.html">Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/code-review-workflow.html">Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_003-open-science-dm/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_004-advanced-configurations/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/setting-venv.html">Virtual Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/updating.html">Documentation</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Community</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/contributor-guidelines.html">Contributor Guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/upcoming-events.html">Events &amp; Webinars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/becoming-reviewer.html">Review &amp; Approval</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/meet-the-team.html">Meet the Team</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Open Science Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/external-resources.html">External Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/glossary.html">Glossary</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr] border-r">
+<div class="title-hero-container" style="background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);">
+<span class="fa-brands fa-python title-hero-icon"></span>
+<div class="title-hero-content"></div>
+</div>
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../../index.html">
+<span class="hidden md:inline">TOPSTSCHOOL</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a><a class="hover:text-foreground overflow-hidden text-ellipsis whitespace-nowrap" href="open-science-101.html">Open Science Basics</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Workspace Setup</span>
+</nav>
+<div class="page-content" id="content" role="main">
+<section id="workspace-setup">
+<h1>Workspace Setup<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#workspace-setup"></a></h1>
+
+<div class="title-hero-summary">
+<p class="font-medium">Equip yourself with the essential tools required for efficient coding,
+data analysis, and collaboration in Open Science. This guide will walk
+you through installing and configuring the key tools you'll need.</p>
+</div>
+<p class="tags"><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/getting-started.html"><span class="doc">getting-started</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/open-science-101.html"><span class="doc">open-science-101</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/preparing-workspace.html"><span class="doc">preparing-workspace</span></a></p>
+
+<div class="container flex-1 px-0 my-8">
+<p class="contributors-timestamp">Updated Today</p>
+<div class="contributors-publisher">
+<span>Put together by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Workspace Setup">Akshay Mestry</a></span>
+<div class="project-socials">
+<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP" target="_blank"></a>
+<a aria-label="Ask author via email" class="fa-solid fa-envelope" href="mailto:TOPSTSCHOOL@gmail.com?subject=[TOPSTSCHOOL] Workspace Setup" style="font-weight: 900;"></a>
+<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied to clipboard'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy article URL to clipboard'), 2000)" aria-label="Copy article URL to clipboard" class="fa-solid fa-link copylink" href="#" style="font-weight: 900;"></a>
+</div>
+</div>
+<div class="contributors-article-metadata">
+<p class="contributors-metadata-badge" id="readingTime"></p>
+<p class="contributors-metadata-badge">
+<i class="fa-solid fa-location-dot" style="padding-right: 0.3rem;"></i>Chicago, IL
+                </p>
+<div class="language-switcher">
+<p class="contributors-metadata-badge">
+<i class="fa-solid fa-language" style="padding-right: 0.3rem;"></i>
+<select class="no-chevron-select" id="language-selector" onchange="switchLanguage()">
+<option value="en">
+                                    English
+                                </option>
+<option value="es">
+                                    Español
+                                </option>
+</select>
+</p>
+</div>
+</div>
+</div>
+<p>In the world of <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, collaboration and innovation go
+hand-in-hand. Scientists, researchers, and contributors from across the globe
+come together to share data, insights, and breakthroughs. However, this
+collaboration requires more than just ideas <span class="raw-html">—</span> it requires the right
+set of tools. These tools serve as the backbone for everything from coding and
+data analysis to version control and publishing. Without them, the journey
+from concept to contribution would be slow, error-prone, and often
+overwhelming.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">What Are These Tools?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">In this context, tools refer to a collection of software programs,
+platforms, and environments that allow you to efficiently work with code,
+manage versions, handle data, and even collaborate in real time. Each tool
+plays a specific role in the research and development process, addressing
+different challenges:</p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Version-Control-System-VCS"><span class="xref std std-term">Version Control System (VCS)</span></a> like Git allow you to track changes
+in code, ensuring you never lose work and can collaborate seamlessly with
+others.</p></li>
+<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Integrated-Development-Environment-IDE"><span class="xref std std-term">Integrated Development Environment (IDE)</span></a> like Visual Studio Code provide a
+space to write, debug, and test code with features that make your
+workflow faster and more intuitive.</p></li>
+<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Data-Processing-Tools"><span class="xref std std-term">Data processing tools</span></a> like Jupyter Notebook facilitate
+interactive data analysis, letting you run code in chunks, visualize
+outputs, and document results in one place.</p></li>
+<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Package-Managers"><span class="xref std std-term">Package managers</span></a> like Conda help you manage software libraries
+and environments, ensuring that you’re working with the right versions
+of the tools for your project.</p></li>
+</ul>
+<p class="sd-card-text">These tools are more than just software <span class="raw-html">—</span> they are the enablers
+of <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>. They streamline workflows, reduce friction, and
+help build a shared language across diverse disciplines. By mastering
+these tools, you become empowered to focus more on your research and less
+on the technical overhead. They allow you to engage in the spirit of Open
+Science <span class="raw-html">—</span> transparently, collaboratively, and efficiently.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Why These Tools Are Needed?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Imagine trying to contribute to a global research project without a
+<a class="reference internal" href="../../_more-resources/glossary.html#term-Version-Control-System-VCS"><span class="xref std std-term">Version Control System (VCS)</span></a>. Every small change would need to be
+communicated manually, resulting in conflicting edits, lost progress, and
+massive inefficiencies. Or think about analyzing vast datasets without the
+help of specialized software <span class="raw-html">—</span> it would be an overwhelming task
+that could consume precious time and energy. These tools solve exactly
+these types of problems:</p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Faster Workflows.</strong> Automate repetitive tasks and offering smart
+suggestions.</p></li>
+<li><p class="sd-card-text"><strong>Enhance Collaboration.</strong> Allowing teams to work on the same projects
+without stepping on each other’s toes.</p></li>
+<li><p class="sd-card-text"><strong>Security.</strong> Maintain a history of changes and protecting your work
+from accidental loss.</p></li>
+</ul>
+</div>
+</details><p>In essence, these tools equip you with the digital infrastructure to excel in
+the world of <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Research"><span class="xref std std-term">open research</span></a>, and the best part? Most of them are free
+and open-source, aligning perfectly with the principles of Open Science.</p>
+<section id="integrated-development-environments-ides">
+<h2>Integrated Development Environments (IDEs)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#integrated-development-environments-ides"></a></h2>
+<p>Integrated Development Environments (IDEs) are powerful tools designed to
+simplify the process of writing, testing, and debugging code. An IDE provides
+a cohesive workspace where all essential features <span class="raw-html">—</span> such as a text
+editor, debugger, compiler, and version control <span class="raw-html">—</span> are bundled into a
+single platform. For programmers and data scientists, an IDE can significantly
+boost productivity by offering intelligent code completion, syntax
+highlighting, and project management tools.</p>
+<div class="danger admonition">
+<p class="admonition-title">Common Misconceptions</p>
+<ul class="simple">
+<li><p><strong>IDEs Are Only for Professional Programmers.</strong> Many assume that IDEs
+are complicated and reserved for advanced users, but the truth is that
+modern IDEs like Visual Studio Code are beginner-friendly and versatile.</p></li>
+<li><p><strong>IDEs Are Resource-Intensive.</strong> Another misconception is that IDEs are
+slow and consume a lot of system resources. While some older IDEs might
+have been resource-heavy, newer ones like Visual Studio Code are
+lightweight and optimized for performance across various platforms.</p></li>
+<li><p><strong>You Only Need a Text Editor.</strong> While text editors can suffice for
+writing code, an IDE offers much more <span class="raw-html">—</span> debugging tools,
+project management, and integrated version control, making the
+development process more streamlined and efficient.</p></li>
+</ul>
+</div>
+<p>To begin this journey into mastering the essential tools for Open Science,
+we’ll start with one of the most popular and powerful IDEs available: <strong>Visual
+Studio Code</strong>.</p>
+<p>Whether you’re writing Python scripts, working on Jupyter notebooks, or
+managing documentation, Visual Studio Code provides a feature-rich yet
+lightweight environment tailored to your needs. It’s highly customizable and
+integrates smoothly with version control, making it the perfect starting point
+for any coding or data analysis tasks you’ll encounter in NASA’s <a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a>
+<a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program.</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio"/>
+<label class="sd-tab-label" data-sync-group="operating-system" data-sync-id="windows" for="sd-tab-item-0">
+Windows</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p>Download the latest Visual Studio Code for <a class="reference external" href="https://code.visualstudio.com/sha/download?build=stable&amp;os=win32-arm64-user">Windows</a>,
+run the installer and select your preferences.</p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">Pro Tip</p>
+<p>Make sure to check the box for “<strong>Add to PATH</strong>” if you want to
+access Visual Studio Code from the command line.</p>
+</div>
+<ul class="simple">
+<li><p>Click <span class="guilabel"><span class="accelerator">I</span>nstall</span> and wait for the process to complete.
+Once done, click <span class="guilabel"><span class="accelerator">F</span>inish</span> to launch Visual Studio Code
+for the first time.</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio"/>
+<label class="sd-tab-label" data-sync-group="operating-system" data-sync-id="macos" for="sd-tab-item-1">
+macOS</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p>Download the latest Visual Studio Code for <a class="reference external" href="https://code.visualstudio.com/sha/download?build=stable&amp;os=darwin-universal">macOS</a>,
+open the <code class="docutils literal notranslate"><span class="pre">.dmg</span></code> file and drag the Visual Studio Code app to your
+Applications folder.</p></li>
+<li><p>Open Visual Studio Code, press <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Command</kbd>+<kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">P</kbd></kbd>,
+and type: <code class="docutils literal notranslate"><span class="pre">Shell</span> <span class="pre">Command</span></code>, select the option to Install.</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio"/>
+<label class="sd-tab-label" data-sync-group="operating-system" data-sync-id="linux" for="sd-tab-item-2">
+Linux (Ubuntu/Debian-based) <span class="raw-html"><span class="status-badge beta">Beta</span></span></label><div class="sd-tab-content docutils">
+<ul>
+<li><p>Open a terminal and run the following command to update your
+system’s package index:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="se">\</span>
+<span class="o">&amp;&amp;</span><span class="w"> </span>apt<span class="w"> </span>upgrade<span class="w"> </span><span class="se">\</span>
+<span class="o">&amp;&amp;</span><span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>software-properties-common
+<span class="w">    </span>apt-transport-https
+<span class="w">    </span>wget
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+<div class="items-center gap-4 previous-next">
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="setting-up-accounts.html">
+<span style="margin-top: 0.3rem;"><i class="fa fa-chevron-left" style="font-size: 1.5rem;"></i></span>
+</a>
+</div>
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../_002-contributing/contributing-topst.html">
+<span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
+</a>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+<footer class="py-6 footer-bg border-border md:py-0">
+<div class="footer-element">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<div class="extra-footer-elements">
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">
+                        To submit feedback on documentation, visit
+                        <a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/issues/new?labels=community,discussion needed,documentation,enhancementmiscellaneous,open science,question&amp;title=Feedback about documentation" style="color: var(--link);">Feedback</a>.
+                    </span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../../_static/documentation_options.js?v=5929fcd5"></script><script src="../../../_static/doctools.js?v=9a2dae69"></script><script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script><script src="../../../_static/clipboard.min.js?v=a7894cd8"></script><script src="../../../_static/copybutton.js?v=f281be69"></script><script defer="defer" src="../../../_static/main.js?v=4c2e7a9f"></script><script defer="defer" src="../../../_static/coeus.js?v=6754728f"></script><script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+
+</body>
+</html>

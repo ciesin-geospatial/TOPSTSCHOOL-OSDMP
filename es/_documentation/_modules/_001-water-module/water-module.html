@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_documentation/_modules/_001-water-module/water-module.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="getting-started modules water-module open-science-101" property="og:description"/>
-<meta content="getting-started modules water-module open-science-101" name="description"/>
+<meta content="getting-started modules water-module open-science-101 This is the first module of the SCHOOL Curriculum. Here, you will encounter several key datasets and use cases, each providing valuable lessons..." property="og:description"/>
+<meta content="getting-started modules water-module open-science-101 This is the first module of the SCHOOL Curriculum. Here, you will encounter several key datasets and use cases, each providing valuable lessons..." name="description"/>
 <title>Water</title>
 <meta content="Water" property="og:title"/>
 <meta content="Water" name="twitter:title"/>
@@ -18,8 +18,8 @@
 <link href="../../../_static/theme.css" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
-<link href="../../../_static/css/override.css?v=82bfea18" rel="stylesheet" type="text/css"/>
-<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL/_documentation/_modules/_001-water-module/water-module.html" rel="canonical"/>
+<link href="../../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_modules/_001-water-module/water-module.html" rel="canonical"/>
 <link href="../../../_static/favicon.png" rel="icon"/>
 <link href="../../../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -67,7 +67,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../modules-overview.html">Overview</a></li>
 <li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="current reference internal expandable" href="#">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="water-research.html">Current Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wsim-gldas.html">WSIM-GLDAS</a></li>
 </ul>
 </li>
 </ul>
@@ -115,7 +115,7 @@
 </aside>
 <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr] border-r">
 <div class="title-hero-container" style="background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);">
-<span class="fa-solid fa-droplet title-hero-icon"></span>
+<span class="fa-solid fa-water title-hero-icon"></span>
 <div class="title-hero-content"></div>
 </div>
 <div class="w-full min-w-0 mx-auto">
@@ -143,7 +143,7 @@ global water challenges.</p>
 <div class="contributors-publisher">
 <span>Published by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Water">Akshay Mestry</a></span>
 <div class="project-socials">
-<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/docs" target="_blank"></a>
+<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP" target="_blank"></a>
 <a aria-label="Ask author via email" class="fa-solid fa-envelope" href="mailto:TOPSTSCHOOL@gmail.com?subject=[TOPSTSCHOOL] Water" style="font-weight: 900;"></a>
 <a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied to clipboard'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy article URL to clipboard'), 2000)" aria-label="Copy article URL to clipboard" class="fa-solid fa-link copylink" href="#" style="font-weight: 900;"></a>
 </div>
@@ -168,7 +168,68 @@ global water challenges.</p>
 </div>
 </div>
 </div>
-
+<p>This is the first module of the <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> Curriculum. Here, you will
+encounter several key datasets and use cases, each providing valuable lessons
+in understanding the water cycle. Through guided exploration, you’ll gain the
+skills necessary to tackle water-related data, focusing on its significance
+for society. The module is broken down into <strong>three lessons</strong>, each designed
+to gradually increase in complexity, allowing you to build confidence in your
+ability to handle and interpret data.</p>
+<div class="tip admonition">
+<p class="admonition-title">Huge Thanks!</p>
+<p>This course was made possible thanks to the work of our NASA’s
+<a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> team, our <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> Open Science team, open science
+Subject Matter Experts (SMEs), and the SCHOOL Development team!</p>
+<p><a class="reference internal" href="../../_community/meet-the-team.html"><span class="doc">Learn more here</span></a> <span class="raw-html"><i class="fa-solid fa-chevron-right fa-2xs link-auxillaries"></i></span></p>
+</div>
+<section id="water-security-indicator-model-wsim">
+<h2>Water Security Indicator Model (WSIM)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#water-security-indicator-model-wsim"></a></h2>
+<p>In this lesson, you’ll work with historical data from the <strong>Global Land Data
+Assimilation System (GLDAS)</strong> to explore <strong>water anomalies</strong>. We’ll show you
+how to access this data and guide you through creating advanced
+visualizations. By working with both <strong>R</strong> and <strong>Python</strong> programming
+languages, you’ll gain a solid understanding of how historical water data can
+reveal crucial patterns, like droughts or surpluses, which have broad
+implications for ecosystems and societies.</p>
+<p><a class="reference internal" href="wsim-gldas.html"><span class="doc">Learn more here</span></a> <span class="raw-html"><i class="fa-solid fa-chevron-right fa-2xs link-auxillaries"></i></span></p>
+</section>
+<section id="moderate-resolution-imaging-spectroradiometer-modis">
+<h2>Moderate Resolution Imaging Spectroradiometer (MODIS)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#moderate-resolution-imaging-spectroradiometer-modis"></a></h2>
+<p>Floods are a pressing issue that impacts millions globally. In this lesson,
+you’ll explore near real-time water anomaly data from <strong>Moderate Resolution
+Imaging Spectroradiometer (MODIS) Near Real-Time (NRT)</strong> Flood Data. You’ll
+learn how to access satellite data that captures these anomalies, process the
+information, and use it for real-world applications, like disaster
+preparedness and resource management.</p>
+</section>
+<section id="lead-in-new-york-state-schools">
+<h2>Lead in New York State Schools<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#lead-in-new-york-state-schools"></a></h2>
+<p>In the final lesson, you’ll dive into the critical issue of <strong>water
+contamination</strong>, with a focus on lead levels in New York State schools. This
+lesson combines <strong>US Census data</strong> with water quality data to highlight the
+importance of data cleaning, processing, and critical analysis. You’ll also
+learn to recognize and address the limitations in datasets <span class="raw-html">—</span> a vital
+skill for any researcher working with real-world data.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Goals &amp; Outcomes</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">This module isn’t just about water; it’s about giving you the tools to
+integrate <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> practices into your own work. By the end of
+the module, you’ll have a solid foundation in data acquisition,
+processing, and visualization techniques. These skills will help you take
+what you’ve learned here and apply it to new datasets, transforming the
+way you approach your research.</p>
+<ul class="simple">
+<li><p class="sd-card-text">Understand the significance of water data in scientific research.</p></li>
+<li><p class="sd-card-text">Be able to access and analyze key water datasets from NASA.</p></li>
+<li><p class="sd-card-text">Master techniques for data cleaning, analysis, and advanced
+visualizations.</p></li>
+<li><p class="sd-card-text">Gain confidence in adapting these skills to other <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>
+workflows.</p></li>
+</ul>
+</div>
+</details>
+</section>
 </section>
 </div>
 </div>
@@ -179,7 +240,7 @@ global water challenges.</p>
 </a>
 </div>
 <div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="water-research.html">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="wsim-gldas.html">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
@@ -194,11 +255,11 @@ global water challenges.</p>
 <div class="extra-footer-elements">
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">
                         To submit feedback on documentation, visit
-                        <a href="" style="color: var(--link);">Feedback</a>.
+                        <a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/issues/new?labels=community,discussion needed,documentation,enhancementmiscellaneous,open science,question&amp;title=Feedback about documentation" style="color: var(--link);">Feedback</a>.
                     </span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
-<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 16, 2024</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
 </div>
 </div>
 </div>

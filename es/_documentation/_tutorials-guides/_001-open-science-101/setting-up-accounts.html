@@ -20,8 +20,8 @@
 <link href="../../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/bootstrap-carousel.min.css?v=fd277c8b" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/carousel-custom.css?v=6fe5d8c5" rel="stylesheet" type="text/css"/>
-<link href="../../../_static/css/override.css?v=82bfea18" rel="stylesheet" type="text/css"/>
-<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL/_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html" rel="canonical"/>
+<link href="../../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html" rel="canonical"/>
 <link href="../../../_static/favicon.png" rel="icon"/>
 <link href="../../../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -69,7 +69,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../_modules/modules-overview.html">Overview</a></li>
 <li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/water-research.html">Current Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
 </ul>
 </li>
 </ul>
@@ -146,7 +146,7 @@ required for working within SCHOOL program and beyond.</p>
 <div class="contributors-publisher">
 <span>Published by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Account Setup">Akshay Mestry</a></span>
 <div class="project-socials">
-<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/docs" target="_blank"></a>
+<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP" target="_blank"></a>
 <a aria-label="Ask author via email" class="fa-solid fa-envelope" href="mailto:TOPSTSCHOOL@gmail.com?subject=[TOPSTSCHOOL] Account Setup" style="font-weight: 900;"></a>
 <a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied to clipboard'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy article URL to clipboard'), 2000)" aria-label="Copy article URL to clipboard" class="fa-solid fa-link copylink" href="#" style="font-weight: 900;"></a>
 </div>
@@ -249,7 +249,7 @@ guide.</p>
 <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> and contribute to exciting projects. In the next section,
 we’ll dive deeper into using GitHub, setting up repositories, and learning how
 to collaborate on <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s open science initiatives.</p>
-<figure class="align-center">
+<figure class="align-default">
 <a class="reference internal image-reference" href="https://octodex.github.com/images/welcometocat.png"><img alt="GitHub Octocat" src="https://octodex.github.com/images/welcometocat.png" style="width: 500px;"/>
 </a>
 </figure>
@@ -435,6 +435,73 @@ your ORCID account, you’re contributing to a global movement dedicated to
 making science open to all.</p>
 </section>
 </section>
+<section id="earthdata">
+<h2>EarthData<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#earthdata"></a></h2>
+<p><strong>NASA EarthData</strong> is a crucial platform that provides access to Earth science
+data collected by <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>. A NASA EarthData account allows users to
+download datasets, access various data repositories, and integrate APIs for
+their research. The registration process is straightforward and typically
+involves filling out basic personal information, agreeing to terms of use, and
+verifying the account via email.</p>
+<section id="creating-earthdata-account">
+<h3>Creating EarthData Account<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#creating-earthdata-account"></a></h3>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://urs.earthdata.nasa.gov/">EarthData</a>.</p></li>
+<li><p>Click on Register. Like ORCID, you’ll see a form asking for some basic
+information. Enter your information like your <strong>username</strong> and <strong>password</strong>.
+Confirm the password once. Instructions about the password requirements
+would be mentioned while entering the password.</p></li>
+<li><p>Next would be the <strong>first</strong> and <strong>last</strong> name, <strong>primary email address</strong>,
+your <strong>Country of Research</strong> and <strong>Affiliations</strong>.</p></li>
+<li><p>Review and accept the EarthData terms of use and privacy policy.</p></li>
+<li><p>Finally, Click the <span class="guilabel"><span class="accelerator">R</span>egister For EarthData Login</span> button to
+complete the form submission.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br/></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Optional Choices For EarthData Account</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="step-flow-carousel">
+<div class="scbs-carousel scbs-slide" data-bs-interval="false" data-bs-keyboard="false" data-bs-touch="false" data-bs-wrap="false" id="carousel-1">
+<div class="scbs-carousel-inner">
+<div class="scbs-carousel-item scbs-active">
+<img alt="../../../_images/earth-data-000.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-000.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-001.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-001.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-002.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-002.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-003.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-003.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-004.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-004.webp"/>
+</div>
+</div>
+<button class="scbs-carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-1" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-prev-icon"></span>
+<span class="scbs-visually-hidden">Previous</span>
+</button>
+<button class="scbs-carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-1" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-next-icon"></span>
+<span class="scbs-visually-hidden">Next</span>
+</button>
+</div>
+</div></div>
+</details><div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Check your email inbox for a verification link from NASA <a class="reference external" href="https://urs.earthdata.nasa.gov/">EarthData</a>.
+Click the link to activate your account. After <strong>verifying</strong> your email,
+return to the EarthData Login page and enter your username and password to
+access your new account.</p>
+</div>
+<p>And there you have it, NASA’s EarthData account!</p>
+</section>
+</section>
 </section>
 </div>
 </div>
@@ -460,11 +527,11 @@ making science open to all.</p>
 <div class="extra-footer-elements">
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">
                         To submit feedback on documentation, visit
-                        <a href="" style="color: var(--link);">Feedback</a>.
+                        <a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/issues/new?labels=community,discussion needed,documentation,enhancementmiscellaneous,open science,question&amp;title=Feedback about documentation" style="color: var(--link);">Feedback</a>.
                     </span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
-<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 16, 2024</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
 </div>
 </div>
 </div>

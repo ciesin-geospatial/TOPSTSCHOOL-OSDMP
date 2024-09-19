@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html data-content_root="../../../" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Account Setup" property="og:title"/>
+<meta content="website" property="og:type"/>
+<meta content="_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html" property="og:url"/>
+<meta content="Project name not set" property="og:site_name"/>
+<meta content="getting-started open-science-101 github research GitHub: GitHub is one of the most powerful tools in the world of collaborative research, open science, and software development. It’s more than just..." property="og:description"/>
+<meta content="getting-started open-science-101 github research GitHub: GitHub is one of the most powerful tools in the world of collaborative research, open science, and software development. It’s more than just..." name="description"/>
+<title>Account Setup</title>
+<meta content="Account Setup" property="og:title"/>
+<meta content="Account Setup" name="twitter:title"/>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/8bcdaaff4d.js"></script>
+<link href="../../../_static/pygments.css?v=8e8a900e" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/theme.css" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/bootstrap-carousel.min.css?v=fd277c8b" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/carousel-custom.css?v=6fe5d8c5" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
+<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html" rel="canonical"/>
+<link href="../../../_static/favicon.png" rel="icon"/>
+<link href="../../../search.html" rel="search" title="Search"/>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="x-cloak" x-show="showSidebar">
+</div>
+<div class="relative flex flex-col min-h-screen" id="page">
+<header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../../index.html">
+<img alt="Logo" class="mr-2 dark:invert" height="24" src="../../../_static/logo.png" width="24"/><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">TOPSTSCHOOL</span>
+</a></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none">
+<form @keydown.k.window.meta="$refs.search.focus()" action="../../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-5rem text-sm text-muted-foreground md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search" type="search" x-ref="search"/>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] lg:grid-cols-[240px_minmax(0,1fr)]">
+<aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-1000 -translate-x-full md:translate-x-0 ml-0 px-4 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-l border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../../index.html">
+<img alt="Logo" class="mr-2 dark:invert" height="16" src="../../../_static/logo.png" width="16"/><span class="font-bold text-clip whitespace-nowrap">TOPSTSCHOOL</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto fixed h-full w-full relative">
+
+<nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">About Us</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/vision-mission.html">Vision &amp; Mission</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/how-to-get-involved.html">How to Get Involved</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/announcements.html">Announcements</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Modules</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_modules/modules-overview.html">Overview</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
+<ul class="current">
+<li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul class="current" x-show="expanded">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Account Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preparing-workspace.html">Workspace Setup</a></li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_002-contributing/contributing-topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/contributing-research.html">Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/code-review-workflow.html">Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_003-open-science-dm/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_004-advanced-configurations/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/setting-venv.html">Virtual Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/updating.html">Documentation</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Community</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/contributor-guidelines.html">Contributor Guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/upcoming-events.html">Events &amp; Webinars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/becoming-reviewer.html">Review &amp; Approval</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_community/meet-the-team.html">Meet the Team</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Open Science Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/external-resources.html">External Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/glossary.html">Glossary</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr] border-r">
+<div class="title-hero-container" style="background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);">
+<span class="fa-brands fa-github title-hero-icon"></span>
+<div class="title-hero-content"></div>
+</div>
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../../index.html">
+<span class="hidden md:inline">TOPSTSCHOOL</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a><a class="hover:text-foreground overflow-hidden text-ellipsis whitespace-nowrap" href="open-science-101.html">Open Science Basics</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Account Setup</span>
+</nav>
+<div class="page-content" id="content" role="main">
+<section id="account-setup">
+<h1>Account Setup<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#account-setup"></a></h1>
+
+<div class="title-hero-summary">
+<p class="font-medium">Set up essential accounts needed to contribute to Open Science. Follow
+these easy, step-by-step guides to create and configure the accounts
+required for working within SCHOOL program and beyond.</p>
+</div>
+<p class="tags"><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/getting-started.html"><span class="doc">getting-started</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/open-science-101.html"><span class="doc">open-science-101</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/github.html"><span class="doc">github</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../../_tags/research.html"><span class="doc">research</span></a></p>
+
+<div class="container flex-1 px-0 my-8">
+<p class="contributors-timestamp">Updated Today</p>
+<div class="contributors-publisher">
+<span>Published by <a aria-label="Ask Akshay Mestry via email" href="mailto:xa@mes3.dev?subject=[TOPSTSCHOOL] Account Setup">Akshay Mestry</a></span>
+<div class="project-socials">
+<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP" target="_blank"></a>
+<a aria-label="Ask author via email" class="fa-solid fa-envelope" href="mailto:TOPSTSCHOOL@gmail.com?subject=[TOPSTSCHOOL] Account Setup" style="font-weight: 900;"></a>
+<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied to clipboard'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy article URL to clipboard'), 2000)" aria-label="Copy article URL to clipboard" class="fa-solid fa-link copylink" href="#" style="font-weight: 900;"></a>
+</div>
+</div>
+<div class="contributors-article-metadata">
+<p class="contributors-metadata-badge" id="readingTime"></p>
+<p class="contributors-metadata-badge">
+<i class="fa-solid fa-location-dot" style="padding-right: 0.3rem;"></i>Chicago, IL
+                </p>
+<div class="language-switcher">
+<p class="contributors-metadata-badge">
+<i class="fa-solid fa-language" style="padding-right: 0.3rem;"></i>
+<select class="no-chevron-select" id="language-selector" onchange="switchLanguage()">
+<option value="en">
+                                    English
+                                </option>
+<option value="es">
+                                    Español
+                                </option>
+</select>
+</p>
+</div>
+</div>
+</div>
+<section id="github">
+<h2>GitHub<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#github"></a></h2>
+<p><a class="reference internal" href="../../_more-resources/glossary.html#term-GitHub"><span class="xref std std-term">GitHub</span></a> is one of the most powerful tools in the world of collaborative
+research, open science, and software development. It’s more than just a
+platform for storing code <span class="raw-html">—</span> it’s a vibrant community where you can
+contribute to projects, share data, and collaborate with fellow researchers
+from all over the world. Whether you’re a beginner or a seasoned coder, GitHub
+provides the tools you need to manage projects, contribute to
+<a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, and share your findings.</p>
+<p>At its core, GitHub is a hosting service for version control using Git. This
+means it helps you track changes in your work, collaborate with others
+seamlessly, and manage multiple versions of a project. Many of NASA’s open
+science projects, including the <a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> initiative, use
+GitHub to share their work and invite contributions from the global community.
+So, setting up a GitHub account is the first step toward being part of this
+exciting, inclusive movement.</p>
+<p>Let’s walk through how to create your personal GitHub account and get started
+with open science!</p>
+<section id="creating-github-account">
+<h3>Creating GitHub Account<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#creating-github-account"></a></h3>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you already have a GitHub account, you can skip this guide and checkout
+things to do to secure your GitHub account below.</p>
+</div>
+<p>Creating a GitHub account is the gateway to becoming a part of a collaborative
+world of scientific discovery and contribution. Follow these simple steps to
+get started. Don’t worry if you’re new to GitHub <span class="raw-html">—</span> this guide will
+walk you through each step with empathy and clarity, so you feel supported
+from start to finish.</p>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://github.com/">GitHub</a>.</p></li>
+<li><p>In the upper-right corner of the page, click on the <strong>Sign Up</strong> button to
+start creating your personal account. GitHub will guide you through the
+process, one step at a time.</p></li>
+<li><p>You will be asked for a <strong>username</strong>, <strong>email address</strong>, and to create a
+<strong>password</strong>.</p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Your <strong>username</strong> will be your unique identity on GitHub, and it’s how
+others will find and recognize you on the platform. Your <strong>email address</strong>
+is important because GitHub will use it to communicate with you. Make sure
+it’s an email address you check regularly. Choose a <strong>strong password</strong> to
+protect your account. GitHub recommends using a combination of upper and
+lower-case letters, numbers, and symbols for added security.</p>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Once you’ve entered your details, <a class="reference internal" href="../../_more-resources/glossary.html#term-GitHub"><span class="xref std std-term">GitHub</span></a> will send a verification
+email to the address you provided.</p></li>
+<li><p>Check your inbox (and your spam folder if you don’t see it) and click the
+link to verify your email address.</p></li>
+<li><p>Without verifying your email, you won’t be able to perform certain tasks
+like creating repositories, so this step is important!</p></li>
+<li><p>You’ll be asked to complete a simple CAPTCHA (a quick task to confirm
+you’re not a robot). Just follow the instructions, and you’re good to go.</p></li>
+<li><p>GitHub will prompt you to choose a plan. For most users just starting with
+<a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, the <strong>Free</strong> plan is more than enough. You can always
+upgrade later if you need advanced features like private repositories, but
+for now, you’re all set with the free option!</p></li>
+<li><p>Once your account is set up, you’ll land on your GitHub dashboard. This is
+your home base for creating projects, exploring repositories, and
+contributing to open science. GitHub offers a helpful tutorial called
+<strong>“Hello World”</strong> to get you started with the basics <span class="raw-html">—</span> like
+creating your first repository and understanding essential concepts like
+<strong>branching</strong>, <strong>commits</strong>, and <strong>pull requests</strong>.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For added security, it’s recommended that you set up <strong>Two-Factor
+Authentication (2FA)</strong>. This provides an extra layer of protection for your
+account. You can enable 2FA from your account settings by following this
+guide.</p>
+</div>
+<p>Now that your account is ready, you’re all set to explore the world of
+<a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> and contribute to exciting projects. In the next section,
+we’ll dive deeper into using GitHub, setting up repositories, and learning how
+to collaborate on <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s open science initiatives.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="https://octodex.github.com/images/welcometocat.png"><img alt="GitHub Octocat" src="https://octodex.github.com/images/welcometocat.png" style="width: 500px;"/>
+</a>
+</figure>
+<p>But before you move on, take a moment to congratulate yourself! You’ve just
+taken a significant step toward being part of the open science community.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Securing Your GitHub Profile</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio"/>
+<label class="sd-tab-label" for="sd-tab-item-0">
+Multi-Factor Authentication (MFA)</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Multi-Factor Authentication (MFA) adds an extra layer of security
+to your GitHub account by requiring a second form of verification
+beyond just your password. Here’s how to set it up:</p>
+<ul class="simple">
+<li><p class="sd-card-text">Navigate to Security Settings by clicking on to your Profile
+<span class="menuselection">Settings ‣ Password and authentication</span></p></li>
+<li><p class="sd-card-text">Under the “Two-factor authentication” section, click the button
+to begin the setup process. Choose your authentication method.
+<a class="reference internal" href="../../_more-resources/glossary.html#term-GitHub"><span class="xref std std-term">GitHub</span></a> offers several MFA options.</p></li>
+<li><p class="sd-card-text">Follow the setup instructions and remaining prompts to complete
+the MFA setup. Ensure you test the MFA method to confirm it’s
+working properly.</p></li>
+</ul>
+
+<div class="youtube-video-container">
+<iframe allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="auto" src="https://youtube.com/embed/T_PKBNImooA?start=29&amp;autoplay=1&amp;cc_load_policy=1&amp;rel=0&amp;controls=1&amp;modestbranding=1" title="YouTube Video Player" width="auto">
+</iframe>
+</div>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio"/>
+<label class="sd-tab-label" for="sd-tab-item-1">
+Configure SSH Keys <span class="raw-html"><span class="status-badge beta">Beta</span></span></label><div class="sd-tab-content docutils">
+<p class="sd-card-text">SSH keys provide a secure way to access your GitHub repositories
+without needing to enter your username and password each time.</p>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio"/>
+<label class="sd-tab-label" for="sd-tab-item-2">
+Configure GPG Keys <span class="raw-html"><span class="status-badge beta">Beta</span></span></label><div class="sd-tab-content docutils">
+<p class="sd-card-text">GPG keys are used for signing commits and tags to verify the
+authenticity of your work.</p>
+</div>
+</div>
+</div>
+</details></section>
+</section>
+<section id="orcid">
+<h2>ORCID<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#orcid"></a></h2>
+<p>In this section, you’ll learn how to create your <a class="reference internal" href="../../_more-resources/glossary.html#term-ORCID"><span class="xref std std-term">ORCID</span></a> account, an
+important step to ensure that your research and contributions are easily
+identifiable and accessible in the Open Science community. Don’t worry if this
+is your first time doing this <span class="raw-html">—</span> the process is straightforward, and
+this guide will help you through each step.</p>
+<section id="what-is-orcid-and-why-you-need-it">
+<h3>What is ORCID and Why You Need It?<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#what-is-orcid-and-why-you-need-it"></a></h3>
+<p>Before we dive into the steps, let’s talk about why having an ORCID account is
+important.</p>
+<p><a class="reference internal" href="../../_more-resources/glossary.html#term-ORCID"><span class="xref std std-term">ORCID</span></a> provides a unique, persistent identifier for researchers,
+ensuring that your contributions are correctly attributed to you, regardless
+of any changes <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, where collaboration and transparency are
+key. Your ORCID profile becomes your digital fingerprint in the world of
+research, linking your work to your name in a global, accessible database.</p>
+</section>
+<section id="creating-orcid-account">
+<h3>Creating ORCID Account<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#creating-orcid-account"></a></h3>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://orcid.org/register">ORCID</a>.</p></li>
+<li><p>You’ll see a form asking for some basic information. No worries, this will
+only take a minute or two. Enter your information like your <strong>first</strong> and
+<strong>last</strong> name, <strong>primary email address</strong> (this is where all your
+notifications will be sent), possibly a <strong>secondary email address</strong>
+(optional but recommended, to ensure you don’t lose access in case you
+forget your credentials).</p></li>
+<li><p>Next would be the password, make sure your password is something
+memorable but secure. Instructions about the password requirements would be
+mentioned while entering the password.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Set your visibility preferences. <a class="reference internal" href="../../_more-resources/glossary.html#term-ORCID"><span class="xref std std-term">ORCID</span></a> gives you control over the
+privacy of your information. You can set your profile to be:</p>
+<ul class="simple">
+<li><p><strong>Public.</strong> Anyone can see your information.</p></li>
+<li><p><strong>Limited.</strong> Only trusted parties (like your institution) can view your
+profile.</p></li>
+<li><p><strong>Private.</strong> Only you can see your information.</p></li>
+</ul>
+<p>It is best to keep it <strong>Public</strong> to maximize visibility for your work in
+<a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, but you can always change it later.</p>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Before you complete the registration, you’ll need to agree to ORCID’s terms.
+These are pretty straightforward and ensure that your data is used
+responsibly.</p></li>
+<li><p>Now that your account is created, ORCID will send a verification email to
+primary email address you provided. It’s important to verify your email to
+complete the setup. Check your inbox (and your spam folder if you don’t see
+it) and click the link to verify your email address.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br/></div>
+</div>
+<p>And there you go! You’ve officially created your ORCID account!</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Personalizing Your ORCID Profile</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">This step is crucial in making sure your ORCID profile represents you well.
+The more information you provide, the easier it will be for collaborators
+and institutions to find you and recognize your work.</p>
+<p class="sd-card-text">ORCID supports integration with various platforms, including GitHub and
+LinkedIn. You can link your ORCID profile to your GitHub account to create
+a cohesive professional identity across platforms.</p>
+<div class="step-flow-carousel">
+<div class="scbs-carousel scbs-slide" data-bs-interval="false" data-bs-keyboard="false" data-bs-touch="false" data-bs-wrap="false" id="carousel-0">
+<div class="scbs-carousel-inner">
+<div class="scbs-carousel-item scbs-active">
+<img alt="../../../_images/orcid-001.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-001.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-002.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-002.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-003.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-003.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-004.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-004.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-005.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-005.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-006.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-006.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-007.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-007.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-008.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-008.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-009.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-009.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/orcid-010.webp" class="scbs-d-block scbs-w-100" src="../../../_images/orcid-010.webp"/>
+</div>
+</div>
+<button class="scbs-carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-0" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-prev-icon"></span>
+<span class="scbs-visually-hidden">Previous</span>
+</button>
+<button class="scbs-carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-0" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-next-icon"></span>
+<span class="scbs-visually-hidden">Next</span>
+</button>
+</div>
+</div></div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Keeping Your ORCID Profile Up-to-Date</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Your ORCID profile is a living document. As your career progresses, be
+sure to keep it updated with your latest contributions, projects, and
+affiliations. This is especially important in <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, where
+collaboration and visibility are key.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p class="sd-card-text">Set a reminder to check and update your profile every few months. That
+way, your information stays fresh and accurate.</p>
+</div>
+</div>
+</details></section>
+<section id="make-the-most-of-your-orcid">
+<h3>Make the Most of Your ORCID<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#make-the-most-of-your-orcid"></a></h3>
+<p>Now that you’ve created and set up your ORCID account, you’re ready to start
+using your <a class="reference internal" href="../../_more-resources/glossary.html#term-ORCID"><span class="xref std std-term">ORCID</span></a> ID in your research. Include it in your <strong>CV</strong>,
+<strong>Research papers</strong>, <strong>Articles</strong>, <strong>Conference presentations</strong> and <strong>Grant
+applications</strong>. This unique identifier will ensure that all your work is
+properly attributed to you, wherever it’s shared.</p>
+<p>With your ORCID account ready, you’re now one step closer to engaging fully
+with the Open Science community. Remember, <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> is all about
+transparency, accessibility, and collaboration. By taking the time to set up
+your ORCID account, you’re contributing to a global movement dedicated to
+making science open to all.</p>
+</section>
+</section>
+<section id="earthdata">
+<h2>EarthData<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#earthdata"></a></h2>
+<p><strong>NASA EarthData</strong> is a crucial platform that provides access to Earth science
+data collected by <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>. A NASA EarthData account allows users to
+download datasets, access various data repositories, and integrate APIs for
+their research. The registration process is straightforward and typically
+involves filling out basic personal information, agreeing to terms of use, and
+verifying the account via email.</p>
+<section id="creating-earthdata-account">
+<h3>Creating EarthData Account<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#creating-earthdata-account"></a></h3>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://urs.earthdata.nasa.gov/">EarthData</a>.</p></li>
+<li><p>Click on Register. Like ORCID, you’ll see a form asking for some basic
+information. Enter your information like your <strong>username</strong> and <strong>password</strong>.
+Confirm the password once. Instructions about the password requirements
+would be mentioned while entering the password.</p></li>
+<li><p>Next would be the <strong>first</strong> and <strong>last</strong> name, <strong>primary email address</strong>,
+your <strong>Country of Research</strong> and <strong>Affiliations</strong>.</p></li>
+<li><p>Review and accept the EarthData terms of use and privacy policy.</p></li>
+<li><p>Finally, Click the <span class="guilabel"><span class="accelerator">R</span>egister For EarthData Login</span> button to
+complete the form submission.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br/></div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Optional Choices For EarthData Account</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="step-flow-carousel">
+<div class="scbs-carousel scbs-slide" data-bs-interval="false" data-bs-keyboard="false" data-bs-touch="false" data-bs-wrap="false" id="carousel-1">
+<div class="scbs-carousel-inner">
+<div class="scbs-carousel-item scbs-active">
+<img alt="../../../_images/earth-data-000.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-000.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-001.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-001.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-002.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-002.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-003.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-003.webp"/>
+</div>
+<div class="scbs-carousel-item">
+<img alt="../../../_images/earth-data-004.webp" class="scbs-d-block scbs-w-100" src="../../../_images/earth-data-004.webp"/>
+</div>
+</div>
+<button class="scbs-carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-1" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-prev-icon"></span>
+<span class="scbs-visually-hidden">Previous</span>
+</button>
+<button class="scbs-carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-1" type="button">
+<span aria-hidden="true" class="scbs-carousel-control-next-icon"></span>
+<span class="scbs-visually-hidden">Next</span>
+</button>
+</div>
+</div></div>
+</details><div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Check your email inbox for a verification link from NASA <a class="reference external" href="https://urs.earthdata.nasa.gov/">EarthData</a>.
+Click the link to activate your account. After <strong>verifying</strong> your email,
+return to the EarthData Login page and enter your username and password to
+access your new account.</p>
+</div>
+<p>And there you have it, NASA’s EarthData account!</p>
+</section>
+</section>
+</section>
+</div>
+</div>
+<div class="items-center gap-4 previous-next">
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="open-science-101.html">
+<span style="margin-top: 0.3rem;"><i class="fa fa-chevron-left" style="font-size: 1.5rem;"></i></span>
+</a>
+</div>
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="preparing-workspace.html">
+<span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
+</a>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+<footer class="py-6 footer-bg border-border md:py-0">
+<div class="footer-element">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<div class="extra-footer-elements">
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">
+                        To submit feedback on documentation, visit
+                        <a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/issues/new?labels=community,discussion needed,documentation,enhancementmiscellaneous,open science,question&amp;title=Feedback about documentation" style="color: var(--link);">Feedback</a>.
+                    </span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../../_static/documentation_options.js?v=5929fcd5"></script><script src="../../../_static/doctools.js?v=9a2dae69"></script><script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script><script src="../../../_static/clipboard.min.js?v=a7894cd8"></script><script src="../../../_static/copybutton.js?v=f281be69"></script><script defer="defer" src="../../../_static/main.js?v=4c2e7a9f"></script><script defer="defer" src="../../../_static/coeus.js?v=6754728f"></script><script src="../../../_static/design-tabs.js?v=f930bc37"></script><script src="../../../_static/bootstrap-carousel.min.js?v=9a6c5d3e"></script>
+
+</body>
+</html>

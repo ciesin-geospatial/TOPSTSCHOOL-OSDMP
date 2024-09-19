@@ -18,8 +18,8 @@
 <link href="../../_static/theme.css" rel="stylesheet" type="text/css"/>
 <link href="../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
 <link href="../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
-<link href="../../_static/css/override.css?v=82bfea18" rel="stylesheet" type="text/css"/>
-<link href="../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL/_documentation/_more-resources/glossary.html" rel="canonical"/>
+<link href="../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
+<link href="../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_more-resources/glossary.html" rel="canonical"/>
 <link href="../../_static/favicon.png" rel="icon"/>
 <link href="../../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -67,7 +67,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_modules/modules-overview.html">Overview</a></li>
 <li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_modules/_001-water-module/water-research.html">Current Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
 </ul>
 </li>
 </ul>
@@ -146,7 +146,7 @@ on this site, your one-stop guide to navigating with ease.</p>
                         
                     </span>
 <div class="project-socials">
-<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/docs" target="_blank"></a>
+<a aria-label="Check out source on GitHub" class="fa-brands fa-github" href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP" target="_blank"></a>
 <a aria-label="Ask author via email" class="fa-solid fa-envelope" href="mailto:TOPSTSCHOOL@gmail.com?subject=[TOPSTSCHOOL] Glossary" style="font-weight: 900;"></a>
 <a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied to clipboard'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy article URL to clipboard'), 2000)" aria-label="Copy article URL to clipboard" class="fa-solid fa-link copylink" href="#" style="font-weight: 900;"></a>
 </div>
@@ -334,6 +334,16 @@ publication.</p>
 without subscription or paywalls. Public access ensures that research
 findings are widely disseminated and accessible to a global audience.</p>
 </dd>
+<dt id="term-Raster">Raster<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#term-Raster"></a></dt><dd><p>A raster dataset is a type of geographic data in digital image format
+with numerical information stored in each pixel. Rasters are often
+called grids because of their regularly-shaped matrix data structure.
+Rasters can store many types of information and can have dimensions
+that include latitude, longitude, and time. NetCDF is one format for
+raster data; others include Geotiff, ASCII, and many more. Several
+raster formats like NetCDF can store multiple raster layers, or a
+«raster stack,» which can be useful for storing and analyzing a series
+of rasters.</p>
+</dd>
 <dt id="term-Reproducibility">Reproducibility<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#term-Reproducibility"></a></dt><dd><p>The ability to replicate or verify the results of a study using the
 same methods and data. Reproducibility is a key aspect of
 <a class="reference internal" href="#term-Open-Science"><span class="xref std std-term">open science</span></a>, ensuring that research findings are credible and
@@ -386,11 +396,11 @@ is one of the most widely used version control systems in open science.</p>
 <div class="extra-footer-elements">
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">
                         To submit feedback on documentation, visit
-                        <a href="" style="color: var(--link);">Feedback</a>.
+                        <a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP/issues/new?labels=community,discussion needed,documentation,enhancementmiscellaneous,open science,question&amp;title=Feedback about documentation" style="color: var(--link);">Feedback</a>.
                     </span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
-<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 16, 2024</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
 </div>
 </div>
 </div>
