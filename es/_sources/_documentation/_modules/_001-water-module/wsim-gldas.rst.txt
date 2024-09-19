@@ -391,11 +391,11 @@ Reading the Data
         .. include:: water-module-001/cell-3.rst
         |
 
-        The output reveals that the dataset consists of five attributes: ``deficit``,
-        ``deficit_cause``, ``surplus``, ``surplus_cause``, and ``both`` (a combination
-        of ``surpluses`` and ``deficits``). Additionally, it has three dimensions:
-        ``longitude`` and ``latitude`` (spatial extents on the x/y axes) and ``time``
-        as the third dimension.
+        The output reveals that the dataset consists of five attributes:
+        ``deficit``, ``deficit_cause``, ``surplus``, ``surplus_cause``, and
+        ``both`` (a combination of ``surpluses`` and ``deficits``.
+        Additionally, it has three dimensions: ``longitude`` and ``latitude``
+        (spatial extents on the x/y axes) and ``time`` as the third dimension.
 
 In total, this amounts to **4020 individual** raster layers (calculated as 5
 attributes multiplied by **804 time steps/months**). This is a clear
