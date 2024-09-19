@@ -316,16 +316,15 @@ Reading the Data
 
         .. code-block:: console
 
-            python3 -m pip install xarray \
-                                   rioxarray \
-                                   rasterio \
-                                   pandas \
-                                   geopandas
-                                   exactextractr \
-                                   numpy \
-                                   calendar \
-                                   requests \
-                                   plotnine
+            python3 -m pip install \
+                xarray \
+                rasterio \
+                rioxarray \
+                pandas \
+                geopandas \
+                requests \
+                plotnine \
+                numpy
 
         Once the packages are installed and you have the
         ``composite_anom_12mo.nc`` file in your working directory, it's time
