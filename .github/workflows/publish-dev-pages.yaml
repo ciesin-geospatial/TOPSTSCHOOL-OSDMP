@@ -71,7 +71,11 @@ jobs:
         # -q: Run in quiet mode, with minimal output.
         run: |
           echo "Building Sphinx documentation..."
+<<<<<<< HEAD
+          sphinx-build -Eaq --builder html --define language=en ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }} && sphinx-build -Eaq --builder html --define language=es ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}/es
+=======
           sphinx-build -Eaq --builder html --define language=en ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}/en && sphinx-build -Eaq --builder html --define language=es ${{ env.SOURCE_DIR }} ${{ env.OUTPUT_DIR }}/es
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
       # Step 5: Deploy the built HTML files to the specified branch (GitHub Pages).
       - name: DEV | Deploy to GitHub Pages

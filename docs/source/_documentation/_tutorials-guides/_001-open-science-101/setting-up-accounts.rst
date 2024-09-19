@@ -1,6 +1,10 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
+<<<<<<< HEAD
+.. Last updated on: Sunday, September 15 2024
+=======
 .. Last updated on: Thursday, September 12 2024
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 ===============================================================================
 Account Setup
@@ -68,7 +72,11 @@ from start to finish.
 
 .. important::
 
+<<<<<<< HEAD
+    Your **username** will be your unique identity on GitHub, and it's how
+=======
     Your **username** will be your unique identity on GitHub, and it's how 
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
     others will find and recognize you on the platform. Your **email address**
     is important because GitHub will use it to communicate with you. Make sure
     it's an email address you check regularly. Choose a **strong password** to
@@ -108,7 +116,10 @@ to collaborate on :term:`NASA`'s open science initiatives.
 
 .. figure:: https://octodex.github.com/images/welcometocat.png
     :width: 500
+<<<<<<< HEAD
+=======
     :align: center
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
     :alt: GitHub Octocat
 
 But before you move on, take a moment to congratulate yourself! You've just
@@ -176,7 +187,11 @@ Creating ORCID Account
 #. You'll see a form asking for some basic information. No worries, this will
    only take a minute or two. Enter your information like your **first** and
    **last** name, **primary email address** (this is where all your
+<<<<<<< HEAD
+   notifications will be sent), possibly a **secondary email address**
+=======
    notifications will be sent), possibly a **secondary email address** 
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
    (optional but recommended, to ensure you don't lose access in case you
    forget your credentials).
 #. Next would be the password, make sure your password is something
@@ -227,6 +242,18 @@ And there you go! You've officially created your ORCID account!
             :data-bs-wrap: false
             :show_controls:
 
+<<<<<<< HEAD
+            .. image:: ../../_assets/guides/orcid/orcid-001.webp
+            .. image:: ../../_assets/guides/orcid/orcid-002.webp
+            .. image:: ../../_assets/guides/orcid/orcid-003.webp
+            .. image:: ../../_assets/guides/orcid/orcid-004.webp
+            .. image:: ../../_assets/guides/orcid/orcid-005.webp
+            .. image:: ../../_assets/guides/orcid/orcid-006.webp
+            .. image:: ../../_assets/guides/orcid/orcid-007.webp
+            .. image:: ../../_assets/guides/orcid/orcid-008.webp
+            .. image:: ../../_assets/guides/orcid/orcid-009.webp
+            .. image:: ../../_assets/guides/orcid/orcid-010.webp
+=======
             .. figure:: ../../_assets/guides/orcid/orcid-001.webp
             .. figure:: ../../_assets/guides/orcid/orcid-002.webp
             .. figure:: ../../_assets/guides/orcid/orcid-003.webp
@@ -237,6 +264,7 @@ And there you go! You've officially created your ORCID account!
             .. figure:: ../../_assets/guides/orcid/orcid-008.webp
             .. figure:: ../../_assets/guides/orcid/orcid-009.webp
             .. figure:: ../../_assets/guides/orcid/orcid-010.webp
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 .. dropdown:: Keeping Your ORCID Profile Up-to-Date
 
@@ -264,3 +292,59 @@ with the Open Science community. Remember, :term:`Open Science` is all about
 transparency, accessibility, and collaboration. By taking the time to set up
 your ORCID account, you're contributing to a global movement dedicated to
 making science open to all.
+<<<<<<< HEAD
+
+-------------------------------------------------------------------------------
+EarthData
+-------------------------------------------------------------------------------
+
+**NASA EarthData** is a crucial platform that provides access to Earth science
+data collected by :term:`NASA`. A NASA EarthData account allows users to
+download datasets, access various data repositories, and integrate APIs for
+their research. The registration process is straightforward and typically
+involves filling out basic personal information, agreeing to terms of use, and
+verifying the account via email.
+
+Creating EarthData Account
+===============================================================================
+
+#. Go to `EarthData`_.
+#. Click on Register. Like ORCID, you'll see a form asking for some basic
+   information. Enter your information like your **username** and **password**.
+   Confirm the password once. Instructions about the password requirements
+   would be mentioned while entering the password.
+#. Next would be the **first** and **last** name, **primary email address**,
+   your **Country of Research** and **Affiliations**. 
+#. Review and accept the EarthData terms of use and privacy policy.
+#. Finally, Click the :guilabel:`&Register For EarthData Login` button to
+   complete the form submission.
+
+|
+
+.. dropdown:: Optional Choices For EarthData Account
+
+    .. step-flow::
+
+        .. carousel::
+            :data-bs-interval: false
+            :data-bs-keyboard: false
+            :data-bs-touch: false
+            :data-bs-wrap: false
+            :show_controls:
+
+            .. image:: ../../_assets/guides/earth-data/earth-data-000.webp
+            .. image:: ../../_assets/guides/earth-data/earth-data-001.webp
+            .. image:: ../../_assets/guides/earth-data/earth-data-002.webp
+            .. image:: ../../_assets/guides/earth-data/earth-data-003.webp
+            .. image:: ../../_assets/guides/earth-data/earth-data-004.webp
+
+.. important::
+
+    Check your email inbox for a verification link from NASA `EarthData`_.
+    Click the link to activate your account. After **verifying** your email,
+    return to the EarthData Login page and enter your username and password to
+    access your new account.
+
+And there you have it, NASA's EarthData account!
+=======
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548

@@ -39,7 +39,7 @@ welcomes everyone |html-dash| students, researchers, and curious minds alike
 |html-dash| to engage, learn, and contribute to the world of scientific
 discovery.
 
-.. image:: _documentation/_assets/brands/repository-open-graph.png
+.. image:: _documentation/_assets/brands/repository-open-graph.webp
     :alt: SCHOOL Main Logo
     :class: rounded-image-15
 
@@ -54,7 +54,7 @@ weaves together these diverse topics with a common thread, the importance of
 `Open Science`_.
 
 -------------------------------------------------------------------------------
-Open Science, Open Minds
+Open Science, Open Minds |badge-beta|
 -------------------------------------------------------------------------------
 
 In each module, you'll find a rich blend of lessons that are not only

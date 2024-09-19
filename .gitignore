@@ -140,3 +140,4 @@ venv/
 _tags/
 archive/*
 *.bak
+*.nc

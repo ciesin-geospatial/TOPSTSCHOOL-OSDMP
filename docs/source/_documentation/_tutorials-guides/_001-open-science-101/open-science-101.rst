@@ -1,6 +1,10 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
+<<<<<<< HEAD
+.. Last updated on: Thursday, September 19 2024
+=======
 .. Last updated on: Thursday, September 12 2024
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
 ===============================================================================
 Open Science Basics
@@ -258,11 +262,21 @@ modules, each offering 2.5 hours of interdisciplinary, hands-on learning.
     on open science projects, embodying the spirit of inquiry and discovery
     that drives our curriculum. [#image_from_freepik]_
 
+<<<<<<< HEAD
+.. dropdown:: Topics Covered in Curriculum  |badge-beta|
+
+    - **Water.** Explore water cycles, the impact of climate change on
+      water resources, and how open data can be used to manage these vital
+      systems.
+      :doc:`Learn more <../../_modules/_001-water-module/water-module>`
+      |chevron-right|
+=======
 .. dropdown:: Topics Covered in Curriculum
 
     - **Water Systems.** Explore water cycles, the impact of climate change on
       water resources, and how open data can be used to manage these vital
       systems. `Learn more <#>`_ |chevron-right|
+>>>>>>> afff13ce66fc335603ebcd8d36bc366ee3fb4548
 
     - **Health and Air Quality.** Dive into the science of air pollution and
       its effects on public health, using open datasets to analyze

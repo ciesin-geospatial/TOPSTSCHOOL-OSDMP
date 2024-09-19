@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Wednesday, September 11 2024
-.. Last updated on: Thursday, September 12 2024
+.. Last updated on: Thursday, September 19 2024
 
 ===============================================================================
 Workspace Setup
@@ -155,7 +155,7 @@ for any coding or data analysis tasks you'll encounter in NASA's :term:`TOPS`
 
         - Open a terminal and run the following command to update your
           system's package index:
-     
+
           .. code-block:: bash
 
                 sudo apt update \
@@ -164,21 +164,3 @@ for any coding or data analysis tasks you'll encounter in NASA's :term:`TOPS`
                     software-properties-common
                     apt-transport-https
                     wget
-
-.. tab-set::
-    :sync-group: operating-system
-
-    .. tab-item:: Windows
-        :sync: windows
-
-        Windows Stuff
-
-    .. tab-item:: macOS |badge-beta|
-        :sync: macos
-
-        macOS Stuff
-
-    .. tab-item:: Linux |badge-beta|
-        :sync: linux
-
-        Linux Stuff
