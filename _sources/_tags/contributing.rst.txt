@@ -14,11 +14,6 @@ Tagged Pages
 
     ../_documentation/_community/contributor-guidelines.rst
     ../_documentation/_community/meet-the-team.rst
-    ../_documentation/_tutorials-guides/_002-contributing/code-review-workflow.rst
-    ../_documentation/_tutorials-guides/_002-contributing/contributing-research.rst
-    ../_documentation/_tutorials-guides/_002-contributing/contributing-topst.rst
-    ../_documentation/_tutorials-guides/_002-contributing/forking-cloning.rst
-    ../_documentation/_tutorials-guides/_002-contributing/submitting-pr.rst
     ../_documentation/_tutorials/_002-contributing/code-review.rst
     ../_documentation/_tutorials/_002-contributing/forking-cloning.rst
     ../_documentation/_tutorials/_002-contributing/research.rst

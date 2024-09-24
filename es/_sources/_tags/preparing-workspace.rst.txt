@@ -12,9 +12,6 @@ Tagged Pages
     :maxdepth: 1
     :caption: PREPARING-WORKSPACE
 
-    ../_documentation/_more-resources/glossary.rst
     ../_documentation/_resources/glossary.rst
-    ../_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.rst
-    ../_documentation/_tutorials-guides/_004-advanced-configurations/setting-venv.rst
     ../_documentation/_tutorials/_001-basics/workspace.rst
     ../_documentation/_tutorials/_004-advanced/setting-venv.rst

@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_tags/open-science-101.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="OPEN-SCIENCE-101: Announcements, How to Get Involved, Vision &amp; Mission, Review &amp; Approval, Contributor Guidelines, Meet the Team, Events &amp; Webinars, Water, WSIM-GLDAS, WSIM-GLDAS, Overview, Overvie..." property="og:description"/>
-<meta content="OPEN-SCIENCE-101: Announcements, How to Get Involved, Vision &amp; Mission, Review &amp; Approval, Contributor Guidelines, Meet the Team, Events &amp; Webinars, Water, WSIM-GLDAS, WSIM-GLDAS, Overview, Overvie..." name="description"/>
+<meta content="OPEN-SCIENCE-101: Announcements, How to Get Involved, Vision &amp; Mission, Review &amp; Approval, Contributor Guidelines, Meet the Team, Events &amp; Webinars, Water, WSIM-GLDAS, Overview, External Resources,..." property="og:description"/>
+<meta content="OPEN-SCIENCE-101: Announcements, How to Get Involved, Vision &amp; Mission, Review &amp; Approval, Contributor Guidelines, Meet the Team, Events &amp; Webinars, Water, WSIM-GLDAS, Overview, External Resources,..." name="description"/>
 <title>Tagged Pages</title>
 <meta content="Tagged Pages" property="og:title"/>
 <meta content="Tagged Pages" name="twitter:title"/>
@@ -66,6 +66,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/overview.html">Overview</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_documentation/_modules/_001-water/overview.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_documentation/_modules/_001-water/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -140,25 +144,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_community/contributor-guidelines.html">Contributor Guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_community/meet-the-team.html">Meet the Team</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_community/upcoming-events.html">Events &amp; Webinars</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/_001-water-module/water-module.html">Water</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/_001-water/overview.html">Water</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/_001-water/wsim-gldas.html">WSIM-GLDAS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/modules-overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_more-resources/external-resources.html">External Resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_resources/external-resources.html">External Resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_001-open-science-101/open-science-101.html">Open Science Basics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.html">Workspace Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html">Account Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/contributing-research.html">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/contributing-topst.html">Contribution Guides</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_004-advanced-configurations/setting-venv.html">Virtual Environments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_004-advanced-configurations/updating.html">Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials/_001-basics/accounts.html">Account Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials/_001-basics/open-science-101.html">Open Science Basics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials/_001-basics/workspace.html">Workspace Setup</a></li>

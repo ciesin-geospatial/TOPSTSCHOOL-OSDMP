@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_tags/tagsindex.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="Tags: announcements (2), contributing (12), contributors (1), data-management (4), documentation (4), getting-started (39), github (19), modules (5), open-science (4), open-science-101 (39), prepar..." property="og:description"/>
-<meta content="Tags: announcements (2), contributing (12), contributors (1), data-management (4), documentation (4), getting-started (39), github (19), modules (5), open-science (4), open-science-101 (39), prepar..." name="description"/>
+<meta content="Tags: announcements (2), contributing (7), contributors (1), data-management (2), documentation (3), getting-started (22), github (10), modules (3), open-science (2), open-science-101 (24), prepari..." property="og:description"/>
+<meta content="Tags: announcements (2), contributing (7), contributors (1), data-management (2), documentation (3), getting-started (22), github (10), modules (3), open-science (2), open-science-101 (24), prepari..." name="description"/>
 <title>Tags overview</title>
 <meta content="Tags overview" property="og:title"/>
 <meta content="Tags overview" name="twitter:title"/>
@@ -66,6 +66,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/overview.html">Overview</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_documentation/_modules/_001-water/overview.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_documentation/_modules/_001-water/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -134,18 +138,18 @@
 <p class="caption" role="heading"><span class="caption-text">Tags</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="announcements.html">announcements (2)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contributing.html">contributing (12)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">contributing (7)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributors.html">contributors (1)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data-management.html">data-management (4)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="documentation.html">documentation (4)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="getting-started.html">getting-started (39)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="github.html">github (19)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modules.html">modules (5)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="open-science.html">open-science (4)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="open-science-101.html">open-science-101 (39)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="preparing-workspace.html">preparing-workspace (6)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="research.html">research (10)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="water-module.html">water-module (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-management.html">data-management (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">documentation (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">getting-started (22)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github.html">github (10)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">modules (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-science.html">open-science (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-science-101.html">open-science-101 (24)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preparing-workspace.html">preparing-workspace (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="research.html">research (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="water-module.html">water-module (3)</a></li>
 </ul>
 </div>
 </section>

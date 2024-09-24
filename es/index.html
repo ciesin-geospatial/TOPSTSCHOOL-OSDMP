@@ -72,6 +72,10 @@ some features may be in development.</span>
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="_documentation/_modules/overview.html">Overview</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="_documentation/_modules/_001-water/overview.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="_documentation/_modules/_001-water/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -224,7 +228,7 @@ plenty of resources and a supportive community to help you along the way.</p>
 <li><p class="sd-card-text"><strong>Water.</strong> Explore water cycles, the impact of climate change on
 water resources, and how open data can be used to manage these vital
 systems.
-<span class="xref std std-doc">Learn more</span>
+<a class="reference internal" href="_documentation/_modules/_001-water/overview.html"><span class="doc">Learn more</span></a>
 <span class="raw-html"><i class="fa-solid fa-chevron-right fa-2xs link-auxillaries"></i></span></p></li>
 <li><p class="sd-card-text"><strong>Health and Air Quality.</strong> Dive into the science of air pollution and
 its effects on public health, using open datasets to analyze

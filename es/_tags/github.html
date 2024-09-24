@@ -8,8 +8,8 @@
 <meta content="website" property="og:type"/>
 <meta content="_tags/github.html" property="og:url"/>
 <meta content="Project name not set" property="og:site_name"/>
-<meta content="GITHUB: Review &amp; Approval, Glossary, Glossary, Account Setup, Workflow, Fork &amp; Clone, Submit Pull Requests, Data Repositories, Sharing Data, SSH Keys, Documentation, Account Setup, Workflow, Fork &amp;..." property="og:description"/>
-<meta content="GITHUB: Review &amp; Approval, Glossary, Glossary, Account Setup, Workflow, Fork &amp; Clone, Submit Pull Requests, Data Repositories, Sharing Data, SSH Keys, Documentation, Account Setup, Workflow, Fork &amp;..." name="description"/>
+<meta content="GITHUB: Review &amp; Approval, Glossary, Account Setup, Workflow, Fork &amp; Clone, Submit Pull Requests, Data Repositories, Sharing Data, SSH Keys, Documentation." property="og:description"/>
+<meta content="GITHUB: Review &amp; Approval, Glossary, Account Setup, Workflow, Fork &amp; Clone, Submit Pull Requests, Data Repositories, Sharing Data, SSH Keys, Documentation." name="description"/>
 <title>Tagged Pages</title>
 <meta content="Tagged Pages" property="og:title"/>
 <meta content="Tagged Pages" name="twitter:title"/>
@@ -66,6 +66,10 @@
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_modules/overview.html">Overview</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_documentation/_modules/_001-water/overview.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_documentation/_modules/_001-water/wsim-gldas.html">WSIM-GLDAS</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
@@ -134,16 +138,7 @@
 <p class="caption" role="heading"><span class="caption-text">GITHUB</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_community/becoming-reviewer.html">Review &amp; Approval</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_more-resources/glossary.html">Glossary</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_resources/glossary.html">Glossary</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_001-open-science-101/setting-up-accounts.html">Account Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/code-review-workflow.html">Workflow</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials-guides/_004-advanced-configurations/updating.html">Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials/_001-basics/accounts.html">Account Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials/_002-contributing/code-review.html">Workflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_documentation/_tutorials/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
