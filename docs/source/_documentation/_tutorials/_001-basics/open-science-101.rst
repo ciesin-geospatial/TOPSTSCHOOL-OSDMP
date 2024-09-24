@@ -226,6 +226,66 @@ change could help shape policies that protect vulnerable communities. Open
 Science allows you to play a part in something far bigger than yourself.
 
 -------------------------------------------------------------------------------
+<<<<<<<< HEAD:docs/source/_documentation/_tutorials/_001-basics/open-science-101.rst
+========
+TOPST SCHOOL Program
+-------------------------------------------------------------------------------
+
+The TOPST SCHOOL program is :term:`NASA`'s bold commitment to fostering a
+culture of Open Science. As part of the broader :term:`TOPS` initiative,
+SCHOOL is designed to equip learners with the tools, skills, and knowledge
+they need to actively participate in and contribute to the Open Science
+movement. The program is more than just a training initiative |html-dash| it's
+a community. A community built on the principles of transparency,
+collaboration, and equity. Our goal is to empower you with the tools,
+knowledge, and support you need to not only engage with :term:`Open Science`
+but to lead the way in making science more open and accessible to everyone.
+
+In this program, you'll dive into interactive, interdisciplinary modules that
+explore some of today's most critical issues: from water systems to climate
+change, environmental justice to health and air quality. Each module is
+designed to inspire you, challenge you, and equip you with practical skills
+you can apply in real-world contexts. As you progress, you'll learn not just
+how to access and use open data, but how to think critically about the impact
+of your work on society and the planet. The program consists of five immersive
+modules, each offering 2.5 hours of interdisciplinary, hands-on learning.
+
+.. figure:: ../../_assets/banners/group-friends-engaging-digital-tools.webp
+    :class: height-450 object-fit-top
+    :alt: To visually express the global nature of the challenges we face and
+        how Open Science enables collaborative, worldwide efforts to address
+        these issues.
+
+    Engaged Learning. Students exploring interactive modules and collaborating
+    on open science projects, embodying the spirit of inquiry and discovery
+    that drives our curriculum. [#image_from_freepik]_
+
+.. dropdown:: Topics Covered in Curriculum  |badge-beta|
+
+    - **Water.** Explore water cycles, the impact of climate change on
+      water resources, and how open data can be used to manage these vital
+      systems.
+      :doc:`Learn more <../../_modules/_001-water-module/water-module>`
+      |chevron-right|
+
+    - **Health and Air Quality.** Dive into the science of air pollution and
+      its effects on public health, using open datasets to analyze
+      environmental health risks. `Learn more <#>`_ |chevron-right|
+
+    - **Environmental Justice.** Understand the intersection between science
+      and social equity, and learn how open research can promote environmental
+      justice. `Learn more <#>`_ |chevron-right|
+
+    - **Natural Disasters and Climate Change.** Investigate the science behind
+      natural disasters and the role of open data in mitigating the impacts of
+      climate change. `Learn more <#>`_ |chevron-right|
+
+    - **Agriculture and Wildfires.** Discover how open science principles can
+      be applied to address challenges related to agriculture and wildfire
+      management. `Learn more <#>`_ |chevron-right|
+
+-------------------------------------------------------------------------------
+>>>>>>>> 0b06903af23c0b19549f54841fdd12ee5d2b9341:docs/source/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.rst
 Getting Involved
 -------------------------------------------------------------------------------
 
