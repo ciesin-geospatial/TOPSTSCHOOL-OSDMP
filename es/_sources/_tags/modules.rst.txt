@@ -14,4 +14,6 @@ Tagged Pages
 
     ../_documentation/_modules/_001-water-module/water-module.rst
     ../_documentation/_modules/_001-water-module/wsim-gldas.rst
+    ../_documentation/_modules/_001-water/wsim-gldas.rst
     ../_documentation/_modules/modules-overview.rst
+    ../_documentation/_modules/overview.rst

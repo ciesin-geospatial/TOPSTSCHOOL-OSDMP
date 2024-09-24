@@ -15,3 +15,4 @@ Tagged Pages
     ../_documentation/_community/becoming-reviewer.rst
     ../_documentation/_community/contributor-guidelines.rst
     ../_documentation/_tutorials-guides/_004-advanced-configurations/updating.rst
+    ../_documentation/_tutorials/_004-advanced/updating.rst

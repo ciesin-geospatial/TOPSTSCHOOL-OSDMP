@@ -15,15 +15,15 @@ Tags overview
     :maxdepth: 1
 
     announcements (2) <announcements.rst>
-    contributing (7) <contributing.rst>
+    contributing (12) <contributing.rst>
     contributors (1) <contributors.rst>
-    data-management (2) <data-management.rst>
-    documentation (3) <documentation.rst>
-    getting-started (22) <getting-started.rst>
-    github (10) <github.rst>
-    modules (3) <modules.rst>
-    open-science (2) <open-science.rst>
-    open-science-101 (24) <open-science-101.rst>
-    preparing-workspace (3) <preparing-workspace.rst>
-    research (5) <research.rst>
-    water-module (3) <water-module.rst>
+    data-management (4) <data-management.rst>
+    documentation (4) <documentation.rst>
+    getting-started (39) <getting-started.rst>
+    github (19) <github.rst>
+    modules (5) <modules.rst>
+    open-science (4) <open-science.rst>
+    open-science-101 (39) <open-science-101.rst>
+    preparing-workspace (6) <preparing-workspace.rst>
+    research (10) <research.rst>
+    water-module (5) <water-module.rst>

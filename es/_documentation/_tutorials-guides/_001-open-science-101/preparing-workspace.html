@@ -19,7 +19,7 @@
 <link href="../../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
-<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.html" rel="canonical"/>
+<link href="../../../_static/coeus.css?v=5fbdd421" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/preparing-workspace.html" rel="canonical"/>
 <link href="../../../_static/favicon.png" rel="icon"/>
 <link href="../../../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -60,40 +60,36 @@
 <p class="caption" role="heading"><span class="caption-text">About Us</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../_about-us/vision-mission.html">Vision &amp; Mission</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../_about-us/how-to-get-involved.html">How to Get Involved</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/getting-involved.html">How to Get Involved</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../_about-us/announcements.html">Announcements</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../_modules/modules-overview.html">Overview</a></li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../_modules/overview.html">Overview</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
-<ul class="current">
-<li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul class="current" x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="setting-up-accounts.html">Account Setup</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Workspace Setup</a></li>
+<ul>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_001-basics/open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_001-basics/accounts.html">Account Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_001-basics/workspace.html">Workspace Setup</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_002-contributing/contributing-topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/contributing-research.html">Research</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/code-review-workflow.html">Workflow</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_002-contributing/topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/research.html">Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/code-review.html">Workflow</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_003-open-science-dm/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_003-management/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_003-management/open-science-repos.html">Data Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_003-management/organizing-data.html">Sharing Data</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_004-advanced-configurations/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/setting-venv.html">Virtual Environments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/updating.html">Documentation</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_004-advanced/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_004-advanced/github-ssh.html">SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_004-advanced/setting-venv.html">Virtual Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_004-advanced/updating.html">Documentation</a></li>
 </ul>
 </li>
 </ul>
@@ -106,8 +102,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Open Science Resources</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/external-resources.html">External Resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_resources/external-resources.html">External Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_resources/glossary.html">Glossary</a></li>
 </ul>
 </nav>
 </div>
@@ -125,8 +121,7 @@
 <svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
 <path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
 </svg>
-</a><a class="hover:text-foreground overflow-hidden text-ellipsis whitespace-nowrap" href="open-science-101.html">Open Science Basics</a>
-<div class="mr-1">/</div><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Workspace Setup</span>
+</a><span aria-current="page" class="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Workspace Setup</span>
 </nav>
 <div class="page-content" id="content" role="main">
 <section id="workspace-setup">
@@ -169,7 +164,7 @@ you through installing and configuring the key tools you'll need.</p>
 </div>
 </div>
 </div>
-<p>In the world of <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, collaboration and innovation go
+<p>In the world of <a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>, collaboration and innovation go
 hand-in-hand. Scientists, researchers, and contributors from across the globe
 come together to share data, insights, and breakthroughs. However, this
 collaboration requires more than just ideas <span class="raw-html">—</span> it requires the right
@@ -186,21 +181,21 @@ manage versions, handle data, and even collaborate in real time. Each tool
 plays a specific role in the research and development process, addressing
 different challenges:</p>
 <ul class="simple">
-<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Version-Control-System-VCS"><span class="xref std std-term">Version Control System (VCS)</span></a> like Git allow you to track changes
+<li><p class="sd-card-text"><a class="reference internal" href="../../_resources/glossary.html#term-Version-Control-System-VCS"><span class="xref std std-term">Version Control System (VCS)</span></a> like Git allow you to track changes
 in code, ensuring you never lose work and can collaborate seamlessly with
 others.</p></li>
-<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Integrated-Development-Environment-IDE"><span class="xref std std-term">Integrated Development Environment (IDE)</span></a> like Visual Studio Code provide a
+<li><p class="sd-card-text"><a class="reference internal" href="../../_resources/glossary.html#term-Integrated-Development-Environment-IDE"><span class="xref std std-term">Integrated Development Environment (IDE)</span></a> like Visual Studio Code provide a
 space to write, debug, and test code with features that make your
 workflow faster and more intuitive.</p></li>
-<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Data-Processing-Tools"><span class="xref std std-term">Data processing tools</span></a> like Jupyter Notebook facilitate
+<li><p class="sd-card-text"><a class="reference internal" href="../../_resources/glossary.html#term-Data-Processing-Tools"><span class="xref std std-term">Data processing tools</span></a> like Jupyter Notebook facilitate
 interactive data analysis, letting you run code in chunks, visualize
 outputs, and document results in one place.</p></li>
-<li><p class="sd-card-text"><a class="reference internal" href="../../_more-resources/glossary.html#term-Package-Managers"><span class="xref std std-term">Package managers</span></a> like Conda help you manage software libraries
+<li><p class="sd-card-text"><a class="reference internal" href="../../_resources/glossary.html#term-Package-Managers"><span class="xref std std-term">Package managers</span></a> like Conda help you manage software libraries
 and environments, ensuring that you’re working with the right versions
 of the tools for your project.</p></li>
 </ul>
 <p class="sd-card-text">These tools are more than just software <span class="raw-html">—</span> they are the enablers
-of <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>. They streamline workflows, reduce friction, and
+of <a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>. They streamline workflows, reduce friction, and
 help build a shared language across diverse disciplines. By mastering
 these tools, you become empowered to focus more on your research and less
 on the technical overhead. They allow you to engage in the spirit of Open
@@ -210,7 +205,7 @@ Science <span class="raw-html">—</span> transparently, collaboratively, and ef
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Why These Tools Are Needed?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg aria-hidden="true" class="sd-octicon sd-octicon-chevron-right" height="1.5em" version="1.1" viewbox="0 0 24 24" width="1.5em"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text">Imagine trying to contribute to a global research project without a
-<a class="reference internal" href="../../_more-resources/glossary.html#term-Version-Control-System-VCS"><span class="xref std std-term">Version Control System (VCS)</span></a>. Every small change would need to be
+<a class="reference internal" href="../../_resources/glossary.html#term-Version-Control-System-VCS"><span class="xref std std-term">Version Control System (VCS)</span></a>. Every small change would need to be
 communicated manually, resulting in conflicting edits, lost progress, and
 massive inefficiencies. Or think about analyzing vast datasets without the
 help of specialized software <span class="raw-html">—</span> it would be an overwhelming task
@@ -226,7 +221,7 @@ from accidental loss.</p></li>
 </ul>
 </div>
 </details><p>In essence, these tools equip you with the digital infrastructure to excel in
-the world of <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Research"><span class="xref std std-term">open research</span></a>, and the best part? Most of them are free
+the world of <a class="reference internal" href="../../_resources/glossary.html#term-Open-Research"><span class="xref std std-term">open research</span></a>, and the best part? Most of them are free
 and open-source, aligning perfectly with the principles of Open Science.</p>
 <section id="integrated-development-environments-ides">
 <h2>Integrated Development Environments (IDEs)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#integrated-development-environments-ides"></a></h2>
@@ -260,8 +255,8 @@ Studio Code</strong>.</p>
 managing documentation, Visual Studio Code provides a feature-rich yet
 lightweight environment tailored to your needs. It’s highly customizable and
 integrates smoothly with version control, making it the perfect starting point
-for any coding or data analysis tasks you’ll encounter in NASA’s <a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a>
-<a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program.</p>
+for any coding or data analysis tasks you’ll encounter in NASA’s <a class="reference internal" href="../../_resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a>
+<a class="reference internal" href="../../_resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program.</p>
 <div class="sd-tab-set docutils">
 <input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio"/>
 <label class="sd-tab-label" data-sync-group="operating-system" data-sync-id="windows" for="sd-tab-item-0">
@@ -315,13 +310,13 @@ system’s package index:</p>
 </div>
 </div>
 <div class="items-center gap-4 previous-next">
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="setting-up-accounts.html">
+<div class="ml-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-left" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../_002-contributing/contributing-topst.html">
+<div class="mr-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
@@ -340,7 +335,7 @@ system’s package index:</p>
                     </span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
-<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 24, 2024</span>
 </div>
 </div>
 </div>

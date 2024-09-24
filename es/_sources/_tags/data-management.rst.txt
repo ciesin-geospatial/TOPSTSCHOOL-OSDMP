@@ -14,3 +14,5 @@ Tagged Pages
 
     ../_documentation/_tutorials-guides/_003-open-science-dm/open-science-repos.rst
     ../_documentation/_tutorials-guides/_003-open-science-dm/organizing-data.rst
+    ../_documentation/_tutorials/_003-management/open-science-repos.rst
+    ../_documentation/_tutorials/_003-management/organizing-data.rst

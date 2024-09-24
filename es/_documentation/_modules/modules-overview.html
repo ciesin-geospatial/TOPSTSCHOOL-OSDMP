@@ -19,7 +19,7 @@
 <link href="../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
 <link href="../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
 <link href="../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
-<link href="../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_modules/modules-overview.html" rel="canonical"/>
+<link href="../../_static/coeus.css?v=5fbdd421" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_modules/modules-overview.html" rel="canonical"/>
 <link href="../../_static/favicon.png" rel="icon"/>
 <link href="../../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -60,40 +60,36 @@
 <p class="caption" role="heading"><span class="caption-text">About Us</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../_about-us/vision-mission.html">Vision &amp; Mission</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_about-us/how-to-get-involved.html">How to Get Involved</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../_about-us/getting-involved.html">How to Get Involved</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../_about-us/announcements.html">Announcements</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a></li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
-</ul>
-</li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
 <ul>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials-guides/_001-open-science-101/open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_001-open-science-101/setting-up-accounts.html">Account Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_001-open-science-101/preparing-workspace.html">Workspace Setup</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials/_001-basics/open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_001-basics/accounts.html">Account Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_001-basics/workspace.html">Workspace Setup</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials-guides/_002-contributing/contributing-topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_002-contributing/contributing-research.html">Research</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_002-contributing/code-review-workflow.html">Workflow</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials/_002-contributing/topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_002-contributing/research.html">Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_002-contributing/code-review.html">Workflow</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials-guides/_003-open-science-dm/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials/_003-management/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_003-management/open-science-repos.html">Data Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_003-management/organizing-data.html">Sharing Data</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials-guides/_004-advanced-configurations/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_004-advanced-configurations/setting-venv.html">Virtual Environments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_tutorials-guides/_004-advanced-configurations/updating.html">Documentation</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_tutorials/_004-advanced/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_004-advanced/github-ssh.html">SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_004-advanced/setting-venv.html">Virtual Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_tutorials/_004-advanced/updating.html">Documentation</a></li>
 </ul>
 </li>
 </ul>
@@ -106,8 +102,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Open Science Resources</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../_more-resources/external-resources.html">External Resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../_more-resources/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../_resources/external-resources.html">External Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../_resources/glossary.html">Glossary</a></li>
 </ul>
 </nav>
 </div>
@@ -168,12 +164,12 @@ science.</p>
 </div>
 </div>
 </div>
-<p>We’re thrilled to welcome you to the modules of <a class="reference internal" href="../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s <a class="reference internal" href="../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a>
-program! This curriculum is part of NASA’s <a class="reference internal" href="../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> Training initiative,
+<p>We’re thrilled to welcome you to the modules of <a class="reference internal" href="../_resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s <a class="reference internal" href="../_resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a>
+program! This curriculum is part of NASA’s <a class="reference internal" href="../_resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> Training initiative,
 an effort designed to empower learners with practical skills in the <strong>data
 science lifecycle</strong> using real-world data from NASA’s Earth Sciences division.
 By participating in this program, you’ll join a community of passionate
-researchers and learners dedicated to advancing <a class="reference internal" href="../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> through
+researchers and learners dedicated to advancing <a class="reference internal" href="../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> through
 collaboration, transparency, and inclusivity.</p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
@@ -184,6 +180,14 @@ impacts. It is the first SCHOOL module and we’ll explore <strong>Water</strong
 relationship with humans. How does the water cycle impact society? How are
 changes in water availability, quality, and patterns affecting communities
 worldwide? <a class="footnote-reference brackets" href="#id3" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> This module aims to answer these vital questions.</p>
+
+<div class="general-video-container">
+<video controls="" height="auto" width="auto">
+<source src="https://svs.gsfc.nasa.gov/vis/a010000/a012900/a012950/
+12876_GRACEFull_NewBrand_high.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+</div>
 <p class="sd-card-text">You’ll delve into three carefully selected <strong>use cases</strong> that highlight
 critical water-related issues, such as usage, safety, and anomalies like
 droughts and floods. Each case presents a unique dataset that will guide
@@ -220,7 +224,7 @@ module, ensuring you’re never left in the dark.</p>
 <p>This program doesn’t aim to deliver a comprehensive Earth science
 curriculum or make you a coding guru. Instead, it is here to provide you
 with a solid foundation that you can build upon and apply to your own
-<a class="reference internal" href="../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> projects. If you want to further explore Open Science
+<a class="reference internal" href="../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> projects. If you want to further explore Open Science
 concepts, be sure to check out NASA’s TOPS Open Science 101 Curriculum.
 <a class="footnote-reference brackets" href="#id4" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a></p>
 </div>
@@ -240,13 +244,13 @@ freshwater levels are changing and why.</p>
 </div>
 </div>
 <div class="items-center gap-4 previous-next">
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../_about-us/announcements.html">
+<div class="ml-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-left" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="_001-water-module/water-module.html">
+<div class="mr-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
@@ -265,7 +269,7 @@ freshwater levels are changing and why.</p>
                     </span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
-<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 24, 2024</span>
 </div>
 </div>
 </div>

@@ -19,3 +19,8 @@ Tagged Pages
     ../_documentation/_tutorials-guides/_002-contributing/contributing-topst.rst
     ../_documentation/_tutorials-guides/_002-contributing/forking-cloning.rst
     ../_documentation/_tutorials-guides/_002-contributing/submitting-pr.rst
+    ../_documentation/_tutorials/_002-contributing/code-review.rst
+    ../_documentation/_tutorials/_002-contributing/forking-cloning.rst
+    ../_documentation/_tutorials/_002-contributing/research.rst
+    ../_documentation/_tutorials/_002-contributing/submitting-pr.rst
+    ../_documentation/_tutorials/_002-contributing/topst.rst

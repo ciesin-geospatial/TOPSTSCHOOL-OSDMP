@@ -19,7 +19,7 @@
 <link href="../../../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
 <link href="../../../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
-<link href="../../../_static/coeus.css?v=0ae9ed28" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.html" rel="canonical"/>
+<link href="../../../_static/coeus.css?v=5fbdd421" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_documentation/_tutorials-guides/_001-open-science-101/open-science-101.html" rel="canonical"/>
 <link href="../../../_static/favicon.png" rel="icon"/>
 <link href="../../../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -60,40 +60,36 @@
 <p class="caption" role="heading"><span class="caption-text">About Us</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../_about-us/vision-mission.html">Vision &amp; Mission</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../_about-us/how-to-get-involved.html">How to Get Involved</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_about-us/getting-involved.html">How to Get Involved</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../_about-us/announcements.html">Announcements</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Modules</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../_modules/modules-overview.html">Overview</a></li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_modules/_001-water-module/water-module.html">Water<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../../_modules/_001-water-module/wsim-gldas.html">WSIM-GLDAS</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../_modules/overview.html">Overview</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials &amp; Guides</span></p>
-<ul class="current">
-<li class="toctree-l1 current" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="current reference internal expandable" href="#">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="setting-up-accounts.html">Account Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="preparing-workspace.html">Workspace Setup</a></li>
+<ul>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_001-basics/open-science-101.html">Open Science Basics<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_001-basics/accounts.html">Account Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_001-basics/workspace.html">Workspace Setup</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_002-contributing/contributing-topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/contributing-research.html">Research</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_002-contributing/code-review-workflow.html">Workflow</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_002-contributing/topst.html">Contribution Guides<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/research.html">Research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/forking-cloning.html">Fork &amp; Clone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/submitting-pr.html">Submit Pull Requests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_002-contributing/code-review.html">Workflow</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_003-open-science-dm/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/open-science-repos.html">Data Repositories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_003-open-science-dm/organizing-data.html">Sharing Data</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_003-management/data-management.html">Data Management<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_003-management/open-science-repos.html">Data Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_003-management/organizing-data.html">Sharing Data</a></li>
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../_004-advanced-configurations/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
-<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/github-ssh.html">SSH Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/setting-venv.html">Virtual Environments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../_004-advanced-configurations/updating.html">Documentation</a></li>
+<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') }"><a :class="{ 'expanded': expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../../_tutorials/_004-advanced/advanced-cfg.html">Advanced Configuration<button @click.prevent.stop="expanded = !expanded" type="button"><i class="fa-solid fa-circle-plus"></i></button></a><ul x-show="expanded">
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_004-advanced/github-ssh.html">SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_004-advanced/setting-venv.html">Virtual Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../_tutorials/_004-advanced/updating.html">Documentation</a></li>
 </ul>
 </li>
 </ul>
@@ -106,8 +102,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Open Science Resources</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/external-resources.html">External Resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../_more-resources/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_resources/external-resources.html">External Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../_resources/glossary.html">Glossary</a></li>
 </ul>
 </nav>
 </div>
@@ -168,12 +164,12 @@ global challenges through open science.</p>
 </div>
 </div>
 </div>
-<p><a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> is a global movement that aims to make scientific
-research more accessible, transparent, and collaborative. At <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>,
-we’re embracing this transformation through our <a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> <a class="footnote-reference brackets" href="#id9" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> initiative,
+<p><a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> is a global movement that aims to make scientific
+research more accessible, transparent, and collaborative. At <a class="reference internal" href="../../_resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>,
+we’re embracing this transformation through our <a class="reference internal" href="../../_resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> <a class="footnote-reference brackets" href="#id9" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> initiative,
 which seeks to democratize scientific knowledge and empower individuals from
 all walks of life to engage with and contribute to the research process.</p>
-<p>The <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program which stands for <strong>Science Core Heuristics for Open
+<p>The <a class="reference internal" href="../../_resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program which stands for <strong>Science Core Heuristics for Open
 Science Outcomes in Learning</strong> <span class="raw-html">—</span> is an essential part of NASA’s TOPS
 initiative. It provides a structured, immersive curriculum designed to
 introduce students, researchers, and science enthusiasts to the core
@@ -182,13 +178,13 @@ well-versed in scientific research, our mission is to help you harness the
 power of Open Science to drive meaningful change.</p>
 <p>You are about to embark on a journey into the heart of Open Science <span class="raw-html">—</span>
 a movement that’s transforming how we explore, share, and contribute to
-scientific knowledge. At NASA’s <a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> SCHOOL program, we believe that
+scientific knowledge. At NASA’s <a class="reference internal" href="../../_resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> SCHOOL program, we believe that
 science should be accessible to everyone, and we’re excited to have you join
 this global mission. Whether you’re a student, a seasoned researcher, or just
 curious about science, you have something valuable to contribute.</p>
 <p>At SCHOOL, your voice matters. Your work, your insights, your curiosity
 <span class="raw-html">—</span> they all play a crucial role in shaping the future of scientific
-discovery. <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> is not just about opening doors; it’s about
+discovery. <a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> is not just about opening doors; it’s about
 inviting you to walk through them, to take part in groundbreaking work that
 has the power to change the world.</p>
 <section id="a-world-of-discovery">
@@ -212,7 +208,7 @@ openly to enhance reproducibility.</p></li>
 outputs to ensure that knowledge reaches a wider audience.</p></li>
 </ul>
 </div>
-</details><p><a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> promotes transparency, encourages collaboration, and
+</details><p><a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> promotes transparency, encourages collaboration, and
 accelerates scientific discovery by allowing others to replicate studies,
 validate results, and build upon previous work. By adopting Open Science
 principles, the research community can collectively tackle the world’s most
@@ -233,7 +229,7 @@ and tackle global challenges. <a class="footnote-reference brackets" href="#imag
 interconnected world, scientific challenges are increasingly global and
 complex. Problems like climate change, environmental justice, and natural
 disasters demand cross-disciplinary solutions that involve many collaborators.
-<a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> breaks down silos, enabling diverse teams of researchers,
+<a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> breaks down silos, enabling diverse teams of researchers,
 policymakers, and citizens to work together in solving real-world problems.</p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
@@ -337,7 +333,7 @@ diverse scientific environment.</p></li>
 </div>
 </div>
 </div>
-</details><p>At NASA’s TOPST <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program, we’re not just exercising Open Science
+</details><p>At NASA’s TOPST <a class="reference internal" href="../../_resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program, we’re not just exercising Open Science
 <span class="raw-html">—</span> we’re living it. We are committed to fostering an inclusive
 culture where everyone, regardless of background or expertise, has the
 opportunity to contribute to the world’s most pressing scientific challenges.</p>
@@ -345,7 +341,7 @@ opportunity to contribute to the world’s most pressing scientific challenges.<
 </section>
 <section id="power-of-open-science">
 <h3>Power of Open Science<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#power-of-open-science"></a></h3>
-<p><a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> isn’t just about making research available <span class="raw-html">—</span>
+<p><a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> isn’t just about making research available <span class="raw-html">—</span>
 it’s about making a difference. By participating in Open Science, you are
 contributing to a global movement that seeks to democratize knowledge, break
 down silos, and create a more equitable world. When scientists, researchers,
@@ -361,14 +357,14 @@ Science allows you to play a part in something far bigger than yourself.</p>
 </section>
 <section id="topst-school-program">
 <h2>TOPST SCHOOL Program<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#topst-school-program"></a></h2>
-<p>The TOPST SCHOOL program is <a class="reference internal" href="../../_more-resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s bold commitment to fostering a
-culture of Open Science. As part of the broader <a class="reference internal" href="../../_more-resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> initiative,
+<p>The TOPST SCHOOL program is <a class="reference internal" href="../../_resources/glossary.html#term-NASA"><span class="xref std std-term">NASA</span></a>’s bold commitment to fostering a
+culture of Open Science. As part of the broader <a class="reference internal" href="../../_resources/glossary.html#term-TOPS"><span class="xref std std-term">TOPS</span></a> initiative,
 SCHOOL is designed to equip learners with the tools, skills, and knowledge
 they need to actively participate in and contribute to the Open Science
 movement. The program is more than just a training initiative <span class="raw-html">—</span> it’s
 a community. A community built on the principles of transparency,
 collaboration, and equity. Our goal is to empower you with the tools,
-knowledge, and support you need to not only engage with <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>
+knowledge, and support you need to not only engage with <a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a>
 but to lead the way in making science more open and accessible to everyone.</p>
 <p>In this program, you’ll dive into interactive, interdisciplinary modules that
 explore some of today’s most critical issues: from water systems to climate
@@ -413,10 +409,10 @@ management. <a class="reference external" href="#">Learn more</a> <span class="r
 <section id="getting-involved">
 <h2>Getting Involved<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#getting-involved"></a></h2>
 <p>Whether you’re passionate about environmental justice, intrigued by climate
-change, or interested in public health, the <a class="reference internal" href="../../_more-resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program offers a
+change, or interested in public health, the <a class="reference internal" href="../../_resources/glossary.html#term-SCHOOL"><span class="xref std std-term">SCHOOL</span></a> program offers a
 wealth of opportunities to engage with the world of Open Science. By
 participating in the program, you’ll gain hands-on experience with open
-datasets, learn how to apply <a class="reference internal" href="../../_more-resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> principles, and contribute to
+datasets, learn how to apply <a class="reference internal" href="../../_resources/glossary.html#term-Open-Science"><span class="xref std std-term">Open Science</span></a> principles, and contribute to
 solving some of the world’s most pressing scientific challenges.</p>
 <figure class="align-default" id="id13">
 <img alt="To visually communicate the sense of personal empowerment and the idea that each participant can contribute something meaningful to science and society." class="height-450 object-fit-top" src="../../../_images/designers-showing-his-camera.webp"/>
@@ -459,13 +455,13 @@ of purpose in the scientific endeavor.</p>
 </div>
 </div>
 <div class="items-center gap-4 previous-next">
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../../_modules/_001-water-module/wsim-gldas.html">
+<div class="ml-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-left" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="setting-up-accounts.html">
+<div class="mr-auto" style="opacity: 0.3;">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="">
 <span style="margin-top: 0.3rem;"><i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i></span>
 </a>
 </div>
@@ -484,7 +480,7 @@ of purpose in the scientific endeavor.</p>
                     </span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Copyright © 2024, TOPSTSCHOOL Development Team.</span>
 <span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Built with <a class="font-medium" href="https://www.sphinx-doc.org" rel="noreferrer" style="color: var(--link);">Sphinx 8.0.2.</a></span>
-<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 19, 2024</span>
+<span class="text-sm leading-loose text-center text-muted-foreground md:text-left">Last updated: September 24, 2024</span>
 </div>
 </div>
 </div>

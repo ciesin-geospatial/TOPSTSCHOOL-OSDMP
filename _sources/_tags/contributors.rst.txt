@@ -12,4 +12,4 @@ Tagged Pages
     :maxdepth: 1
     :caption: CONTRIBUTORS
 
-    ../_documentation/_about-us/how-to-get-involved.rst
+    ../_documentation/_about-us/getting-involved.rst

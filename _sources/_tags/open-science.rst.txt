@@ -13,4 +13,6 @@ Tagged Pages
     :caption: OPEN-SCIENCE
 
     ../_documentation/_more-resources/glossary.rst
+    ../_documentation/_resources/glossary.rst
     ../_documentation/_tutorials-guides/_002-contributing/code-review-workflow.rst
+    ../_documentation/_tutorials/_002-contributing/code-review.rst
