@@ -284,13 +284,13 @@ Loading the Dataset
         to begin reading the file. We will be using
         :external+xarray:py:mod:`xarray`, let's start by importing it.
 
-        .. include:: water-module-001/cell-1.rst
+        .. include:: cells/wsim-1.rst
 
         The below code is configuring :external+xarray:py:mod:`xarray` options
         and :external+ipython:py:mod:`IPython` display settings to control the
         behavior of data representation and plotting in Jupyter notebooks.
 
-        .. include:: water-module-001/cell-2.rst
+        .. include:: cells/wsim-2.rst
 
         .. dropdown:: Code Explanation
 
@@ -341,8 +341,7 @@ Loading the Dataset
         Using the :external+xarray:py:func:`xarray.open_dataset` function,
         read the file and print the dataset.
 
-        .. include:: water-module-001/cell-3.rst
-        |
+        .. include:: cells/wsim-3.rst
 
 The output reveals that the dataset consists of five attributes: ``deficit``,
 ``deficit_cause``, ``surplus``, ``surplus_cause``, and ``both`` (a combination
@@ -382,7 +381,7 @@ period.
     .. tab-item:: Python
         :sync: python
 
-        ...
+        .. include:: cells/wsim-4.rst
 
         In this code block, we use double brackets to subset the dataset and
         extract only the variables we're interested in |html-dash| ``deficit``
@@ -455,17 +454,13 @@ Let's dive into the step-by-step process for selecting this time range.
         period. We'll achieve this using the powerful **Pandas** library,
         which is excellent for handling time series data.
 
-        ...
+        .. include:: cells/wsim-5.rst
 
         Now that we've generated the sequence of dates, the next step is to
         apply this list to the dataset and select only the data for the
         specified months. This is where we use
         :external+xarray:py:meth:`xarray.DataArray.sel` method to subset the
-        dataset.
-
-        ...
-
-        By passing the list of dates, keeps, into the
+        dataset. By passing the list of dates, keeps, into the
         :external+xarray:py:meth:`xarray.DataArray.sel` method, we're telling
         :external+xarray:py:mod:`xarray` to extract only the data for the
         corresponding time steps. This reduces the time dimension of the
@@ -484,7 +479,7 @@ Let's dive into the step-by-step process for selecting this time range.
         We'll use Xarray's built-in plotting functionality to create a quick
         visualization of the deficit over time.
 
-        ...
+        .. include:: cells/wsim-6.rst
 
 Although we've already reduced the dataset significantly by focusing on a
 single variable and a specific time range, there may still be situations where
@@ -583,39 +578,69 @@ Let's dive into the step-by-step process for selecting this time range.
 
         We'll use the requests library to access this data and the geopandas library to handle the GeoJSON file.
 
-        ...
+        .. include:: cells/wsim-7.rst
 
         The JSON response from the geoBoundaries API contains a variety of information, but what we need is the direct link to the GeoJSON file. This link is found in the gjDownloadURL field (typically located in item 29 of the response).
 
         We'll now use geopandas to load and visualize the GeoJSON data.
 
-        ...
+        .. include:: cells/wsim-8.rst
+        .. include:: cells/wsim-9.rst
+        .. raw:: html
+
+            <iframe
+                id="folium-map"
+                src="../../../_static/map/water/us_boundary.html"
+                width="100%"
+                height="600"
+            ></iframe>
 
         The GeoJSON we retrieved contains the boundaries for all U.S. states and territories, including places like Alaska, Hawaii, and Puerto Rico. For this demonstration, we're going to focus on the contiguous United States (i.e., the 48 mainland states), so we'll need to exclude certain regions from our dataset.
 
-        ...
+        .. include:: cells/wsim-10.rst
+        .. include:: cells/wsim-11.rst
+        .. include:: cells/wsim-12.rst
+        .. raw:: html
+
+            <iframe
+                id="folium-map"
+                src="../../../_static/map/water/contiguous_us_boundary.html"
+                width="100%"
+                height="600"
+            ></iframe>
 
         For more detailed analysis, we might want to focus on a specific state. In this example, let's focus on Texas.
 
-        ...
+        .. include:: cells/wsim-13.rst
 
         This snippet extracts Texas by filtering the shapeName column for any entries that contain the word "Texas". We can then visualize just the Texas boundary.
+
+        .. include:: cells/wsim-14.rst
+        .. raw:: html
+
+            <iframe
+                id="folium-map"
+                src="../../../_static/map/water/texas_boundary.html"
+                width="100%"
+                height="600"
+            ></iframe>
 
         Now that we have the vector boundary for Texas, we can use it to crop the WSIM-GLDAS dataset. This process is called spatial clipping, where the raster data is cropped to the extent of the Texas boundary. For this, we'll use rioxarray, a library built on top of Xarray and Rasterio that provides geospatial raster operations.
 
         First, we need to ensure the dataset has the correct Coordinate Reference System (CRS), which we can set to EPSG: 4326, a common geographic coordinate system.
 
-        ...
+        .. include:: cells/wsim-15.rst
 
         Now that we've successfully clipped the dataset to the extent of Texas, we can visualize the results. We'll plot the last time step in the dataset (December 2014) and overlay it with the Texas boundary to verify our processing.
 
-        ...
+        .. include:: cells/wsim-16.rst
+        .. include:: cells/wsim-17.rst
 
         This plot provides a clear view of the deficit anomaly within Texas over time, with color variations showing the severity of drought conditions.
 
         Finally, we can save both the processed raster data (WSIM-GLDAS) and the vector boundary (Texas) to disk. This is useful for sharing with colleagues, conducting further analysis, or storing the data for future use.
 
-        ...
+        .. include:: cells/wsim-18.rst
 
 The resulting dataset is significantly smaller (1.6 MB compared to the original 1.7 GB), making it much more manageable for further analysis, especially in cloud environments or workshops.
 
