@@ -15,6 +15,8 @@ Glossary
 .. tags:: getting-started, open-science, github, preparing-workspace
 
 .. contributors::
+    :prefix: Compiled by
+    :timestamp: September 12, 2024
 
     - America Munoz
     - amunoz8@my.nl.edu
