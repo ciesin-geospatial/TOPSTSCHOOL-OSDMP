@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Saturday, August 17 2024
-Last updated on: Friday, September 13 2024
+Last updated on: Friday, September 27 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -74,14 +74,14 @@ except Exception:
     last_updated = None
 
 # -- Project information -----------------------------------------------------
-html_coeus_author: t.Final[str] = "TOPSTSCHOOL Development Team"
+html_coeus_author: t.Final[str] = "TOPST SCHOOL Development Team"
 html_coeus_copyright: t.Final[str] = f"{dt.now().year}, {html_coeus_author}."
 html_coeus_email: t.Final[str] = "TOPSTSCHOOL@gmail.com"
 html_coeus_github: str = source
 html_coeus_license: str = f"{source}/blob/main/LICENSE"
 html_coeus_repository: str = source
-html_coeus_title: t.Final[str] = "TOPSTSCHOOL"
-html_coeus_version: t.Final[str] = "2024.08.30"
+html_coeus_title: t.Final[str] = "TOPST SCHOOL Universe"
+html_coeus_version: t.Final[str] = "2024.09.30"
 html_coeus_favicon: t.Final[str] = "_static/img/favicon.png"
 html_coeus_logo: t.Final[str] = "_static/img/logo.png"
 html_coeus_hide_index_toctree: bool = True
