@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, August 16, 2024
-.. Last updated on: Monday, September 23, 2024
+.. Last updated on: Friday, September 27, 2024
 
 :orphan:
 
@@ -10,7 +10,7 @@
     some features may be in development.
 
 ===============================================================================
-TOPS Universe
+TOPST SCHOOL Universe
 ===============================================================================
 
 .. title-hero::
@@ -23,14 +23,17 @@ TOPS Universe
 .. tags:: getting-started, open-science-101
 
 .. contributors::
-
-    - Akshay Mestry
-    - xa@mes3.dev
-    - https://github.com/xames3/
+    :location: Chicago, IL
+    :prefix: Updated by
+    :timestamp: September 21, 2024
 
     - Alina Zholdubaeva
     - azholdubaeva@my.nl.edu
     - https://github.com/Alinka8/
+
+    - Akshay Mestry
+    - xa@mes3.dev
+    - https://github.com/xames3/
 
 -------------------------------------------------------------------------------
 SCHOOL Program
@@ -59,23 +62,23 @@ weaves together these diverse topics with a common thread, the importance of
     :width: 350
 
 The TOPST SCHOOL program is :term:`NASA`'s bold commitment to fostering a
-culture of Open Science. As part of the broader :term:`TOPS` initiative,
-SCHOOL is designed to equip learners with the tools, skills, and knowledge
-they need to actively participate in and contribute to the Open Science
-movement. The program is more than just a training initiative |html-dash| it's
-a community. A community built on the principles of transparency,
-collaboration, and equity. Our goal is to empower you with the tools,
-knowledge, and support you need to not only engage with :term:`Open Science`
-but to lead the way in making science more open and accessible to everyone.
+culture of Open Science. As part of the broader :term:`TOPS` initiative, SCHOOL
+is designed to equip learners with the tools, skills, and knowledge they need
+to actively participate in and contribute to the Open Science movement. The
+program is more than just a training initiative |html-dash| it's a community. A
+community built on the principles of transparency, collaboration, and equity.
+Our goal is to empower you with the tools, knowledge, and support you need to
+not only engage with :term:`Open Science` but to lead the way in making science
+more open and accessible to everyone.
 
 In this program, you'll dive into interactive, interdisciplinary modules that
 explore some of today's most critical issues: from water systems to climate
 change, environmental justice to health and air quality. Each module is
-designed to inspire you, challenge you, and equip you with practical skills
-you can apply in real-world contexts. As you progress, you'll learn not just
-how to access and use open data, but how to think critically about the impact
-of your work on society and the planet. The program consists of five immersive
-modules, each offering 2.5 hours of interdisciplinary, hands-on learning.
+designed to inspire you, challenge you, and equip you with practical skills you
+can apply in real-world contexts. As you progress, you'll learn not just how to
+access and use open data, but how to think critically about the impact of your
+work on society and the planet. The program consists of five immersive modules,
+each offering 2.5 hours of interdisciplinary, hands-on learning.
 
 -------------------------------------------------------------------------------
 Open Science, Open Minds
@@ -86,23 +89,22 @@ informative but also transformative. We dive deep into Earth Science
 Applications, offering real-world use cases that show you how to access and
 analyze vast data sources. These lessons are rooted in the principles of
 :term:`FAIR` data management |html-dash| ensuring that the scientific data you
-work with is **Findable**, **Accessible**, **Interoperable**, and
-**Reusable**. By learning to navigate these open data science lifecycle
-workflows, you're not just gaining knowledge; you're acquiring the tools to
-make meaningful contributions to the global scientific community.
+work with is **Findable**, **Accessible**, **Interoperable**, and **Reusable**.
+By learning to navigate these open data science lifecycle workflows, you're not
+just gaining knowledge; you're acquiring the tools to make meaningful
+contributions to the global scientific community.
 
 .. tip::
 
     The :term:`SCHOOL` program covers a wide range of topics. Don't feel
-    overwhelmed if you're new to some of them. Take your time with each
-    module, and remember that learning is a continuous process. There are
-    plenty of resources and a supportive community to help you along the way.
+    overwhelmed if you're new to some of them. Take your time with each module,
+    and remember that learning is a continuous process. There are plenty of
+    resources and a supportive community to help you along the way.
 
 .. dropdown:: Modules Covered in Curriculum |badge-beta|
 
-    - **Water.** Explore water cycles, the impact of climate change on
-      water resources, and how open data can be used to manage these vital
-      systems.
+    - **Water.** Explore water cycles, the impact of climate change on water
+      resources, and how open data can be used to manage these vital systems.
       :doc:`Learn more <_documentation/_modules/_001-water/overview>`
       |chevron-right|
 
@@ -121,15 +123,6 @@ make meaningful contributions to the global scientific community.
     - **Agriculture and Wildfires.** Discover how open science principles can
       be applied to address challenges related to agriculture and wildfire
       management. `Learn more <#>`_ |chevron-right|
-
-.. toctree::
-    :caption: About Us
-    :hidden:
-    :titlesonly:
-
-    _documentation/_about-us/vision-mission
-    _documentation/_about-us/getting-involved
-    _documentation/_about-us/announcements
 
 .. toctree::
     :caption: Modules
@@ -166,3 +159,12 @@ make meaningful contributions to the global scientific community.
 
     _documentation/_resources/external-resources
     _documentation/_resources/glossary
+
+.. toctree::
+    :caption: About Us
+    :hidden:
+    :titlesonly:
+
+    _documentation/_about-us/vision-mission
+    _documentation/_about-us/getting-involved
+    _documentation/_about-us/announcements

@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Wednesday, September 11 2024
-.. Last updated on: Thursday, September 19 2024
+.. Last updated on: Friday, September 27 2024
 
 ===============================================================================
 Workspace Setup
@@ -18,6 +18,7 @@ Workspace Setup
 .. contributors::
     :prefix: Put together by
     :location: Chicago, IL
+    :timestamp: September 19, 2024
 
     - Akshay Mestry
     - xa@mes3.dev
