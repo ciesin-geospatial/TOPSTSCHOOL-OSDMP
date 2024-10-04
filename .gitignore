@@ -142,3 +142,4 @@ archive/*
 *.bak
 *.nc
 *.tif
+*.db
