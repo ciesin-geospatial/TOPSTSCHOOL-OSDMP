@@ -1,1 +1,3 @@
 coeus-sphinx-theme
+sphinx-copybutton
+sphinx-intl

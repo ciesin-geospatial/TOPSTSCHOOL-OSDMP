@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Saturday, August 17 2024
-Last updated on: Friday, August 30 2024
+Last updated on: Friday, September 27 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -28,6 +28,7 @@ Usage::
 
 from __future__ import annotations
 
+import subprocess
 import typing as t
 from datetime import datetime as dt
 
@@ -37,6 +38,7 @@ extensions: list[str] = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.extlinks",
     "sphinx.ext.viewcode",
+    "sphinx_copybutton",
 ]
 exclude_patterns: list[str] = [
     ".DS_Store",
@@ -51,32 +53,58 @@ source: t.Final[str] = "https://github.com/ciesin-geospatial/TOPSTSCHOOL-OSDMP"
 baseurl: t.Final[str] = "https://ciesin-geospatial.github.io"
 intersphinx_mapping: dict[str, tuple[str, t.Any]] = {
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
+    "xarray": ("https://docs.xarray.dev/en/stable/", None),
+    "ipython": ("https://ipython.readthedocs.io/en/stable/", None),
 }
+
 rst_epilog = ""
 with open("_static/urls.txt") as f:
     rst_epilog += f.read()
 
+try:
+    last_updated_cmd = (
+        "git",
+        "log",
+        "--pretty=format:%cd",
+        "--date=format:%B %d, %Y",
+        "-n1",
+    )
+    last_updated = subprocess.check_output(last_updated_cmd).decode()
+except Exception:
+    last_updated = None
+
 # -- Project information -----------------------------------------------------
-html_coeus_author: t.Final[str] = "TOPSTSCHOOL Development Team"
+html_coeus_author: t.Final[str] = "TOPST SCHOOL Development Team"
 html_coeus_copyright: t.Final[str] = f"{dt.now().year}, {html_coeus_author}."
 html_coeus_email: t.Final[str] = "TOPSTSCHOOL@gmail.com"
-html_coeus_github: str = source + "/docs"
-html_coeus_include_last_updated_date: bool = True
+html_coeus_github: str = source
 html_coeus_license: str = f"{source}/blob/main/LICENSE"
 html_coeus_repository: str = source
-html_coeus_title: t.Final[str] = "TOPSTSCHOOL"
-html_coeus_version: t.Final[str] = "2024.08.30"
+html_coeus_title: t.Final[str] = "TOPST SCHOOL Universe"
+html_coeus_version: t.Final[str] = "2024.09.30"
 html_coeus_favicon: t.Final[str] = "_static/img/favicon.png"
 html_coeus_logo: t.Final[str] = "_static/img/logo.png"
 html_coeus_hide_index_toctree: bool = True
-html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL/"
+html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL-OSDMP/"
 html_coeus_documentation: str = html_coeus_homepage
 html_coeus_theme_options: dict[str, t.Any] = {
+    "last_updated": last_updated,
     "show_previous_next_pages": True,
+    "supported_languages": {"en": "English", "es": "Español"},
 }
+locale_dirs: list[str] = ["../locale/"]
+gettext_compact: bool = False
 
 # -- Options for HTML output --------------------------------------------------
 html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
 html_css_files: list[str] = ["css/override.css"]
-tags_badge_colors: dict[str, str] = {"article": "success"}
+html_context: dict[str, str] = {
+    "feedback_link": source
+    + (
+        "/issues/new"
+        "?labels=community,discussion needed,documentation,enhancement"
+        "miscellaneous,open science,question"
+        "&title=Feedback about documentation"
+    )
+}
