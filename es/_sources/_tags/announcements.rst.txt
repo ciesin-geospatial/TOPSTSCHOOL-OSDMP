@@ -12,5 +12,5 @@ Tagged Pages
     :maxdepth: 1
     :caption: ANNOUNCEMENTS
 
-    ../_documentation/_about-us/announcements.rst
-    ../_documentation/_community/upcoming-events.rst
+    ../_about-us/announcements.rst
+    ../_community/upcoming-events.rst

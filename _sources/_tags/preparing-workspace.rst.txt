@@ -12,6 +12,6 @@ Tagged Pages
     :maxdepth: 1
     :caption: PREPARING-WORKSPACE
 
-    ../_documentation/_resources/glossary.rst
     ../_documentation/_tutorials/_001-basics/workspace.rst
     ../_documentation/_tutorials/_004-advanced/setting-venv.rst
+    ../_resources/glossary.rst

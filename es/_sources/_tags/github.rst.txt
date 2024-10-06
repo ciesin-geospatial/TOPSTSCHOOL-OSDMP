@@ -12,8 +12,7 @@ Tagged Pages
     :maxdepth: 1
     :caption: GITHUB
 
-    ../_documentation/_community/becoming-reviewer.rst
-    ../_documentation/_resources/glossary.rst
+    ../_community/becoming-reviewer.rst
     ../_documentation/_tutorials/_001-basics/accounts.rst
     ../_documentation/_tutorials/_002-contributing/code-review.rst
     ../_documentation/_tutorials/_002-contributing/forking-cloning.rst
@@ -22,3 +21,4 @@ Tagged Pages
     ../_documentation/_tutorials/_003-management/organizing-data.rst
     ../_documentation/_tutorials/_004-advanced/github-ssh.rst
     ../_documentation/_tutorials/_004-advanced/updating.rst
+    ../_resources/glossary.rst

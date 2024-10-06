@@ -12,12 +12,11 @@ Tagged Pages
     :maxdepth: 1
     :caption: GETTING-STARTED
 
-    ../_documentation/_about-us/getting-involved.rst
-    ../_documentation/_about-us/vision-mission.rst
-    ../_documentation/_community/contributor-guidelines.rst
+    ../_about-us/getting-involved.rst
+    ../_about-us/vision-mission.rst
+    ../_community/contributor-guidelines.rst
     ../_documentation/_modules/_001-water/overview.rst
     ../_documentation/_modules/overview.rst
-    ../_documentation/_resources/glossary.rst
     ../_documentation/_tutorials/_001-basics/accounts.rst
     ../_documentation/_tutorials/_001-basics/open-science-101.rst
     ../_documentation/_tutorials/_001-basics/workspace.rst
@@ -33,4 +32,5 @@ Tagged Pages
     ../_documentation/_tutorials/_004-advanced/github-ssh.rst
     ../_documentation/_tutorials/_004-advanced/setting-venv.rst
     ../_documentation/_tutorials/_004-advanced/updating.rst
+    ../_resources/glossary.rst
     ../index.rst

@@ -12,6 +12,6 @@ Tagged Pages
     :maxdepth: 1
     :caption: DOCUMENTATION
 
-    ../_documentation/_community/becoming-reviewer.rst
-    ../_documentation/_community/contributor-guidelines.rst
+    ../_community/becoming-reviewer.rst
+    ../_community/contributor-guidelines.rst
     ../_documentation/_tutorials/_004-advanced/updating.rst

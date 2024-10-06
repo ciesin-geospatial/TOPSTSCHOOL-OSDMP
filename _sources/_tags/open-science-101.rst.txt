@@ -12,17 +12,16 @@ Tagged Pages
     :maxdepth: 1
     :caption: OPEN-SCIENCE-101
 
-    ../_documentation/_about-us/announcements.rst
-    ../_documentation/_about-us/getting-involved.rst
-    ../_documentation/_about-us/vision-mission.rst
-    ../_documentation/_community/becoming-reviewer.rst
-    ../_documentation/_community/contributor-guidelines.rst
-    ../_documentation/_community/meet-the-team.rst
-    ../_documentation/_community/upcoming-events.rst
+    ../_about-us/announcements.rst
+    ../_about-us/getting-involved.rst
+    ../_about-us/vision-mission.rst
+    ../_community/becoming-reviewer.rst
+    ../_community/contributor-guidelines.rst
+    ../_community/meet-the-team.rst
+    ../_community/upcoming-events.rst
     ../_documentation/_modules/_001-water/overview.rst
     ../_documentation/_modules/_001-water/wsim-gldas.rst
     ../_documentation/_modules/overview.rst
-    ../_documentation/_resources/external-resources.rst
     ../_documentation/_tutorials/_001-basics/accounts.rst
     ../_documentation/_tutorials/_001-basics/open-science-101.rst
     ../_documentation/_tutorials/_001-basics/workspace.rst
@@ -35,4 +34,5 @@ Tagged Pages
     ../_documentation/_tutorials/_004-advanced/github-ssh.rst
     ../_documentation/_tutorials/_004-advanced/setting-venv.rst
     ../_documentation/_tutorials/_004-advanced/updating.rst
+    ../_resources/external-resources.rst
     ../index.rst

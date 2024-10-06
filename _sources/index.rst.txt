@@ -1,13 +1,8 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, August 16, 2024
-.. Last updated on: Friday, September 27, 2024
+.. Last updated on: Sunday, October 06, 2024
 
 :orphan:
-
-.. announcement:: We're excited to share this new iteration of our site,
-    designed with enhanced automation and a fresh, user-friendly
-    interface. Please note that the site is currently under construction, and
-    some features may be in development.
 
 ===============================================================================
 TOPST SCHOOL Universe
@@ -141,30 +136,3 @@ contributions to the global scientific community.
     _documentation/_tutorials/_002-contributing/topst
     _documentation/_tutorials/_003-management/data-management
     _documentation/_tutorials/_004-advanced/advanced-cfg
-
-.. toctree::
-    :caption: Community
-    :hidden:
-    :titlesonly:
-
-    _documentation/_community/contributor-guidelines
-    _documentation/_community/upcoming-events
-    _documentation/_community/becoming-reviewer
-    _documentation/_community/meet-the-team
-
-.. toctree::
-    :caption: Open Science Resources
-    :hidden:
-    :titlesonly:
-
-    _documentation/_resources/external-resources
-    _documentation/_resources/glossary
-
-.. toctree::
-    :caption: About Us
-    :hidden:
-    :titlesonly:
-
-    _documentation/_about-us/vision-mission
-    _documentation/_about-us/getting-involved
-    _documentation/_about-us/announcements

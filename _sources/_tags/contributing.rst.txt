@@ -12,8 +12,8 @@ Tagged Pages
     :maxdepth: 1
     :caption: CONTRIBUTING
 
-    ../_documentation/_community/contributor-guidelines.rst
-    ../_documentation/_community/meet-the-team.rst
+    ../_community/contributor-guidelines.rst
+    ../_community/meet-the-team.rst
     ../_documentation/_tutorials/_002-contributing/code-review.rst
     ../_documentation/_tutorials/_002-contributing/forking-cloning.rst
     ../_documentation/_tutorials/_002-contributing/research.rst

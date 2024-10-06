@@ -12,5 +12,5 @@ Tagged Pages
     :maxdepth: 1
     :caption: OPEN-SCIENCE
 
-    ../_documentation/_resources/glossary.rst
     ../_documentation/_tutorials/_002-contributing/code-review.rst
+    ../_resources/glossary.rst
