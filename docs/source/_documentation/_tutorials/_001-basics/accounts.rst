@@ -227,16 +227,16 @@ And there you go! You've officially created your ORCID account!
             :data-bs-wrap: false
             :show_controls:
 
-            .. image:: ../../_assets/guides/orcid/orcid-001.webp
-            .. image:: ../../_assets/guides/orcid/orcid-002.webp
-            .. image:: ../../_assets/guides/orcid/orcid-003.webp
-            .. image:: ../../_assets/guides/orcid/orcid-004.webp
-            .. image:: ../../_assets/guides/orcid/orcid-005.webp
-            .. image:: ../../_assets/guides/orcid/orcid-006.webp
-            .. image:: ../../_assets/guides/orcid/orcid-007.webp
-            .. image:: ../../_assets/guides/orcid/orcid-008.webp
-            .. image:: ../../_assets/guides/orcid/orcid-009.webp
-            .. image:: ../../_assets/guides/orcid/orcid-010.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-001.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-002.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-003.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-004.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-005.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-006.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-007.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-008.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-009.webp
+            .. image:: ../../../_assets/guides/orcid/orcid-010.webp
 
 .. dropdown:: Keeping Your ORCID Profile Up-to-Date
 
@@ -303,11 +303,11 @@ Creating EarthData Account
             :data-bs-wrap: false
             :show_controls:
 
-            .. image:: ../../_assets/guides/earth-data/earth-data-000.webp
-            .. image:: ../../_assets/guides/earth-data/earth-data-001.webp
-            .. image:: ../../_assets/guides/earth-data/earth-data-002.webp
-            .. image:: ../../_assets/guides/earth-data/earth-data-003.webp
-            .. image:: ../../_assets/guides/earth-data/earth-data-004.webp
+            .. image:: ../../../_assets/guides/earth-data/earth-data-000.webp
+            .. image:: ../../../_assets/guides/earth-data/earth-data-001.webp
+            .. image:: ../../../_assets/guides/earth-data/earth-data-002.webp
+            .. image:: ../../../_assets/guides/earth-data/earth-data-003.webp
+            .. image:: ../../../_assets/guides/earth-data/earth-data-004.webp
 
 .. important::
 

@@ -67,11 +67,11 @@ security issues affecting communities around the globe.
     :show_controls:
     :show_fade:
 
-    .. image:: ../../_assets/modules/water/data-flow/viz-1.webp
-    .. image:: ../../_assets/modules/water/data-flow/viz-2.webp
-    .. image:: ../../_assets/modules/water/data-flow/viz-3.webp
-    .. image:: ../../_assets/modules/water/data-flow/viz-4.webp
-    .. image:: ../../_assets/modules/water/data-flow/viz-5.webp
+    .. image:: ../../../_assets/modules/water/data-flow/viz-1.webp
+    .. image:: ../../../_assets/modules/water/data-flow/viz-2.webp
+    .. image:: ../../../_assets/modules/water/data-flow/viz-3.webp
+    .. image:: ../../../_assets/modules/water/data-flow/viz-4.webp
+    .. image:: ../../../_assets/modules/water/data-flow/viz-5.webp
 
 .. dropdown:: Learning Objectives
 
@@ -134,7 +134,7 @@ floods are becoming more frequent and intense (Zhou, 2016 [#]_).
     :show_fade:
     :show_indicators:
 
-    .. figure:: ../../_assets/modules/water/greenhouse-effect.webp
+    .. figure:: ../../../_assets/modules/water/greenhouse-effect.webp
         :alt: Impact of Human Activities on the Water Cycle
 
         Impact of Human Activities on the Water Cycle. Human activities such as
@@ -142,7 +142,7 @@ floods are becoming more frequent and intense (Zhou, 2016 [#]_).
         altering the natural flow of the water cycle, leading to environmental
         imbalances. [#freepik_1]_
 
-    .. figure:: ../../_assets/modules/water/pollution-factory-emisions.webp
+    .. figure:: ../../../_assets/modules/water/pollution-factory-emisions.webp
         :alt: Impact of Human Activities on the Water Cycle
 
         Impact of Human Activities on the Water Cycle. Human activities such as
@@ -238,8 +238,8 @@ would only occur once every 25 years.
     - Locate and select the Water Security (WSIM-GLDAS) Monthly Grids, v1
       (1948-2014) dataset.
     - When you're ready, go to the **Data Download** tab. You'll need to sign
-      in using your NASA EarthData account. :doc:`Learn more
-      <../../_tutorials/_001-basics/accounts>` |chevron-right|
+      in using your NASA EarthData account.
+      :doc:`Learn more <../../_tutorials/_001-basics/accounts>` |chevron-right|
     - Once logged in, find the Composite Class and select the **Variable
       Composite Anomaly Twelve-Month Return Period** for download.
 
@@ -593,7 +593,7 @@ Let's dive into the step-by-step process for selecting this time range.
 
             <iframe
                 id="folium-map"
-                src="../../../_static/map/water/us_boundary.html" width="100%"
+                src="../../../../_static/map/water/us_boundary.html" width="100%"
                 height="600"
             ></iframe>
 
@@ -610,7 +610,7 @@ Let's dive into the step-by-step process for selecting this time range.
 
             <iframe
                 id="folium-map"
-                src="../../../_static/map/water/contiguous_us_boundary.html"
+                src="../../../../_static/map/water/contiguous_us_boundary.html"
                 width="100%" height="600"
             ></iframe>
 
@@ -628,7 +628,7 @@ Let's dive into the step-by-step process for selecting this time range.
 
             <iframe
                 id="folium-map"
-                src="../../../_static/map/water/texas_boundary.html"
+                src="../../../../_static/map/water/texas_boundary.html"
                 width="100%" height="600"
             ></iframe>
 
