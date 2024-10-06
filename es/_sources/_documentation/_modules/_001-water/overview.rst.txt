@@ -37,7 +37,7 @@ ability to handle and interpret data.
     :term:`TOPS` team, our :term:`SCHOOL` Open Science team, open science
     Subject Matter Experts (SMEs), and the SCHOOL Development team!
 
-    :doc:`Learn more here <../../_community/meet-the-team>` |chevron-right|
+    :doc:`Learn more here <../../../_community/meet-the-team>` |chevron-right|
 
 -------------------------------------------------------------------------------
 Water Security Indicator Model (WSIM)

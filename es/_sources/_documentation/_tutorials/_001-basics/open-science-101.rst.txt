@@ -81,7 +81,7 @@ principles, the research community can collectively tackle the world's most
 pressing challenges |html-dash| from climate change and environmental
 degradation to public health crises and social inequalities.
 
-.. figure:: ../../_assets/banners/doctors-working-together-research.webp
+.. figure:: ../../../_assets/banners/doctors-working-together-research.webp
     :class: height-450 object-fit-top
     :alt: Open Science is about sharing knowledge and data for collective
         benefit, making research more accessible to everyone.
@@ -236,7 +236,7 @@ participating in the program, you'll gain hands-on experience with open
 datasets, learn how to apply :term:`Open Science` principles, and contribute to
 solving some of the world's most pressing scientific challenges.
 
-.. figure:: ../../_assets/banners/designers-showing-his-camera.webp
+.. figure:: ../../../_assets/banners/designers-showing-his-camera.webp
     :class: height-450 object-fit-top
     :alt: To visually communicate the sense of personal empowerment and the
         idea that each participant can contribute something meaningful to

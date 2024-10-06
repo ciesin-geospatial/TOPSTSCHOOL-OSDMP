@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
-.. Last updated on: Thursday, September 12 2024
+.. Last updated on: Sunday, October 06, 2024
 
 ===============================================================================
 Meet the Team
@@ -57,52 +57,52 @@ Amazing People
 
         - Navin Aade
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/navin_aade.png
+        - ../_assets/team/open-science/navin_aade.png
         - `Learn more about Navin here <#>`_ |chevron-right|
 
         - Emanuel Agú
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/emanuel_agu.png
+        - ../_assets/team/open-science/emanuel_agu.png
         - `Learn more about Emanuel here <#>`_ |chevron-right|
 
         - Jinyi Cai
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/jinyi_cai.png
+        - ../_assets/team/open-science/jinyi_cai.png
         - `Learn more about Jinyi here <#>`_ |chevron-right|
 
         - Hazem Mahmoud
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/hazem_mahmoud.png
+        - ../_assets/team/open-science/hazem_mahmoud.png
         - `Learn more about Hazem here <#>`_ |chevron-right|
 
         - Josie Morkin
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/josie_morkin.png
+        - ../_assets/team/open-science/josie_morkin.png
         - `Learn more about Josie here <#>`_ |chevron-right|
 
         - Arina Moroz
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/arina_moroz.png
+        - ../_assets/team/open-science/arina_moroz.png
         - `Learn more about Arina here <#>`_ |chevron-right|
 
         - Alber Sánchez
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/hieu_tran.png
+        - ../_assets/team/open-science/hieu_tran.png
         - `Learn more about Alber here <#>`_ |chevron-right|
 
         - Hieu Tran
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/alber_sanchez.png
+        - ../_assets/team/open-science/alber_sanchez.png
         - `Learn more about Hieu here <#>`_ |chevron-right|
 
         - Aneese Williams
         - Open Science Team
-        - ../_documentation/_assets/team/open-science/aneese_williams.png
+        - ../_assets/team/open-science/aneese_williams.png
         - `Learn more about Aneese here <#>`_ |chevron-right|
 
         - Xuan Zhou
         - Open Science Team
-        - ../_documentation/_assets/team/empty.png
+        - ../_assets/team/empty.png
         - `Learn more about Xuan here <#>`_ |chevron-right|
 
 .. dropdown:: Consultation Team and Subject Matter Experts
@@ -116,59 +116,59 @@ Amazing People
         - Deborah Balk
         - Director at the `CUNY Institute for Demographic Research`_ and Prof
             essor at `Baruch College`_
-        - ../_documentation/_assets/team/consultants/balk.png
+        - ../_assets/team/consultants/balk.png
         - `Learn more about Deborah here <#>`_ |chevron-right|
 
         - Robert Chen
         - Director Emeritus, `CIESIN`_, Columbia Climate School, Columbi
             a University and Manager Emeritus, NASA (`SEDAC`_)
-        - ../_documentation/_assets/team/consultants/chen.png
+        - ../_assets/team/consultants/chen.png
         - `Learn more about Robert here <#>`_ |chevron-right|
 
         - Nancy Degan
         - Senior Advisor for Education at `Columbia Water Center`_
-        - ../_documentation/_assets/team/consultants/degnan.png
+        - ../_assets/team/consultants/degnan.png
         - `Learn more about Nancy here <#>`_ |chevron-right|
 
         - Laureline Josset
         - Associate Research Scientist at `Columbia Water Center`_
-        - ../_documentation/_assets/team/consultants/josset.png
+        - ../_assets/team/consultants/josset.png
         - `Learn more about Laureline here <#>`_ |chevron-right|
 
         - Dr. Antonio Tovar
         - Assistant Professor of Computer Science and Information Syst
             ems at `National Louis University`_
-        - ../_documentation/_assets/team/consultants/tovar.png
+        - ../_assets/team/consultants/tovar.png
         - `Learn more about Dr. Antonio here <#>`_ |chevron-right|
 
         - Qian Huang
         - Research Assistant Professor at East Tennessee State University, `Ce
             nter for Rural Health Research`_
-        - ../_documentation/_assets/team/consultants/huang.png
+        - ../_assets/team/consultants/huang.png
         - `Learn more about Qian here <#>`_ |chevron-right|
 
         - Maggi Glasscoe
         - Research Associate at the `University of Alabama-Huntsville`_ a
             nd Disasters Coordinator for NASA's `Applied Sciences Disaster
             s Program`_
-        - ../_documentation/_assets/team/consultants/glasscoe.png
+        - ../_assets/team/consultants/glasscoe.png
         - `Learn more about Maggi here <#>`_ |chevron-right|
 
         - Ryan Meade
         - Coordinator of Academic Support Services for the Educational Opport
             unity Program at `SUNY Binghamton`_
-        - ../_documentation/_assets/team/consultants/meade.png
+        - ../_assets/team/consultants/meade.png
         - `Learn more about Ryan here <#>`_ |chevron-right|
 
         - Dave Jones
         - Founder and CEO at `StormCenter Communications, Inc. <https://
             geocollaborate.com/>`_
-        - ../_documentation/_assets/team/consultants/jones.png
+        - ../_assets/team/consultants/jones.png
         - `Learn more about Dave here <#>`_ |chevron-right|
 
         - Thomas Parris
         - President at `iSciences <https://www.isciences.com/>`_
-        - ../_documentation/_assets/team/consultants/parris.png
+        - ../_assets/team/consultants/parris.png
         - `Learn more about Thomas here <#>`_ |chevron-right|
 
 .. dropdown:: Development Team |badge-wip|

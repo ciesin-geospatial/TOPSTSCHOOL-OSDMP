@@ -428,7 +428,8 @@ platform. For this exercise, use the search bar to look up “<strong>wsim</stro
 <li><p class="sd-card-text">Locate and select the Water Security (WSIM-GLDAS) Monthly Grids, v1
 (1948-2014) dataset.</p></li>
 <li><p class="sd-card-text">When you’re ready, go to the <strong>Data Download</strong> tab. You’ll need to sign
-in using your NASA EarthData account. <a class="reference internal" href="../../_tutorials/_001-basics/accounts.html"><span class="doc">Learn more</span></a> <span class="raw-html"><i class="fa-solid fa-chevron-right fa-2xs link-auxillaries"></i></span></p></li>
+in using your NASA EarthData account.
+<a class="reference internal" href="../../_tutorials/_001-basics/accounts.html"><span class="doc">Learn more</span></a> <span class="raw-html"><i class="fa-solid fa-chevron-right fa-2xs link-auxillaries"></i></span></p></li>
 <li><p class="sd-card-text">Once logged in, find the Composite Class and select the <strong>Variable
 Composite Anomaly Twelve-Month Return Period</strong> for download.</p></li>
 </ul>
@@ -2000,7 +2001,7 @@ item 29 of the response).</p>
 <span class="n">us_map</span>
 </pre></div>
 </div>
-<iframe height="600" id="folium-map" src="../../../_static/map/water/us_boundary.html" width="100%"></iframe><p>The GeoJSON we retrieved contains the boundaries for all U.S. states
+<iframe height="600" id="folium-map" src="../../../../_static/map/water/us_boundary.html" width="100%"></iframe><p>The GeoJSON we retrieved contains the boundaries for all U.S. states
 and territories, including places like Alaska, Hawaii, and Puerto Rico.
 For this demonstration, we’re going to focus on the contiguous United
 States (i.e., the 48 mainland states), so we’ll need to exclude certain
@@ -2037,7 +2038,7 @@ regions from our dataset.</p>
 <span class="n">us_map</span>
 </pre></div>
 </div>
-<iframe height="600" id="folium-map" src="../../../_static/map/water/contiguous_us_boundary.html" width="100%"></iframe><p>For more detailed analysis, we might want to focus on a specific state.
+<iframe height="600" id="folium-map" src="../../../../_static/map/water/contiguous_us_boundary.html" width="100%"></iframe><p>For more detailed analysis, we might want to focus on a specific state.
 In this example, let’s focus on Texas.</p>
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Extract and visualize the boundary for a specific state (e.g., Texas)</span>
 <span class="n">texas_boundary</span> <span class="o">=</span> <span class="n">contiguous_us_boundaries</span><span class="p">[</span><span class="n">contiguous_us_boundaries</span><span class="p">[</span><span class="s2">"State Name"</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s2">"Texas"</span><span class="p">)]</span>
@@ -2062,7 +2063,7 @@ Texas boundary.</p>
 <span class="n">us_map</span>
 </pre></div>
 </div>
-<iframe height="600" id="folium-map" src="../../../_static/map/water/texas_boundary.html" width="100%"></iframe><p>Now that we have the vector boundary for Texas, we can use it to crop
+<iframe height="600" id="folium-map" src="../../../../_static/map/water/texas_boundary.html" width="100%"></iframe><p>Now that we have the vector boundary for Texas, we can use it to crop
 the WSIM-GLDAS dataset. This process is called spatial clipping, where
 the raster data is cropped to the extent of the Texas boundary. For
 this, we’ll use rioxarray, a library built on top of Xarray and
