@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Saturday, August 17 2024
-Last updated on: Friday, September 27 2024
+Last updated on: Sunday, October 06 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -81,7 +81,7 @@ html_coeus_github: str = source
 html_coeus_license: str = f"{source}/blob/main/LICENSE"
 html_coeus_repository: str = source
 html_coeus_title: t.Final[str] = "TOPST SCHOOL Universe"
-html_coeus_version: t.Final[str] = "2024.09.30"
+html_coeus_version: t.Final[str] = "2024.10.31"
 html_coeus_favicon: t.Final[str] = "_static/img/favicon.png"
 html_coeus_logo: t.Final[str] = "_static/img/logo.png"
 html_coeus_hide_index_toctree: bool = True
@@ -91,6 +91,23 @@ html_coeus_theme_options: dict[str, t.Any] = {
     "last_updated": last_updated,
     "show_previous_next_pages": True,
     "supported_languages": {"en": "English", "es": "Español"},
+    "navbar_links": {
+        "Open Science Resources": {
+            "External Resources": "_resources/external-resources",
+            "Glossary": "_resources/glossary",
+        },
+        "Community": {
+            "Contribution Guidelines": "_community/contributor-guidelines",
+            "Events & Webinars": "_community/upcoming-events",
+            "Review & Approval": "_community/becoming-reviewer",
+            "Meet the Team": "_community/meet-the-team",
+        },
+        "About Us": {
+            "Vision & Mission": "_about-us/vision-mission",
+            "How to Get Involved": "_about-us/getting-involved",
+            "Announcements": "_about-us/announcements",
+        },
+    },
 }
 locale_dirs: list[str] = ["../locale/"]
 gettext_compact: bool = False

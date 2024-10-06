@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
-.. Last updated on: Saturday, September 14 2024
+.. Last updated on: Sunday, October 06, 2024
 
 ===============================================================================
 Overview
@@ -74,7 +74,7 @@ effective data-driven researcher.
     put together a glossary of key terms that will be used throughout the
     module, ensuring you're never left in the dark.
 
-    :doc:`Learn more here <../_resources/glossary>` |chevron-right|
+    :doc:`Learn more here <../../_resources/glossary>` |chevron-right|
 
 .. important::
 
