@@ -51,7 +51,7 @@ intricacies of **water systems**, **health** and **air quality**,
 weaves together these diverse topics with a common thread, the importance of
 `Open Science`_.
 
-.. image:: _documentation/_assets/brands/school-logo.png
+.. image:: _assets/brands/school-logo.png
     :align: center
     :alt: SCHOOL Main Logo
     :width: 350
