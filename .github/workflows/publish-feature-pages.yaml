@@ -57,14 +57,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PY_BUILD }}  # Sets up the Python version specified in the environment variables.
-          cache: 'pip'  # Caches pip dependencies to speed up subsequent builds.
+          cache: "pip"  # Caches pip dependencies to speed up subsequent builds.
 
       # Step 3: Install the project's Python dependencies.
       - name: Install Python Dependencies
         run: |
-          echo "Installing Coeus..."
+          echo "Installing Coeus and Jupyter Lite..."
           python -m pip install --upgrade pip
-          pip install -U git+https://github.com/xames3/coeus-sphinx-theme.git#egg=coeus-sphinx-theme
+          pip install -r requirements.txt
 
       # Step 4: Build the Sphinx documentation into HTML format.
       - name: Build Sphinx Documentation
