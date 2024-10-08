@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
-.. Last updated on: Thursday, September 12 2024
+.. Last updated on: Monday, October 07 2024
 
 ===============================================================================
 External Resources
@@ -19,3 +19,11 @@ External Resources
     - Akshay Mestry
     - xa@mes3.dev
     - https://github.com/xames3/
+
+-------------------------------------------------------------------------------
+Sandbox |badge-beta|
+-------------------------------------------------------------------------------
+
+.. notebooklite:: ../../../src/python/sandbox.ipynb
+    :width: 100%
+    :height: 600px
