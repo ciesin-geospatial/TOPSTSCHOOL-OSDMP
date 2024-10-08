@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.7.17">
+  <diagram id="PKRWb5A7ruBY07yZ8ys0" name="Page-1">
+    <mxGraphModel dx="1222" dy="1174" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-1" value="Bi-weekly&lt;div&gt;Zoom&lt;/div&gt;&lt;div&gt;Planning&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#dae8fc;routingCenterX=-0.5;shadow=0;dashed=0;labelBackgroundColor=default;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Helvetica;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="262" y="504" width="127" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-2" value="Task&lt;div&gt;Approval&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#d5e8d4;routingCenterX=-0.5;shadow=0;dashed=0;labelBackgroundColor=default;strokeColor=#82b366;strokeWidth=2;fontFamily=Helvetica;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="389" y="504" width="64" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-3" value="Lit Review, Code and Documentation" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#ffe6cc;routingCenterX=-0.5;shadow=0;dashed=0;labelBackgroundColor=default;strokeColor=#d79b00;strokeWidth=2;fontFamily=Helvetica;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="453" y="504" width="188" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-4" value="Performance&lt;div&gt;&amp;amp; Content&lt;/div&gt;&lt;div&gt;Assessment&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#f8cecc;routingCenterX=-0.5;shadow=0;dashed=0;labelBackgroundColor=default;strokeColor=#b85450;strokeWidth=2;fontFamily=Helvetica;fontSize=12;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" parent="1" vertex="1">
+          <mxGeometry x="641" y="504" width="117" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-5" value="Release &amp;amp; Contributions" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#e1d5e7;routingCenterX=-0.5;shadow=0;dashed=0;labelBackgroundColor=default;strokeColor=#9673a6;strokeWidth=2;fontFamily=Helvetica;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="758" y="504" width="91" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-6" value="CIESIN Team" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="268" y="315" width="55" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-7" value="ISciences &amp;amp; CIESIN Team" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#82b366;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="339" y="354" width="79" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-8" value="Lit Review &amp;amp; UX" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#6c8ebf;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="329" y="397" width="60" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-9" value="Chicago Team" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=right;verticalAlign=bottom;strokeColor=#6c8ebf;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="224" y="436" width="93" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-10" value="NLU Interns" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#82b366;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="339" y="435" width="73" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-11" value="Lit Review &amp;amp; QA" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#82b366;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="424" y="460" width="92" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-12" value="Docs" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#d79b00;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="486" y="408" width="53" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-13" value="LinkedIn Outreach" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#b85450;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="704" y="343" width="153" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-14" value="Translation" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#d79b00;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="368" width="138" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-15" value="NLU Interns" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#d79b00;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="436" width="83" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-16" value="Code Quality &amp;amp; QA" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#d79b00;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="551" y="458" width="128" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-17" value="QA" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#b85450;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="459" width="48" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-18" value="Docs" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#b85450;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="633" y="409" width="65" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-19" value="CIESIN Team" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#b85450;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="579" y="435" width="113" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-20" value="NLU + CIESIN&lt;div&gt;Team&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#9673a6;flipH=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="436" width="83" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3Q6PPfzVvc455tmy0R-21" value="LinkedIn Outreach" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeColor=#9673a6;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="809" y="393" width="137" height="117" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
