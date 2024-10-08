@@ -34,6 +34,7 @@ from datetime import datetime as dt
 
 # -- General configurations ---------------------------------------------------
 extensions: list[str] = [
+    "jupyterlite_sphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
     "sphinx.ext.extlinks",
@@ -125,3 +126,7 @@ html_context: dict[str, str] = {
         "&title=Feedback about documentation"
     )
 }
+
+# -- Options for Jupyter Notebook Embedding -----------------------------------
+jupyterlite_bind_ipynb_suffix: bool = False
+jupyterlite_silence: bool = True
