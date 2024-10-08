@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Saturday, August 17 2024
-Last updated on: Sunday, October 06 2024
+Last updated on: Tuesday, October 08 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -117,15 +117,7 @@ gettext_compact: bool = False
 html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
 html_css_files: list[str] = ["css/override.css"]
-html_context: dict[str, str] = {
-    "feedback_link": source
-    + (
-        "/issues/new"
-        "?labels=community,discussion needed,documentation,enhancement"
-        "miscellaneous,open science,question"
-        "&title=Feedback about documentation"
-    )
-}
+html_context: dict[str, str] = {"feedback_link": source + ("/discussions/44")}
 
 # -- Options for Jupyter Notebook Embedding -----------------------------------
 jupyterlite_bind_ipynb_suffix: bool = False
