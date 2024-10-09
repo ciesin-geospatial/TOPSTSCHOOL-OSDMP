@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2024-10-09T17:24:50.443624Z",
+      "created": "2024-10-09T18:07:44.008221Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2024-10-09T17:23:37.975692Z",
+      "last_modified": "2024-10-09T18:06:30.111800Z",
       "mimetype": "text/plain",
       "name": "local-file.txt",
       "path": "local-file.txt",
@@ -16,11 +16,11 @@
     },
     {
       "content": null,
-      "created": "2024-10-09T17:24:50.447624Z",
+      "created": "2024-10-09T18:07:44.008221Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2024-10-09T17:23:37.975692Z",
+      "last_modified": "2024-10-09T18:06:30.111800Z",
       "mimetype": null,
       "name": "runner.ipynb",
       "path": "runner.ipynb",
@@ -29,11 +29,11 @@
       "writable": true
     }
   ],
-  "created": "2024-10-09T17:24:50.447624Z",
+  "created": "2024-10-09T18:07:44.008221Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2024-10-09T17:24:50.447624Z",
+  "last_modified": "2024-10-09T18:07:44.008221Z",
   "mimetype": null,
   "name": "",
   "path": "",
