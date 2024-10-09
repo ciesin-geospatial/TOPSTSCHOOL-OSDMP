@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, September 09 2024
-.. Last updated on: Monday, October 07 2024
+.. Last updated on: Wednesday, October 09 2024
 
 ===============================================================================
 External Resources
@@ -24,6 +24,6 @@ External Resources
 Sandbox |badge-beta|
 -------------------------------------------------------------------------------
 
-.. notebooklite:: ../../../src/python/sandbox.ipynb
-    :width: 100%
-    :height: 600px
+.. notebook::
+
+.. notebook:: runner.ipynb
