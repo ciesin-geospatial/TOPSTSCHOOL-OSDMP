@@ -26,7 +26,7 @@
 <link href="../_static/copybutton.css?v=76b2166b" rel="stylesheet" type="text/css"/>
 <link href="../_static/sphinx-design.min.css?v=95c83b7e" rel="stylesheet" type="text/css"/>
 <link href="../_static/css/override.css?v=b12a2ec4" rel="stylesheet" type="text/css"/>
-<link href="../_static/coeus.css?v=820e54fe" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_resources/external-resources.html" rel="canonical"/>
+<link href="../_static/coeus.css?v=07356a6b" rel="stylesheet" type="text/css"/><link href="https://ciesin-geospatial.github.io/TOPSTSCHOOL-OSDMP/_resources/external-resources.html" rel="canonical"/>
 <link href="../_static/favicon.png" rel="icon"/>
 <link href="../search.html" rel="search" title="Búsqueda"/>
 </head>
@@ -209,16 +209,15 @@ repositories that support your journey in open science.</p>
 </div>
 <section id="sandbox-badge-beta">
 <h2>Sandbox <span class="raw-html"><span class="status-badge beta">Beta</span></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link" href="#sandbox-badge-beta"></a></h2>
-<br/>
-<h3>Interactive REPL from Local Repository</h3>
-<iframe class="jupyterlite-embed" height="500px" src="../_jupyter/repl/index.html?kernel=python&amp;toolbar=1" width="100%">
-</iframe><br/>
-<h3>Launcher from Local Repository</h3>
-<iframe `="" height="500px" src="../_jupyter/lab/index.html" width="100%">
-</iframe><br/>
-<h3>Pre-written notebook from Local Repository</h3>
-<iframe height="500px" src="../_jupyter/notebooks/?path=runner.ipynb" width="100%">
-</iframe></section>
+
+<div class="jupyter-embed">
+<iframe height="600px" src="../_jupyter/repl/index.html?kernel=python&amp;toolbar=1" width="100%"></iframe>
+</div>
+
+<div class="jupyter-embed">
+<iframe height="600px" src="../_jupyter/notebooks/?path=runner.ipynb" width="100%"></iframe>
+</div>
+</section>
 </section>
 </div>
 </div>

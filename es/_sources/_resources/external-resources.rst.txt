@@ -24,36 +24,6 @@ External Resources
 Sandbox |badge-beta|
 -------------------------------------------------------------------------------
 
-.. raw:: html
+.. notebook::
 
-    <br>
-    <h3>Interactive REPL from Local Repository</h3>
-    <iframe
-        src="../_jupyter/repl/index.html?kernel=python&toolbar=1"
-        width="100%"
-        height="500px"
-        class="jupyterlite-embed"
-    >
-    </iframe>
-
-.. raw:: html
-
-    <br>
-    <h3>Launcher from Local Repository</h3>
-    <iframe
-        src="../_jupyter/lab/index.html"
-        width="100%"`
-        height="500px"
-    >
-    </iframe>
-
-.. raw:: html
-
-    <br>
-    <h3>Pre-written notebook from Local Repository</h3>
-    <iframe
-        src="../_jupyter/notebooks/?path=runner.ipynb"
-        width="100%"
-        height="500px"
-    >
-    </iframe>
+.. notebook:: runner.ipynb
